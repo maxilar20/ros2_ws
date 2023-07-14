@@ -1,9 +1,0 @@
-source;share/baxter_6dof_vr/hook/pythonpath.ps1
-source;share/baxter_6dof_vr/hook/pythonpath.dsv
-source;share/baxter_6dof_vr/hook/pythonpath.sh
-source;share/baxter_6dof_vr/hook/ament_prefix_path.ps1
-source;share/baxter_6dof_vr/hook/ament_prefix_path.dsv
-source;share/baxter_6dof_vr/hook/ament_prefix_path.sh
-source;../../build/baxter_6dof_vr/share/baxter_6dof_vr/hook/pythonpath_develop.ps1
-source;../../build/baxter_6dof_vr/share/baxter_6dof_vr/hook/pythonpath_develop.dsv
-source;../../build/baxter_6dof_vr/share/baxter_6dof_vr/hook/pythonpath_develop.sh

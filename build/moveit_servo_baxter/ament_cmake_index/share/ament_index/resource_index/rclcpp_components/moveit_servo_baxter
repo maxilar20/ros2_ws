@@ -1,2 +1,0 @@
-moveit_servo_baxter::ServoNode;lib/libservo_node.so
-moveit_servo_baxter::JoyToServoPub;lib/libservo_controller_input.so

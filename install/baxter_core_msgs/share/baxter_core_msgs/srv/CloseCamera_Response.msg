@@ -1,1 +1,0 @@
-/home/mael/ros2_ws/build/baxter_core_msgs/rosidl_cmake/srv/CloseCamera_Response.msg

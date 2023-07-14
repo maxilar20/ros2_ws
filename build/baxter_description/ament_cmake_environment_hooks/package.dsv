@@ -1,4 +1,0 @@
-source;share/baxter_description/local_setup.bash
-source;share/baxter_description/local_setup.dsv
-source;share/baxter_description/local_setup.sh
-source;share/baxter_description/local_setup.zsh

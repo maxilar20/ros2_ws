@@ -1,8 +1,0 @@
-msg/AprilTagDetection.idl
-msg/AprilTagDetection.msg
-msg/AprilTagDetectionArray.idl
-msg/AprilTagDetectionArray.msg
-srv/AnalyzeSingleImage.idl
-srv/AnalyzeSingleImage.srv
-srv/AnalyzeSingleImage_Request.msg
-srv/AnalyzeSingleImage_Response.msg

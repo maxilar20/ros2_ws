@@ -1,4 +1,0 @@
-source;share/moveit_servo_baxter/local_setup.bash
-source;share/moveit_servo_baxter/local_setup.dsv
-source;share/moveit_servo_baxter/local_setup.sh
-source;share/moveit_servo_baxter/local_setup.zsh

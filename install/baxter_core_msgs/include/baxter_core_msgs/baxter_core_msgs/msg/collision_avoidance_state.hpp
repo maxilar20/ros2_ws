@@ -1,1 +1,0 @@
-/home/mael/ros2_ws/build/baxter_core_msgs/rosidl_generator_cpp/baxter_core_msgs/msg/collision_avoidance_state.hpp

@@ -1,7 +1,0 @@
-[0mmoveit_servo_baxter: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
-/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
-(.text+0x1b): undefined reference to `main'
-collect2: error: ld returned 1 exit status
-gmake[2]: *** [CMakeFiles/servo_pose_tracking.dir/build.make:367: servo_pose_tracking] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:343: CMakeFiles/servo_pose_tracking.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

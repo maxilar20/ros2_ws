@@ -1,9 +1,0 @@
-source;share/baxter_joint_controller/hook/pythonpath.ps1
-source;share/baxter_joint_controller/hook/pythonpath.dsv
-source;share/baxter_joint_controller/hook/pythonpath.sh
-source;share/baxter_joint_controller/hook/ament_prefix_path.ps1
-source;share/baxter_joint_controller/hook/ament_prefix_path.dsv
-source;share/baxter_joint_controller/hook/ament_prefix_path.sh
-source;../../build/baxter_joint_controller/share/baxter_joint_controller/hook/pythonpath_develop.ps1
-source;../../build/baxter_joint_controller/share/baxter_joint_controller/hook/pythonpath_develop.dsv
-source;../../build/baxter_joint_controller/share/baxter_joint_controller/hook/pythonpath_develop.sh

@@ -1,1 +1,0 @@
-/home/mael/ros2_ws/src/baxter_moveit_ros2/launch/static_virtual_joint_tfs.launch.py

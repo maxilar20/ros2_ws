@@ -1,1 +1,0 @@
-/home/mael/ros2_ws/build/baxter_core_msgs/ament_cmake_environment_hooks/local_setup.zsh

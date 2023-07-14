@@ -1,1 +1,0 @@
-/home/mael/ros2_ws/src/baxter_common_ros2/baxter_maintenance_msgs/msg/UpdateStatus.msg

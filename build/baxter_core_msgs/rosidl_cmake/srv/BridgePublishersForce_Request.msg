@@ -1,2 +1,0 @@
-string left_user 
-string right_user 

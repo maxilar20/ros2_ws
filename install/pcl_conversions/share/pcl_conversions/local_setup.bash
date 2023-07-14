@@ -1,1 +1,0 @@
-/home/mael/ros2_ws/build/pcl_conversions/ament_cmake_environment_hooks/local_setup.bash
