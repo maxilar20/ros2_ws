@@ -1,0 +1,8 @@
+{
+  "package_name": "apriltag_ros2",
+  "non_idl_tuples": [
+    "/home/mael/ros2_ws/src/apriltag_ros2/apriltag_ros2:msg/AprilTagDetection.msg",
+    "/home/mael/ros2_ws/src/apriltag_ros2/apriltag_ros2:msg/AprilTagDetectionArray.msg",
+    "/home/mael/ros2_ws/src/apriltag_ros2/apriltag_ros2:srv/AnalyzeSingleImage.srv"
+  ]
+}

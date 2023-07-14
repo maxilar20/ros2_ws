@@ -1,0 +1,1 @@
+/home/mael/ros2_ws/build/rethink_ee_description/ament_cmake_environment_hooks/local_setup.bash

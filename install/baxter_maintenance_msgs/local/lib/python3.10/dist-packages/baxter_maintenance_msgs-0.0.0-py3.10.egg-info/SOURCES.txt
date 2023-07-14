@@ -1,0 +1,1 @@
+/home/mael/ros2_ws/build/baxter_maintenance_msgs/ament_cmake_python/baxter_maintenance_msgs/baxter_maintenance_msgs.egg-info/SOURCES.txt

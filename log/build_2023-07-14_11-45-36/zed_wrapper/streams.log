@@ -1,0 +1,40 @@
+[0.084s] Invoking command in '/home/mael/ros2_ws/build/zed_wrapper': CMAKE_PREFIX_PATH=/home/mael/ros2_ws/install/zed_components:/home/mael/ros2_ws/install/zed_interfaces:/home/mael/ros2_ws/install/zed_ros2:/home/mael/ros2_ws/install/zed_wrapper:/home/mael/ros2_ws/install/baxter_moveit_ros2:/home/mael/ros2_ws/install/baxter_description:/home/mael/ros2_ws/install/rethink_ee_description:/home/mael/ros2_ws/install/perception_pcl:/home/mael/ros2_ws/install/pcl_ros:/home/mael/ros2_ws/install/pcl_conversions:/home/mael/ros2_ws/install/baxter_maintenance_msgs:/home/mael/ros2_ws/install/baxter_core_msgs:/home/mael/ros2_ws/install/apriltag_ros_pose:/home/mael/ros2_ws/install/apriltag_ros2:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --build /home/mael/ros2_ws/build/zed_wrapper -- -j8 -l8
+[0.193s] [100%] Built target zed_wrapper
+[0.371s] Invoked command in '/home/mael/ros2_ws/build/zed_wrapper' returned '0': CMAKE_PREFIX_PATH=/home/mael/ros2_ws/install/zed_components:/home/mael/ros2_ws/install/zed_interfaces:/home/mael/ros2_ws/install/zed_ros2:/home/mael/ros2_ws/install/zed_wrapper:/home/mael/ros2_ws/install/baxter_moveit_ros2:/home/mael/ros2_ws/install/baxter_description:/home/mael/ros2_ws/install/rethink_ee_description:/home/mael/ros2_ws/install/perception_pcl:/home/mael/ros2_ws/install/pcl_ros:/home/mael/ros2_ws/install/pcl_conversions:/home/mael/ros2_ws/install/baxter_maintenance_msgs:/home/mael/ros2_ws/install/baxter_core_msgs:/home/mael/ros2_ws/install/apriltag_ros_pose:/home/mael/ros2_ws/install/apriltag_ros2:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --build /home/mael/ros2_ws/build/zed_wrapper -- -j8 -l8
+[1.060s] Invoking command in '/home/mael/ros2_ws/build/zed_wrapper': CMAKE_PREFIX_PATH=/home/mael/ros2_ws/install/zed_components:/home/mael/ros2_ws/install/zed_interfaces:/home/mael/ros2_ws/install/zed_ros2:/home/mael/ros2_ws/install/zed_wrapper:/home/mael/ros2_ws/install/baxter_moveit_ros2:/home/mael/ros2_ws/install/baxter_description:/home/mael/ros2_ws/install/rethink_ee_description:/home/mael/ros2_ws/install/perception_pcl:/home/mael/ros2_ws/install/pcl_ros:/home/mael/ros2_ws/install/pcl_conversions:/home/mael/ros2_ws/install/baxter_maintenance_msgs:/home/mael/ros2_ws/install/baxter_core_msgs:/home/mael/ros2_ws/install/apriltag_ros_pose:/home/mael/ros2_ws/install/apriltag_ros2:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --install /home/mael/ros2_ws/build/zed_wrapper
+[1.061s] -- Install configuration: "Release"
+[1.061s] -- Execute custom install script
+[1.061s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_wrapper/lib/zed_wrapper/zed_wrapper
+[1.062s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/common.yaml
+[1.062s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zed.yaml
+[1.062s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zed2.yaml
+[1.062s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zed2i.yaml
+[1.063s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zedm.yaml
+[1.063s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zedx.yaml
+[1.063s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_wrapper/share/zed_wrapper/config/zedxm.yaml
+[1.063s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_wrapper/share/zed_wrapper/urdf/include/materials.urdf.xacro
+[1.064s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_wrapper/share/zed_wrapper/urdf/zed_descr.urdf.xacro
+[1.066s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_wrapper/share/zed_wrapper/urdf/zed_macro.urdf.xacro
+[1.067s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_wrapper/share/zed_wrapper/launch/include/zed_camera.launch.py
+[1.069s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_wrapper/share/zed_wrapper/launch/zed.launch.py
+[1.069s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_wrapper/share/zed_wrapper/launch/zed2.launch.py
+[1.069s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_wrapper/share/zed_wrapper/launch/zed2i.launch.py
+[1.069s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_wrapper/share/zed_wrapper/launch/zedm.launch.py
+[1.069s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_wrapper/share/zed_wrapper/launch/zedx.launch.py
+[1.069s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_wrapper/share/zed_wrapper/launch/zedxm.launch.py
+[1.069s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_wrapper/share/ament_index/resource_index/package_run_dependencies/zed_wrapper
+[1.069s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_wrapper/share/ament_index/resource_index/parent_prefix_path/zed_wrapper
+[1.069s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_wrapper/share/zed_wrapper/environment/ament_prefix_path.sh
+[1.070s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_wrapper/share/zed_wrapper/environment/ament_prefix_path.dsv
+[1.070s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_wrapper/share/zed_wrapper/environment/path.sh
+[1.070s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_wrapper/share/zed_wrapper/environment/path.dsv
+[1.070s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_wrapper/share/zed_wrapper/local_setup.bash
+[1.070s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_wrapper/share/zed_wrapper/local_setup.sh
+[1.070s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_wrapper/share/zed_wrapper/local_setup.zsh
+[1.070s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_wrapper/share/zed_wrapper/local_setup.dsv
+[1.070s] -- Symlinking: /home/mael/ros2_ws/install/zed_wrapper/share/zed_wrapper/package.dsv
+[1.084s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_wrapper/share/ament_index/resource_index/packages/zed_wrapper
+[1.084s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_wrapper/share/zed_wrapper/cmake/zed_wrapperConfig.cmake
+[1.085s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_wrapper/share/zed_wrapper/cmake/zed_wrapperConfig-version.cmake
+[1.085s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_wrapper/share/zed_wrapper/package.xml
+[1.107s] Invoked command in '/home/mael/ros2_ws/build/zed_wrapper' returned '0': CMAKE_PREFIX_PATH=/home/mael/ros2_ws/install/zed_components:/home/mael/ros2_ws/install/zed_interfaces:/home/mael/ros2_ws/install/zed_ros2:/home/mael/ros2_ws/install/zed_wrapper:/home/mael/ros2_ws/install/baxter_moveit_ros2:/home/mael/ros2_ws/install/baxter_description:/home/mael/ros2_ws/install/rethink_ee_description:/home/mael/ros2_ws/install/perception_pcl:/home/mael/ros2_ws/install/pcl_ros:/home/mael/ros2_ws/install/pcl_conversions:/home/mael/ros2_ws/install/baxter_maintenance_msgs:/home/mael/ros2_ws/install/baxter_core_msgs:/home/mael/ros2_ws/install/apriltag_ros_pose:/home/mael/ros2_ws/install/apriltag_ros2:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --install /home/mael/ros2_ws/build/zed_wrapper

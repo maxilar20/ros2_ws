@@ -1,0 +1,993 @@
+[0.403s] Invoking command in '/home/mael/ros2_ws/build/baxter_core_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake /home/mael/ros2_ws/src/baxter_common_ros2/baxter_core_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mael/ros2_ws/install/baxter_core_msgs
+[0.728s] -- The C compiler identification is GNU 11.3.0
+[0.945s] -- The CXX compiler identification is GNU 11.3.0
+[0.964s] -- Detecting C compiler ABI info
+[1.180s] -- Detecting C compiler ABI info - done
+[1.194s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.195s] -- Detecting C compile features
+[1.195s] -- Detecting C compile features - done
+[1.200s] -- Detecting CXX compiler ABI info
+[1.308s] -- Detecting CXX compiler ABI info - done
+[1.323s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.323s] -- Detecting CXX compile features
+[1.324s] -- Detecting CXX compile features - done
+[1.340s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.619s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.743s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.820s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.915s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.931s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.956s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.016s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.069s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.125s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.320s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.483s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.858s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[6.717s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.420s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.766s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[8.033s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[8.955s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[8.955s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.955s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[8.955s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[8.977s] -- Found PythonExtra: .so  
+[9.568s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.320s] -- Configuring done
+[10.665s] -- Generating done
+[10.733s] -- Build files have been written to: /home/mael/ros2_ws/build/baxter_core_msgs
+[10.845s] Invoked command in '/home/mael/ros2_ws/build/baxter_core_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake /home/mael/ros2_ws/src/baxter_common_ros2/baxter_core_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mael/ros2_ws/install/baxter_core_msgs
+[10.846s] Invoking command in '/home/mael/ros2_ws/build/baxter_core_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --build /home/mael/ros2_ws/build/baxter_core_msgs -- -j8 -l8
+[10.900s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[10.914s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[10.917s] [  1%] Built target ament_cmake_python_symlink_baxter_core_msgs
+[11.134s] running egg_info
+[11.135s] creating baxter_core_msgs.egg-info
+[11.135s] writing baxter_core_msgs.egg-info/PKG-INFO
+[11.135s] writing dependency_links to baxter_core_msgs.egg-info/dependency_links.txt
+[11.135s] writing top-level names to baxter_core_msgs.egg-info/top_level.txt
+[11.136s] writing manifest file 'baxter_core_msgs.egg-info/SOURCES.txt'
+[11.137s] reading manifest file 'baxter_core_msgs.egg-info/SOURCES.txt'
+[11.137s] writing manifest file 'baxter_core_msgs.egg-info/SOURCES.txt'
+[11.548s] [  1%] Built target ament_cmake_python_build_baxter_core_msgs_egg
+[18.679s] [  1%] Built target baxter_core_msgs__cpp
+[19.200s] [  1%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/end_effector_state__functions.c.o[0m
+[19.883s] [  1%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/navigator_state__functions.c.o[0m
+[20.284s] [  2%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/analog_output_command__functions.c.o[0m
+[20.808s] [  2%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/endpoint_state__functions.c.o[0m
+[21.604s] [  2%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/collision_detection_state__functions.c.o[0m
+[21.739s] [  3%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/sea_joint_state__functions.c.o[0m
+[21.915s] [  3%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/collision_avoidance_state__functions.c.o[0m
+[22.017s] [  4%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/urdf_configuration__functions.c.o[0m
+[22.226s] [  4%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/camera_control__functions.c.o[0m
+[23.134s] [  4%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/navigator_states__functions.c.o[0m
+[23.500s] [  5%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/analog_io_state__functions.c.o[0m
+[23.764s] [  5%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/camera_settings__functions.c.o[0m
+[23.956s] [  5%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/joint_command__functions.c.o[0m
+[24.126s] [  6%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/digital_io_state__functions.c.o[0m
+[24.237s] [  6%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/robust_controller_status__functions.c.o[0m
+[24.663s] [  6%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/assembly_states__functions.c.o[0m
+[24.815s] [  7%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/digital_output_command__functions.c.o[0m
+[24.972s] [  7%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/head_pan_command__functions.c.o[0m
+[25.455s] [  7%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/assembly_state__functions.c.o[0m
+[25.809s] [  8%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/head_state__functions.c.o[0m
+[26.261s] [  8%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/analog_io_states__functions.c.o[0m
+[26.720s] [  9%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/bridge_publisher__functions.c.o[0m
+[26.926s] [  9%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/endpoint_states__functions.c.o[0m
+[27.208s] [  9%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/srv/detail/list_cameras__functions.c.o[0m
+[27.701s] [ 10%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/srv/detail/close_camera__functions.c.o[0m
+[28.451s] [ 10%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/srv/detail/open_camera__functions.c.o[0m
+[28.920s] [ 10%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/srv/detail/bridge_publishers_force__functions.c.o[0m
+[29.321s] [ 11%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/srv/detail/bridge_publishers_auth__functions.c.o[0m
+[29.881s] [ 11%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/srv/detail/solve_position_ik__functions.c.o[0m
+[32.027s] [ 11%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/end_effector_command__functions.c.o[0m
+[32.583s] [ 12%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/digital_io_states__functions.c.o[0m
+[32.992s] [ 12%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_c.dir/rosidl_generator_c/baxter_core_msgs/msg/detail/end_effector_properties__functions.c.o[0m
+[33.553s] [ 12%] [32m[1mLinking C shared library libbaxter_core_msgs__rosidl_generator_c.so[0m
+[35.290s] [ 12%] Built target baxter_core_msgs__rosidl_generator_c
+[35.301s] [ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[40.060s] [ 13%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/end_effector_state__type_support.cpp.o[0m
+[40.984s] [ 14%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/digital_io_states__type_support.cpp.o[0m
+[42.096s] [ 14%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/end_effector_command__type_support.cpp.o[0m
+[42.929s] [ 14%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/navigator_state__type_support.cpp.o[0m
+[44.204s] [ 15%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/analog_output_command__type_support.cpp.o[0m
+[44.901s] [ 15%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/endpoint_state__type_support.cpp.o[0m
+[45.934s] [ 16%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/collision_detection_state__type_support.cpp.o[0m
+[46.415s] [ 16%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/sea_joint_state__type_support.cpp.o[0m
+[47.133s] [ 16%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/collision_avoidance_state__type_support.cpp.o[0m
+[48.882s] [ 17%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/urdf_configuration__type_support.cpp.o[0m
+[49.631s] [ 17%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/camera_control__type_support.cpp.o[0m
+[50.511s] [ 17%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/navigator_states__type_support.cpp.o[0m
+[52.150s] [ 18%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/analog_io_state__type_support.cpp.o[0m
+[52.969s] [ 18%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/camera_settings__type_support.cpp.o[0m
+[53.889s] [ 18%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/joint_command__type_support.cpp.o[0m
+[54.809s] [ 19%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/digital_io_state__type_support.cpp.o[0m
+[55.559s] [ 19%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/robust_controller_status__type_support.cpp.o[0m
+[56.436s] [ 19%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/assembly_states__type_support.cpp.o[0m
+[56.941s] [ 20%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/digital_output_command__type_support.cpp.o[0m
+[57.474s] [ 20%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/head_pan_command__type_support.cpp.o[0m
+[58.027s] [ 21%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/assembly_state__type_support.cpp.o[0m
+[58.575s] [ 21%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/head_state__type_support.cpp.o[0m
+[59.080s] [ 21%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/analog_io_states__type_support.cpp.o[0m
+[59.601s] [ 22%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/bridge_publisher__type_support.cpp.o[0m
+[60.044s] [ 22%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/endpoint_states__type_support.cpp.o[0m
+[60.611s] [ 22%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/srv/detail/list_cameras__type_support.cpp.o[0m
+[61.470s] [ 23%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/srv/detail/close_camera__type_support.cpp.o[0m
+[64.249s] [ 23%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/srv/detail/open_camera__type_support.cpp.o[0m
+[66.425s] [ 23%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/srv/detail/bridge_publishers_force__type_support.cpp.o[0m
+[69.496s] [ 24%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/srv/detail/bridge_publishers_auth__type_support.cpp.o[0m
+[72.309s] [ 24%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/srv/detail/solve_position_ik__type_support.cpp.o[0m
+[73.813s] [ 24%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baxter_core_msgs/msg/detail/end_effector_properties__type_support.cpp.o[0m
+[74.916s] [ 25%] [32m[1mLinking CXX shared library libbaxter_core_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[80.638s] [ 25%] Built target baxter_core_msgs__rosidl_typesupport_introspection_cpp
+[80.680s] [ 26%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[84.184s] [ 26%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/end_effector_state__type_support.cpp.o[0m
+[85.054s] [ 26%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/end_effector_command__type_support.cpp.o[0m
+[85.866s] [ 26%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/navigator_state__type_support.cpp.o[0m
+[86.830s] [ 27%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/analog_output_command__type_support.cpp.o[0m
+[88.854s] [ 27%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/endpoint_state__type_support.cpp.o[0m
+[90.461s] [ 27%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/collision_detection_state__type_support.cpp.o[0m
+[91.157s] [ 28%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/sea_joint_state__type_support.cpp.o[0m
+[92.147s] [ 28%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/collision_avoidance_state__type_support.cpp.o[0m
+[93.058s] [ 29%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/urdf_configuration__type_support.cpp.o[0m
+[93.903s] [ 29%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/camera_control__type_support.cpp.o[0m
+[94.571s] [ 29%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/navigator_states__type_support.cpp.o[0m
+[95.285s] [ 30%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/analog_io_state__type_support.cpp.o[0m
+[98.366s] [ 30%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/camera_settings__type_support.cpp.o[0m
+[101.682s] [ 30%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/joint_command__type_support.cpp.o[0m
+[103.110s] [ 31%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/digital_io_state__type_support.cpp.o[0m
+[109.477s] [ 31%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/robust_controller_status__type_support.cpp.o[0m
+[112.721s] [ 31%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/assembly_states__type_support.cpp.o[0m
+[113.359s] [ 32%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/digital_output_command__type_support.cpp.o[0m
+[113.910s] [ 32%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/head_pan_command__type_support.cpp.o[0m
+[114.519s] [ 32%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/assembly_state__type_support.cpp.o[0m
+[115.575s] [ 33%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/head_state__type_support.cpp.o[0m
+[116.019s] [ 33%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/analog_io_states__type_support.cpp.o[0m
+[116.947s] [ 34%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/bridge_publisher__type_support.cpp.o[0m
+[120.296s] [ 34%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/endpoint_states__type_support.cpp.o[0m
+[121.230s] [ 34%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/srv/list_cameras__type_support.cpp.o[0m
+[122.367s] [ 35%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/srv/close_camera__type_support.cpp.o[0m
+[123.693s] [ 35%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/srv/open_camera__type_support.cpp.o[0m
+[124.544s] [ 35%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/srv/bridge_publishers_force__type_support.cpp.o[0m
+[125.435s] [ 36%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/srv/bridge_publishers_auth__type_support.cpp.o[0m
+[126.599s] [ 36%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/srv/solve_position_ik__type_support.cpp.o[0m
+[128.343s] [ 37%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/digital_io_states__type_support.cpp.o[0m
+[129.438s] [ 37%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/baxter_core_msgs/msg/end_effector_properties__type_support.cpp.o[0m
+[130.037s] [ 37%] [32m[1mLinking CXX shared library libbaxter_core_msgs__rosidl_typesupport_c.so[0m
+[135.535s] [ 37%] Built target baxter_core_msgs__rosidl_typesupport_c
+[135.545s] [ 38%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[143.101s] [ 38%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/end_effector_state__type_support.c.o[0m
+[144.637s] [ 39%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/navigator_state__type_support.c.o[0m
+[146.293s] [ 39%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/analog_output_command__type_support.c.o[0m
+[146.737s] [ 39%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/endpoint_state__type_support.c.o[0m
+[148.421s] [ 40%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/collision_detection_state__type_support.c.o[0m
+[149.441s] [ 40%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/sea_joint_state__type_support.c.o[0m
+[150.434s] [ 40%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/collision_avoidance_state__type_support.c.o[0m
+[151.439s] [ 41%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/urdf_configuration__type_support.c.o[0m
+[152.769s] [ 41%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/camera_control__type_support.c.o[0m
+[153.276s] [ 41%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/navigator_states__type_support.c.o[0m
+[153.808s] [ 42%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/analog_io_state__type_support.c.o[0m
+[154.803s] [ 42%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/camera_settings__type_support.c.o[0m
+[155.238s] [ 43%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/joint_command__type_support.c.o[0m
+[155.928s] [ 43%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/digital_io_state__type_support.c.o[0m
+[156.529s] [ 43%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/robust_controller_status__type_support.c.o[0m
+[157.484s] [ 44%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/assembly_states__type_support.c.o[0m
+[158.171s] [ 44%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/digital_output_command__type_support.c.o[0m
+[158.678s] [ 44%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/head_pan_command__type_support.c.o[0m
+[159.342s] [ 45%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/assembly_state__type_support.c.o[0m
+[159.839s] [ 45%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/head_state__type_support.c.o[0m
+[160.178s] [ 45%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/analog_io_states__type_support.c.o[0m
+[160.642s] [ 46%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/bridge_publisher__type_support.c.o[0m
+[161.295s] [ 46%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/endpoint_states__type_support.c.o[0m
+[161.588s] [ 46%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/srv/detail/list_cameras__type_support.c.o[0m
+[161.983s] [ 47%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/srv/detail/close_camera__type_support.c.o[0m
+[162.666s] [ 47%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/srv/detail/open_camera__type_support.c.o[0m
+[163.520s] [ 48%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/srv/detail/bridge_publishers_force__type_support.c.o[0m
+[164.145s] [ 48%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/srv/detail/bridge_publishers_auth__type_support.c.o[0m
+[164.716s] [ 48%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/srv/detail/solve_position_ik__type_support.c.o[0m
+[165.926s] [ 48%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/end_effector_command__type_support.c.o[0m
+[166.166s] [ 49%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/digital_io_states__type_support.c.o[0m
+[166.684s] [ 49%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baxter_core_msgs/msg/detail/end_effector_properties__type_support.c.o[0m
+[167.236s] [ 50%] [32m[1mLinking C shared library libbaxter_core_msgs__rosidl_typesupport_introspection_c.so[0m
+[171.283s] [ 50%] Built target baxter_core_msgs__rosidl_typesupport_introspection_c
+[171.316s] [ 51%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[176.275s] [ 51%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/end_effector_state__type_support_c.cpp.o[0m
+[176.954s] [ 52%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/analog_output_command__type_support_c.cpp.o[0m
+[177.969s] [ 52%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/endpoint_state__type_support_c.cpp.o[0m
+[178.711s] [ 53%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/collision_detection_state__type_support_c.cpp.o[0m
+[179.467s] [ 53%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/sea_joint_state__type_support_c.cpp.o[0m
+[180.654s] [ 53%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/collision_avoidance_state__type_support_c.cpp.o[0m
+[181.241s] [ 54%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/urdf_configuration__type_support_c.cpp.o[0m
+[182.180s] [ 54%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/camera_control__type_support_c.cpp.o[0m
+[182.952s] [ 54%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/navigator_states__type_support_c.cpp.o[0m
+[183.775s] [ 55%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/analog_io_state__type_support_c.cpp.o[0m
+[184.837s] [ 55%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/camera_settings__type_support_c.cpp.o[0m
+[186.385s] [ 55%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/joint_command__type_support_c.cpp.o[0m
+[187.351s] [ 56%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/digital_io_state__type_support_c.cpp.o[0m
+[188.000s] [ 56%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/robust_controller_status__type_support_c.cpp.o[0m
+[188.964s] [ 56%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/assembly_states__type_support_c.cpp.o[0m
+[190.083s] [ 57%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/digital_output_command__type_support_c.cpp.o[0m
+[191.144s] [ 57%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/head_pan_command__type_support_c.cpp.o[0m
+[192.004s] [ 58%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/assembly_state__type_support_c.cpp.o[0m
+[192.479s] [ 58%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/head_state__type_support_c.cpp.o[0m
+[192.964s] [ 58%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/analog_io_states__type_support_c.cpp.o[0m
+[195.226s] [ 59%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/bridge_publisher__type_support_c.cpp.o[0m
+[196.199s] [ 59%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/endpoint_states__type_support_c.cpp.o[0m
+[196.829s] [ 59%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/srv/detail/list_cameras__type_support_c.cpp.o[0m
+[197.669s] [ 60%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/srv/detail/close_camera__type_support_c.cpp.o[0m
+[198.195s] [ 60%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/srv/detail/open_camera__type_support_c.cpp.o[0m
+[199.668s] [ 60%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/srv/detail/bridge_publishers_force__type_support_c.cpp.o[0m
+[200.224s] [ 61%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/srv/detail/bridge_publishers_auth__type_support_c.cpp.o[0m
+[200.766s] [ 61%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/srv/detail/solve_position_ik__type_support_c.cpp.o[0m
+[201.482s] [ 61%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/navigator_state__type_support_c.cpp.o[0m
+[202.095s] [ 61%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/end_effector_command__type_support_c.cpp.o[0m
+[202.613s] [ 62%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/digital_io_states__type_support_c.cpp.o[0m
+[202.977s] [ 62%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baxter_core_msgs/msg/detail/end_effector_properties__type_support_c.cpp.o[0m
+[203.523s] [ 63%] [32m[1mLinking CXX shared library libbaxter_core_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[203.744s] [ 63%] Built target baxter_core_msgs__rosidl_typesupport_fastrtps_c
+[203.797s] [ 64%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[207.610s] [ 64%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/end_effector_state__type_support.cpp.o[0m
+[208.036s] [ 64%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/endpoint_state__type_support.cpp.o[0m
+[209.008s] [ 64%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/collision_detection_state__type_support.cpp.o[0m
+[210.875s] [ 65%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/sea_joint_state__type_support.cpp.o[0m
+[211.847s] [ 65%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/collision_avoidance_state__type_support.cpp.o[0m
+[213.173s] [ 66%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/urdf_configuration__type_support.cpp.o[0m
+[213.858s] [ 66%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/camera_control__type_support.cpp.o[0m
+[214.761s] [ 66%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/navigator_states__type_support.cpp.o[0m
+[215.937s] [ 67%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/analog_io_state__type_support.cpp.o[0m
+[216.674s] [ 67%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/camera_settings__type_support.cpp.o[0m
+[217.885s] [ 67%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/joint_command__type_support.cpp.o[0m
+[218.796s] [ 68%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/digital_io_state__type_support.cpp.o[0m
+[220.051s] [ 68%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/robust_controller_status__type_support.cpp.o[0m
+[221.120s] [ 68%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/assembly_states__type_support.cpp.o[0m
+[222.636s] [ 69%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/digital_output_command__type_support.cpp.o[0m
+[224.532s] [ 69%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/head_pan_command__type_support.cpp.o[0m
+[226.078s] [ 69%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/assembly_state__type_support.cpp.o[0m
+[227.592s] [ 70%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/head_state__type_support.cpp.o[0m
+[231.203s] [ 70%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/analog_io_states__type_support.cpp.o[0m
+[232.710s] [ 71%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/bridge_publisher__type_support.cpp.o[0m
+[237.300s] [ 71%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/endpoint_states__type_support.cpp.o[0m
+[242.883s] [ 71%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/srv/detail/dds_fastrtps/list_cameras__type_support.cpp.o[0m
+[246.517s] [ 72%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/srv/detail/dds_fastrtps/close_camera__type_support.cpp.o[0m
+[248.484s] [ 72%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/srv/detail/dds_fastrtps/open_camera__type_support.cpp.o[0m
+[250.211s] [ 72%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/srv/detail/dds_fastrtps/bridge_publishers_force__type_support.cpp.o[0m
+[250.880s] [ 73%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/srv/detail/dds_fastrtps/bridge_publishers_auth__type_support.cpp.o[0m
+[252.342s] [ 73%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/srv/detail/dds_fastrtps/solve_position_ik__type_support.cpp.o[0m
+[254.635s] [ 74%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/analog_output_command__type_support.cpp.o[0m
+[256.651s] [ 74%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/navigator_state__type_support.cpp.o[0m
+[258.812s] [ 74%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/end_effector_command__type_support.cpp.o[0m
+[260.505s] [ 75%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/digital_io_states__type_support.cpp.o[0m
+[262.997s] [ 75%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/msg/detail/dds_fastrtps/end_effector_properties__type_support.cpp.o[0m
+[267.289s] [ 75%] [32m[1mLinking CXX shared library libbaxter_core_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[275.469s] [ 75%] Built target baxter_core_msgs__rosidl_typesupport_fastrtps_cpp
+[275.485s] [ 75%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[279.806s] [ 76%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/end_effector_state__type_support.cpp.o[0m
+[280.533s] [ 76%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/collision_detection_state__type_support.cpp.o[0m
+[281.713s] [ 77%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/sea_joint_state__type_support.cpp.o[0m
+[282.403s] [ 77%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/collision_avoidance_state__type_support.cpp.o[0m
+[282.799s] [ 77%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/urdf_configuration__type_support.cpp.o[0m
+[283.665s] [ 78%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/camera_control__type_support.cpp.o[0m
+[284.534s] [ 78%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/navigator_states__type_support.cpp.o[0m
+[285.048s] [ 79%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/analog_io_state__type_support.cpp.o[0m
+[285.525s] [ 79%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/camera_settings__type_support.cpp.o[0m
+[285.991s] [ 79%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/joint_command__type_support.cpp.o[0m
+[286.667s] [ 80%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/digital_io_state__type_support.cpp.o[0m
+[287.182s] [ 80%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/robust_controller_status__type_support.cpp.o[0m
+[287.719s] [ 80%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/assembly_states__type_support.cpp.o[0m
+[288.186s] [ 81%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/digital_output_command__type_support.cpp.o[0m
+[288.891s] [ 81%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/head_pan_command__type_support.cpp.o[0m
+[289.457s] [ 81%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/assembly_state__type_support.cpp.o[0m
+[289.940s] [ 82%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/head_state__type_support.cpp.o[0m
+[290.358s] [ 82%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/analog_io_states__type_support.cpp.o[0m
+[290.941s] [ 82%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/bridge_publisher__type_support.cpp.o[0m
+[292.201s] [ 83%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/endpoint_states__type_support.cpp.o[0m
+[292.686s] [ 83%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/srv/list_cameras__type_support.cpp.o[0m
+[293.104s] [ 84%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/srv/close_camera__type_support.cpp.o[0m
+[293.665s] [ 84%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/srv/open_camera__type_support.cpp.o[0m
+[294.676s] [ 84%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/srv/bridge_publishers_force__type_support.cpp.o[0m
+[295.420s] [ 85%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/srv/bridge_publishers_auth__type_support.cpp.o[0m
+[295.823s] [ 85%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/srv/solve_position_ik__type_support.cpp.o[0m
+[296.378s] [ 85%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/endpoint_state__type_support.cpp.o[0m
+[297.090s] [ 86%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/analog_output_command__type_support.cpp.o[0m
+[297.696s] [ 86%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/navigator_state__type_support.cpp.o[0m
+[298.356s] [ 86%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/end_effector_command__type_support.cpp.o[0m
+[298.759s] [ 87%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/digital_io_states__type_support.cpp.o[0m
+[299.423s] [ 87%] [32mBuilding CXX object CMakeFiles/baxter_core_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_core_msgs/msg/end_effector_properties__type_support.cpp.o[0m
+[300.094s] [ 87%] [32m[1mLinking CXX shared library libbaxter_core_msgs__rosidl_typesupport_cpp.so[0m
+[301.169s] [ 87%] Built target baxter_core_msgs__rosidl_typesupport_cpp
+[301.188s] [ 87%] Built target baxter_core_msgs
+[301.207s] [ 87%] [34m[1mGenerating Python code for ROS interfaces[0m
+[308.407s] [ 87%] Built target baxter_core_msgs__py
+[308.426s] [ 88%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_end_effector_state_s.c.o[0m
+[308.765s] [ 88%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_collision_detection_state_s.c.o[0m
+[308.936s] [ 89%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_sea_joint_state_s.c.o[0m
+[309.351s] [ 89%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_collision_avoidance_state_s.c.o[0m
+[309.720s] [ 89%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_urdf_configuration_s.c.o[0m
+[309.812s] [ 90%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_camera_control_s.c.o[0m
+[309.933s] [ 90%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_navigator_states_s.c.o[0m
+[310.072s] [ 90%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_analog_io_state_s.c.o[0m
+[310.325s] [ 91%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_camera_settings_s.c.o[0m
+[310.486s] [ 91%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_joint_command_s.c.o[0m
+[310.647s] [ 91%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_digital_io_state_s.c.o[0m
+[310.791s] [ 92%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_robust_controller_status_s.c.o[0m
+[310.928s] [ 92%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_assembly_states_s.c.o[0m
+[311.032s] [ 93%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_digital_output_command_s.c.o[0m
+[311.130s] [ 93%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_head_pan_command_s.c.o[0m
+[311.239s] [ 93%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_assembly_state_s.c.o[0m
+[311.336s] [ 94%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_head_state_s.c.o[0m
+[311.429s] [ 94%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_analog_io_states_s.c.o[0m
+[311.526s] [ 94%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_bridge_publisher_s.c.o[0m
+[311.621s] [ 95%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_endpoint_states_s.c.o[0m
+[311.724s] [ 95%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/srv/_list_cameras_s.c.o[0m
+[311.826s] [ 95%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/srv/_close_camera_s.c.o[0m
+[311.933s] [ 96%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/srv/_open_camera_s.c.o[0m
+[312.041s] [ 96%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/srv/_bridge_publishers_force_s.c.o[0m
+[312.137s] [ 97%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/srv/_bridge_publishers_auth_s.c.o[0m
+[312.273s] [ 97%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/srv/_solve_position_ik_s.c.o[0m
+[312.399s] [ 97%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_endpoint_state_s.c.o[0m
+[312.510s] [ 98%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_analog_output_command_s.c.o[0m
+[312.624s] [ 98%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_navigator_state_s.c.o[0m
+[312.824s] [ 99%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_end_effector_command_s.c.o[0m
+[312.943s] [ 99%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_digital_io_states_s.c.o[0m
+[313.048s] [ 99%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_generator_py.dir/rosidl_generator_py/baxter_core_msgs/msg/_end_effector_properties_s.c.o[0m
+[313.190s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/baxter_core_msgs/libbaxter_core_msgs__rosidl_generator_py.so[0m
+[313.309s] [ 99%] Built target baxter_core_msgs__rosidl_generator_py
+[313.327s] [ 99%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/baxter_core_msgs/_baxter_core_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[313.511s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/baxter_core_msgs/baxter_core_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[313.556s] [ 99%] Built target baxter_core_msgs__rosidl_typesupport_fastrtps_c__pyext
+[313.570s] [100%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/baxter_core_msgs/_baxter_core_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[313.777s] [100%] [32m[1mLinking C shared library rosidl_generator_py/baxter_core_msgs/baxter_core_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[313.818s] [100%] Built target baxter_core_msgs__rosidl_typesupport_c__pyext
+[313.835s] [100%] [32mBuilding C object CMakeFiles/baxter_core_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/baxter_core_msgs/_baxter_core_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[314.019s] [100%] [32m[1mLinking C shared library rosidl_generator_py/baxter_core_msgs/baxter_core_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[314.061s] [100%] Built target baxter_core_msgs__rosidl_typesupport_introspection_c__pyext
+[314.072s] Invoked command in '/home/mael/ros2_ws/build/baxter_core_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --build /home/mael/ros2_ws/build/baxter_core_msgs -- -j8 -l8
+[314.728s] Invoking command in '/home/mael/ros2_ws/build/baxter_core_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --install /home/mael/ros2_ws/build/baxter_core_msgs
+[314.736s] -- Install configuration: ""
+[314.737s] -- Execute custom install script
+[314.737s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/ament_index/resource_index/rosidl_interfaces/baxter_core_msgs
+[314.746s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/analog_io_state.h
+[314.754s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/analog_io_states.h
+[314.762s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/analog_output_command.h
+[314.769s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/assembly_state.h
+[314.776s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/assembly_states.h
+[314.784s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/bridge_publisher.h
+[314.791s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/camera_control.h
+[314.799s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/camera_settings.h
+[314.806s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/collision_avoidance_state.h
+[314.813s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/collision_detection_state.h
+[314.821s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/analog_io_state__functions.h
+[314.828s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/analog_io_state__struct.h
+[314.836s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/analog_io_state__type_support.h
+[314.844s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/analog_io_states__functions.h
+[314.851s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/analog_io_states__struct.h
+[314.859s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/analog_io_states__type_support.h
+[314.866s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/analog_output_command__functions.h
+[314.873s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/analog_output_command__struct.h
+[314.881s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/analog_output_command__type_support.h
+[314.888s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/assembly_state__functions.h
+[314.896s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/assembly_state__struct.h
+[314.903s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/assembly_state__type_support.h
+[314.911s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/assembly_states__functions.h
+[314.919s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/assembly_states__struct.h
+[314.926s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/assembly_states__type_support.h
+[314.933s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/bridge_publisher__functions.h
+[314.941s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/bridge_publisher__struct.h
+[314.948s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/bridge_publisher__type_support.h
+[314.956s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/camera_control__functions.h
+[314.964s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/camera_control__struct.h
+[314.971s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/camera_control__type_support.h
+[314.978s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/camera_settings__functions.h
+[314.986s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/camera_settings__struct.h
+[314.993s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/camera_settings__type_support.h
+[315.001s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/collision_avoidance_state__functions.h
+[315.008s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/collision_avoidance_state__struct.h
+[315.016s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/collision_avoidance_state__type_support.h
+[315.023s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/collision_detection_state__functions.h
+[315.031s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/collision_detection_state__struct.h
+[315.039s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/collision_detection_state__type_support.h
+[315.046s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/digital_io_state__functions.h
+[315.053s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/digital_io_state__struct.h
+[315.061s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/digital_io_state__type_support.h
+[315.068s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/digital_io_states__functions.h
+[315.076s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/digital_io_states__struct.h
+[315.083s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/digital_io_states__type_support.h
+[315.090s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/digital_output_command__functions.h
+[315.098s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/digital_output_command__struct.h
+[315.105s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/digital_output_command__type_support.h
+[315.113s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/end_effector_command__functions.h
+[315.120s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/end_effector_command__struct.h
+[315.127s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/end_effector_command__type_support.h
+[315.135s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/end_effector_properties__functions.h
+[315.142s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/end_effector_properties__struct.h
+[315.150s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/end_effector_properties__type_support.h
+[315.157s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/end_effector_state__functions.h
+[315.165s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/end_effector_state__struct.h
+[315.172s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/end_effector_state__type_support.h
+[315.180s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/endpoint_state__functions.h
+[315.187s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/endpoint_state__struct.h
+[315.195s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/endpoint_state__type_support.h
+[315.203s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/endpoint_states__functions.h
+[315.210s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/endpoint_states__struct.h
+[315.218s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/endpoint_states__type_support.h
+[315.225s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/head_pan_command__functions.h
+[315.233s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/head_pan_command__struct.h
+[315.240s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/head_pan_command__type_support.h
+[315.248s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/head_state__functions.h
+[315.255s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/head_state__struct.h
+[315.263s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/head_state__type_support.h
+[315.271s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/joint_command__functions.h
+[315.278s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/joint_command__struct.h
+[315.286s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/joint_command__type_support.h
+[315.293s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/navigator_state__functions.h
+[315.301s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/navigator_state__struct.h
+[315.308s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/navigator_state__type_support.h
+[315.316s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/navigator_states__functions.h
+[315.324s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/navigator_states__struct.h
+[315.331s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/navigator_states__type_support.h
+[315.339s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/robust_controller_status__functions.h
+[315.346s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/robust_controller_status__struct.h
+[315.354s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/robust_controller_status__type_support.h
+[315.361s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/sea_joint_state__functions.h
+[315.369s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/sea_joint_state__struct.h
+[315.376s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/sea_joint_state__type_support.h
+[315.384s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/urdf_configuration__functions.h
+[315.391s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/urdf_configuration__struct.h
+[315.399s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/urdf_configuration__type_support.h
+[315.406s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/digital_io_state.h
+[315.414s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/digital_io_states.h
+[315.421s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/digital_output_command.h
+[315.429s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/end_effector_command.h
+[315.436s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/end_effector_properties.h
+[315.444s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/end_effector_state.h
+[315.451s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/endpoint_state.h
+[315.459s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/endpoint_states.h
+[315.466s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/head_pan_command.h
+[315.474s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/head_state.h
+[315.481s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/joint_command.h
+[315.488s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/navigator_state.h
+[315.495s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/navigator_states.h
+[315.503s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/robust_controller_status.h
+[315.510s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/rosidl_generator_c__visibility_control.h
+[315.517s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/sea_joint_state.h
+[315.524s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/urdf_configuration.h
+[315.531s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/bridge_publishers_auth.h
+[315.539s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/bridge_publishers_force.h
+[315.546s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/close_camera.h
+[315.553s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/bridge_publishers_auth__functions.h
+[315.561s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/bridge_publishers_auth__struct.h
+[315.568s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/bridge_publishers_auth__type_support.h
+[315.575s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/bridge_publishers_force__functions.h
+[315.583s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/bridge_publishers_force__struct.h
+[315.590s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/bridge_publishers_force__type_support.h
+[315.597s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/close_camera__functions.h
+[315.605s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/close_camera__struct.h
+[315.612s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/close_camera__type_support.h
+[315.620s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/list_cameras__functions.h
+[315.627s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/list_cameras__struct.h
+[315.634s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/list_cameras__type_support.h
+[315.642s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/open_camera__functions.h
+[315.649s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/open_camera__struct.h
+[315.657s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/open_camera__type_support.h
+[315.664s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/solve_position_ik__functions.h
+[315.671s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/solve_position_ik__struct.h
+[315.679s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/solve_position_ik__type_support.h
+[315.686s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/list_cameras.h
+[315.694s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/open_camera.h
+[315.701s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/solve_position_ik.h
+[315.708s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/environment/library_path.sh
+[315.716s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/environment/library_path.dsv
+[315.724s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/analog_io_state__rosidl_typesupport_fastrtps_c.h
+[315.731s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/analog_io_states__rosidl_typesupport_fastrtps_c.h
+[315.739s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/analog_output_command__rosidl_typesupport_fastrtps_c.h
+[315.747s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/assembly_state__rosidl_typesupport_fastrtps_c.h
+[315.754s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/assembly_states__rosidl_typesupport_fastrtps_c.h
+[315.762s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/bridge_publisher__rosidl_typesupport_fastrtps_c.h
+[315.769s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/camera_control__rosidl_typesupport_fastrtps_c.h
+[315.776s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/camera_settings__rosidl_typesupport_fastrtps_c.h
+[315.784s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/collision_avoidance_state__rosidl_typesupport_fastrtps_c.h
+[315.791s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/collision_detection_state__rosidl_typesupport_fastrtps_c.h
+[315.799s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/digital_io_state__rosidl_typesupport_fastrtps_c.h
+[315.806s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/digital_io_states__rosidl_typesupport_fastrtps_c.h
+[315.814s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/digital_output_command__rosidl_typesupport_fastrtps_c.h
+[315.821s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/end_effector_command__rosidl_typesupport_fastrtps_c.h
+[315.829s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/end_effector_properties__rosidl_typesupport_fastrtps_c.h
+[315.836s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/end_effector_state__rosidl_typesupport_fastrtps_c.h
+[315.844s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/endpoint_state__rosidl_typesupport_fastrtps_c.h
+[315.851s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/endpoint_states__rosidl_typesupport_fastrtps_c.h
+[315.859s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/head_pan_command__rosidl_typesupport_fastrtps_c.h
+[315.866s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/head_state__rosidl_typesupport_fastrtps_c.h
+[315.874s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/joint_command__rosidl_typesupport_fastrtps_c.h
+[315.881s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/navigator_state__rosidl_typesupport_fastrtps_c.h
+[315.888s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/navigator_states__rosidl_typesupport_fastrtps_c.h
+[315.896s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/robust_controller_status__rosidl_typesupport_fastrtps_c.h
+[315.903s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/sea_joint_state__rosidl_typesupport_fastrtps_c.h
+[315.912s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/urdf_configuration__rosidl_typesupport_fastrtps_c.h
+[315.921s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[315.928s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/bridge_publishers_auth__rosidl_typesupport_fastrtps_c.h
+[315.936s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/bridge_publishers_force__rosidl_typesupport_fastrtps_c.h
+[315.943s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/close_camera__rosidl_typesupport_fastrtps_c.h
+[315.951s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/list_cameras__rosidl_typesupport_fastrtps_c.h
+[315.958s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/open_camera__rosidl_typesupport_fastrtps_c.h
+[315.965s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/solve_position_ik__rosidl_typesupport_fastrtps_c.h
+[315.974s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/analog_io_state.hpp
+[315.981s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/analog_io_states.hpp
+[315.989s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/analog_output_command.hpp
+[315.996s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/assembly_state.hpp
+[316.003s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/assembly_states.hpp
+[316.011s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/bridge_publisher.hpp
+[316.018s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/camera_control.hpp
+[316.025s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/camera_settings.hpp
+[316.033s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/collision_avoidance_state.hpp
+[316.040s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/collision_detection_state.hpp
+[316.048s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/analog_io_state__builder.hpp
+[316.055s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/analog_io_state__struct.hpp
+[316.062s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/analog_io_state__traits.hpp
+[316.069s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/analog_io_states__builder.hpp
+[316.077s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/analog_io_states__struct.hpp
+[316.085s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/analog_io_states__traits.hpp
+[316.092s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/analog_output_command__builder.hpp
+[316.100s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/analog_output_command__struct.hpp
+[316.107s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/analog_output_command__traits.hpp
+[316.114s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/assembly_state__builder.hpp
+[316.122s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/assembly_state__struct.hpp
+[316.129s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/assembly_state__traits.hpp
+[316.137s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/assembly_states__builder.hpp
+[316.145s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/assembly_states__struct.hpp
+[316.152s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/assembly_states__traits.hpp
+[316.160s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/bridge_publisher__builder.hpp
+[316.168s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/bridge_publisher__struct.hpp
+[316.176s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/bridge_publisher__traits.hpp
+[316.184s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/camera_control__builder.hpp
+[316.192s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/camera_control__struct.hpp
+[316.200s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/camera_control__traits.hpp
+[316.207s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/camera_settings__builder.hpp
+[316.215s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/camera_settings__struct.hpp
+[316.222s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/camera_settings__traits.hpp
+[316.229s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/collision_avoidance_state__builder.hpp
+[316.237s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/collision_avoidance_state__struct.hpp
+[316.244s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/collision_avoidance_state__traits.hpp
+[316.252s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/collision_detection_state__builder.hpp
+[316.260s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/collision_detection_state__struct.hpp
+[316.268s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/collision_detection_state__traits.hpp
+[316.276s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/digital_io_state__builder.hpp
+[316.283s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/digital_io_state__struct.hpp
+[316.291s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/digital_io_state__traits.hpp
+[316.298s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/digital_io_states__builder.hpp
+[316.306s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/digital_io_states__struct.hpp
+[316.313s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/digital_io_states__traits.hpp
+[316.320s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/digital_output_command__builder.hpp
+[316.328s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/digital_output_command__struct.hpp
+[316.335s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/digital_output_command__traits.hpp
+[316.342s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/end_effector_command__builder.hpp
+[316.350s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/end_effector_command__struct.hpp
+[316.357s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/end_effector_command__traits.hpp
+[316.365s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/end_effector_properties__builder.hpp
+[316.372s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/end_effector_properties__struct.hpp
+[316.379s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/end_effector_properties__traits.hpp
+[316.387s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/end_effector_state__builder.hpp
+[316.394s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/end_effector_state__struct.hpp
+[316.401s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/end_effector_state__traits.hpp
+[316.409s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/endpoint_state__builder.hpp
+[316.416s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/endpoint_state__struct.hpp
+[316.423s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/endpoint_state__traits.hpp
+[316.430s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/endpoint_states__builder.hpp
+[316.438s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/endpoint_states__struct.hpp
+[316.445s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/endpoint_states__traits.hpp
+[316.453s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/head_pan_command__builder.hpp
+[316.460s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/head_pan_command__struct.hpp
+[316.468s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/head_pan_command__traits.hpp
+[316.475s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/head_state__builder.hpp
+[316.482s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/head_state__struct.hpp
+[316.489s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/head_state__traits.hpp
+[316.496s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/joint_command__builder.hpp
+[316.504s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/joint_command__struct.hpp
+[316.511s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/joint_command__traits.hpp
+[316.518s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/navigator_state__builder.hpp
+[316.525s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/navigator_state__struct.hpp
+[316.533s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/navigator_state__traits.hpp
+[316.540s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/navigator_states__builder.hpp
+[316.547s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/navigator_states__struct.hpp
+[316.555s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/navigator_states__traits.hpp
+[316.563s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/robust_controller_status__builder.hpp
+[316.570s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/robust_controller_status__struct.hpp
+[316.577s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/robust_controller_status__traits.hpp
+[316.585s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/sea_joint_state__builder.hpp
+[316.592s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/sea_joint_state__struct.hpp
+[316.599s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/sea_joint_state__traits.hpp
+[316.606s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/urdf_configuration__builder.hpp
+[316.614s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/urdf_configuration__struct.hpp
+[316.621s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/urdf_configuration__traits.hpp
+[316.628s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/digital_io_state.hpp
+[316.636s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/digital_io_states.hpp
+[316.643s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/digital_output_command.hpp
+[316.651s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/end_effector_command.hpp
+[316.658s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/end_effector_properties.hpp
+[316.665s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/end_effector_state.hpp
+[316.673s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/endpoint_state.hpp
+[316.680s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/endpoint_states.hpp
+[316.688s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/head_pan_command.hpp
+[316.695s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/head_state.hpp
+[316.703s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/joint_command.hpp
+[316.710s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/navigator_state.hpp
+[316.717s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/navigator_states.hpp
+[316.725s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/robust_controller_status.hpp
+[316.732s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/sea_joint_state.hpp
+[316.740s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/urdf_configuration.hpp
+[316.747s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/bridge_publishers_auth.hpp
+[316.755s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/bridge_publishers_force.hpp
+[316.762s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/close_camera.hpp
+[316.769s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/bridge_publishers_auth__builder.hpp
+[316.777s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/bridge_publishers_auth__struct.hpp
+[316.784s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/bridge_publishers_auth__traits.hpp
+[316.791s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/bridge_publishers_force__builder.hpp
+[316.798s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/bridge_publishers_force__struct.hpp
+[316.806s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/bridge_publishers_force__traits.hpp
+[316.813s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/close_camera__builder.hpp
+[316.820s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/close_camera__struct.hpp
+[316.827s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/close_camera__traits.hpp
+[316.835s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/list_cameras__builder.hpp
+[316.842s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/list_cameras__struct.hpp
+[316.850s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/list_cameras__traits.hpp
+[316.857s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/open_camera__builder.hpp
+[316.865s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/open_camera__struct.hpp
+[316.872s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/open_camera__traits.hpp
+[316.879s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/solve_position_ik__builder.hpp
+[316.887s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/solve_position_ik__struct.hpp
+[316.894s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/solve_position_ik__traits.hpp
+[316.901s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/list_cameras.hpp
+[316.909s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/open_camera.hpp
+[316.916s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/solve_position_ik.hpp
+[316.924s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/analog_io_state__rosidl_typesupport_fastrtps_cpp.hpp
+[316.932s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/analog_io_states__rosidl_typesupport_fastrtps_cpp.hpp
+[316.939s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/analog_output_command__rosidl_typesupport_fastrtps_cpp.hpp
+[316.946s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/assembly_state__rosidl_typesupport_fastrtps_cpp.hpp
+[316.954s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/assembly_states__rosidl_typesupport_fastrtps_cpp.hpp
+[316.961s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/bridge_publisher__rosidl_typesupport_fastrtps_cpp.hpp
+[316.969s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/camera_control__rosidl_typesupport_fastrtps_cpp.hpp
+[316.976s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/camera_settings__rosidl_typesupport_fastrtps_cpp.hpp
+[316.984s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/collision_avoidance_state__rosidl_typesupport_fastrtps_cpp.hpp
+[316.991s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/collision_detection_state__rosidl_typesupport_fastrtps_cpp.hpp
+[316.999s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/digital_io_state__rosidl_typesupport_fastrtps_cpp.hpp
+[317.006s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/digital_io_states__rosidl_typesupport_fastrtps_cpp.hpp
+[317.013s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/digital_output_command__rosidl_typesupport_fastrtps_cpp.hpp
+[317.021s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/end_effector_command__rosidl_typesupport_fastrtps_cpp.hpp
+[317.028s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/end_effector_properties__rosidl_typesupport_fastrtps_cpp.hpp
+[317.035s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/end_effector_state__rosidl_typesupport_fastrtps_cpp.hpp
+[317.042s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/endpoint_state__rosidl_typesupport_fastrtps_cpp.hpp
+[317.050s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/endpoint_states__rosidl_typesupport_fastrtps_cpp.hpp
+[317.057s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/head_pan_command__rosidl_typesupport_fastrtps_cpp.hpp
+[317.065s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/head_state__rosidl_typesupport_fastrtps_cpp.hpp
+[317.072s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/joint_command__rosidl_typesupport_fastrtps_cpp.hpp
+[317.079s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/navigator_state__rosidl_typesupport_fastrtps_cpp.hpp
+[317.087s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/navigator_states__rosidl_typesupport_fastrtps_cpp.hpp
+[317.094s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/robust_controller_status__rosidl_typesupport_fastrtps_cpp.hpp
+[317.101s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/sea_joint_state__rosidl_typesupport_fastrtps_cpp.hpp
+[317.108s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/urdf_configuration__rosidl_typesupport_fastrtps_cpp.hpp
+[317.116s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[317.123s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/bridge_publishers_auth__rosidl_typesupport_fastrtps_cpp.hpp
+[317.130s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/bridge_publishers_force__rosidl_typesupport_fastrtps_cpp.hpp
+[317.137s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/close_camera__rosidl_typesupport_fastrtps_cpp.hpp
+[317.145s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/list_cameras__rosidl_typesupport_fastrtps_cpp.hpp
+[317.152s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/open_camera__rosidl_typesupport_fastrtps_cpp.hpp
+[317.159s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/solve_position_ik__rosidl_typesupport_fastrtps_cpp.hpp
+[317.168s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/analog_io_state__rosidl_typesupport_introspection_c.h
+[317.175s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/analog_io_states__rosidl_typesupport_introspection_c.h
+[317.182s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/analog_output_command__rosidl_typesupport_introspection_c.h
+[317.189s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/assembly_state__rosidl_typesupport_introspection_c.h
+[317.196s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/assembly_states__rosidl_typesupport_introspection_c.h
+[317.204s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/bridge_publisher__rosidl_typesupport_introspection_c.h
+[317.211s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/camera_control__rosidl_typesupport_introspection_c.h
+[317.218s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/camera_settings__rosidl_typesupport_introspection_c.h
+[317.226s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/collision_avoidance_state__rosidl_typesupport_introspection_c.h
+[317.233s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/collision_detection_state__rosidl_typesupport_introspection_c.h
+[317.240s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/digital_io_state__rosidl_typesupport_introspection_c.h
+[317.248s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/digital_io_states__rosidl_typesupport_introspection_c.h
+[317.255s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/digital_output_command__rosidl_typesupport_introspection_c.h
+[317.262s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/end_effector_command__rosidl_typesupport_introspection_c.h
+[317.270s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/end_effector_properties__rosidl_typesupport_introspection_c.h
+[317.277s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/end_effector_state__rosidl_typesupport_introspection_c.h
+[317.285s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/endpoint_state__rosidl_typesupport_introspection_c.h
+[317.292s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/endpoint_states__rosidl_typesupport_introspection_c.h
+[317.300s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/head_pan_command__rosidl_typesupport_introspection_c.h
+[317.307s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/head_state__rosidl_typesupport_introspection_c.h
+[317.314s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/joint_command__rosidl_typesupport_introspection_c.h
+[317.322s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/navigator_state__rosidl_typesupport_introspection_c.h
+[317.329s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/navigator_states__rosidl_typesupport_introspection_c.h
+[317.337s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/robust_controller_status__rosidl_typesupport_introspection_c.h
+[317.344s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/sea_joint_state__rosidl_typesupport_introspection_c.h
+[317.351s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/urdf_configuration__rosidl_typesupport_introspection_c.h
+[317.359s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[317.366s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/bridge_publishers_auth__rosidl_typesupport_introspection_c.h
+[317.373s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/bridge_publishers_force__rosidl_typesupport_introspection_c.h
+[317.381s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/close_camera__rosidl_typesupport_introspection_c.h
+[317.388s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/list_cameras__rosidl_typesupport_introspection_c.h
+[317.396s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/open_camera__rosidl_typesupport_introspection_c.h
+[317.403s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/solve_position_ik__rosidl_typesupport_introspection_c.h
+[317.412s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/analog_io_state__rosidl_typesupport_introspection_cpp.hpp
+[317.419s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/analog_io_states__rosidl_typesupport_introspection_cpp.hpp
+[317.427s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/analog_output_command__rosidl_typesupport_introspection_cpp.hpp
+[317.434s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/assembly_state__rosidl_typesupport_introspection_cpp.hpp
+[317.442s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/assembly_states__rosidl_typesupport_introspection_cpp.hpp
+[317.449s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/bridge_publisher__rosidl_typesupport_introspection_cpp.hpp
+[317.457s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/camera_control__rosidl_typesupport_introspection_cpp.hpp
+[317.465s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/camera_settings__rosidl_typesupport_introspection_cpp.hpp
+[317.472s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/collision_avoidance_state__rosidl_typesupport_introspection_cpp.hpp
+[317.479s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/collision_detection_state__rosidl_typesupport_introspection_cpp.hpp
+[317.487s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/digital_io_state__rosidl_typesupport_introspection_cpp.hpp
+[317.494s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/digital_io_states__rosidl_typesupport_introspection_cpp.hpp
+[317.502s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/digital_output_command__rosidl_typesupport_introspection_cpp.hpp
+[317.509s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/end_effector_command__rosidl_typesupport_introspection_cpp.hpp
+[317.517s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/end_effector_properties__rosidl_typesupport_introspection_cpp.hpp
+[317.524s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/end_effector_state__rosidl_typesupport_introspection_cpp.hpp
+[317.532s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/endpoint_state__rosidl_typesupport_introspection_cpp.hpp
+[317.539s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/endpoint_states__rosidl_typesupport_introspection_cpp.hpp
+[317.547s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/head_pan_command__rosidl_typesupport_introspection_cpp.hpp
+[317.554s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/head_state__rosidl_typesupport_introspection_cpp.hpp
+[317.561s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/joint_command__rosidl_typesupport_introspection_cpp.hpp
+[317.569s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/navigator_state__rosidl_typesupport_introspection_cpp.hpp
+[317.576s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/navigator_states__rosidl_typesupport_introspection_cpp.hpp
+[317.584s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/robust_controller_status__rosidl_typesupport_introspection_cpp.hpp
+[317.591s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/sea_joint_state__rosidl_typesupport_introspection_cpp.hpp
+[317.598s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/msg/detail/urdf_configuration__rosidl_typesupport_introspection_cpp.hpp
+[317.605s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/bridge_publishers_auth__rosidl_typesupport_introspection_cpp.hpp
+[317.613s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/bridge_publishers_force__rosidl_typesupport_introspection_cpp.hpp
+[317.620s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/close_camera__rosidl_typesupport_introspection_cpp.hpp
+[317.627s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/list_cameras__rosidl_typesupport_introspection_cpp.hpp
+[317.635s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/open_camera__rosidl_typesupport_introspection_cpp.hpp
+[317.642s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/include/baxter_core_msgs/baxter_core_msgs/srv/detail/solve_position_ik__rosidl_typesupport_introspection_cpp.hpp
+[317.649s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/environment/pythonpath.sh
+[317.657s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/environment/pythonpath.dsv
+[317.665s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs-1.3.0-py3.10.egg-info/PKG-INFO
+[317.672s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs-1.3.0-py3.10.egg-info/SOURCES.txt
+[317.680s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs-1.3.0-py3.10.egg-info/dependency_links.txt
+[317.688s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs-1.3.0-py3.10.egg-info/top_level.txt
+[317.696s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/__init__.py
+[317.704s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/_baxter_core_msgs_s.ep.rosidl_typesupport_c.c
+[317.711s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/_baxter_core_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[317.719s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/_baxter_core_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[317.726s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/baxter_core_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[317.734s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/baxter_core_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[317.741s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/baxter_core_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[317.749s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/libbaxter_core_msgs__rosidl_generator_py.so
+[317.756s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/__init__.py
+[317.764s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_analog_io_state.py
+[317.772s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_analog_io_state_s.c
+[317.779s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_analog_io_states.py
+[317.786s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_analog_io_states_s.c
+[317.794s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_analog_output_command.py
+[317.801s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_analog_output_command_s.c
+[317.809s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_assembly_state.py
+[317.816s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_assembly_state_s.c
+[317.824s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_assembly_states.py
+[317.831s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_assembly_states_s.c
+[317.838s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_bridge_publisher.py
+[317.846s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_bridge_publisher_s.c
+[317.853s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_camera_control.py
+[317.861s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_camera_control_s.c
+[317.869s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_camera_settings.py
+[317.876s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_camera_settings_s.c
+[317.883s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_collision_avoidance_state.py
+[317.891s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_collision_avoidance_state_s.c
+[317.898s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_collision_detection_state.py
+[317.906s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_collision_detection_state_s.c
+[317.913s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_digital_io_state.py
+[317.920s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_digital_io_state_s.c
+[317.928s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_digital_io_states.py
+[317.935s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_digital_io_states_s.c
+[317.943s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_digital_output_command.py
+[317.950s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_digital_output_command_s.c
+[317.957s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_end_effector_command.py
+[317.965s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_end_effector_command_s.c
+[317.972s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_end_effector_properties.py
+[317.979s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_end_effector_properties_s.c
+[317.987s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_end_effector_state.py
+[317.994s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_end_effector_state_s.c
+[318.002s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_endpoint_state.py
+[318.009s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_endpoint_state_s.c
+[318.017s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_endpoint_states.py
+[318.024s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_endpoint_states_s.c
+[318.031s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_head_pan_command.py
+[318.039s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_head_pan_command_s.c
+[318.046s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_head_state.py
+[318.054s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_head_state_s.c
+[318.061s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_joint_command.py
+[318.069s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_joint_command_s.c
+[318.076s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_navigator_state.py
+[318.084s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_navigator_state_s.c
+[318.091s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_navigator_states.py
+[318.099s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_navigator_states_s.c
+[318.106s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_robust_controller_status.py
+[318.113s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_robust_controller_status_s.c
+[318.121s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_sea_joint_state.py
+[318.128s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_sea_joint_state_s.c
+[318.135s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_urdf_configuration.py
+[318.143s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_urdf_configuration_s.c
+[318.150s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/srv/__init__.py
+[318.158s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/srv/_bridge_publishers_auth.py
+[318.165s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/srv/_bridge_publishers_auth_s.c
+[318.172s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/srv/_bridge_publishers_force.py
+[318.180s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/srv/_bridge_publishers_force_s.c
+[318.187s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/srv/_close_camera.py
+[318.194s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/srv/_close_camera_s.c
+[318.202s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/srv/_list_cameras.py
+[318.209s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/srv/_list_cameras_s.c
+[318.217s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/srv/_open_camera.py
+[318.224s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/srv/_open_camera_s.c
+[318.231s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/srv/_solve_position_ik.py
+[318.239s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/srv/_solve_position_ik_s.c
+[318.246s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/baxter_core_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[318.247s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/baxter_core_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[318.247s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/baxter_core_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[318.247s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/EndEffectorState.idl
+[318.255s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/EndEffectorProperties.idl
+[318.263s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/DigitalIOStates.idl
+[318.270s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/EndEffectorCommand.idl
+[318.278s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/NavigatorState.idl
+[318.285s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/AnalogOutputCommand.idl
+[318.292s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/EndpointState.idl
+[318.300s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/CollisionDetectionState.idl
+[318.307s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/SEAJointState.idl
+[318.315s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/CollisionAvoidanceState.idl
+[318.322s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/URDFConfiguration.idl
+[318.330s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/CameraControl.idl
+[318.337s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/NavigatorStates.idl
+[318.345s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/AnalogIOState.idl
+[318.352s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/CameraSettings.idl
+[318.360s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/JointCommand.idl
+[318.368s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/DigitalIOState.idl
+[318.376s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/RobustControllerStatus.idl
+[318.383s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/AssemblyStates.idl
+[318.391s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/DigitalOutputCommand.idl
+[318.399s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/HeadPanCommand.idl
+[318.406s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/AssemblyState.idl
+[318.414s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/HeadState.idl
+[318.422s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/AnalogIOStates.idl
+[318.429s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/BridgePublisher.idl
+[318.437s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/EndpointStates.idl
+[318.445s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/srv/ListCameras.idl
+[318.452s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/srv/CloseCamera.idl
+[318.460s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/srv/OpenCamera.idl
+[318.468s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/srv/BridgePublishersForce.idl
+[318.476s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/srv/BridgePublishersAuth.idl
+[318.483s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/srv/SolvePositionIK.idl
+[318.491s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/EndEffectorState.msg
+[318.498s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/EndEffectorProperties.msg
+[318.505s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/DigitalIOStates.msg
+[318.513s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/EndEffectorCommand.msg
+[318.521s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/NavigatorState.msg
+[318.528s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/AnalogOutputCommand.msg
+[318.536s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/EndpointState.msg
+[318.543s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/CollisionDetectionState.msg
+[318.551s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/SEAJointState.msg
+[318.559s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/CollisionAvoidanceState.msg
+[318.566s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/URDFConfiguration.msg
+[318.574s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/CameraControl.msg
+[318.581s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/NavigatorStates.msg
+[318.589s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/AnalogIOState.msg
+[318.597s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/CameraSettings.msg
+[318.604s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/JointCommand.msg
+[318.612s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/DigitalIOState.msg
+[318.619s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/RobustControllerStatus.msg
+[318.627s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/AssemblyStates.msg
+[318.635s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/DigitalOutputCommand.msg
+[318.642s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/HeadPanCommand.msg
+[318.650s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/AssemblyState.msg
+[318.658s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/HeadState.msg
+[318.666s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/AnalogIOStates.msg
+[318.674s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/BridgePublisher.msg
+[318.681s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/msg/EndpointStates.msg
+[318.689s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/srv/ListCameras.srv
+[318.697s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/srv/ListCameras_Request.msg
+[318.704s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/srv/ListCameras_Response.msg
+[318.712s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/srv/CloseCamera.srv
+[318.720s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/srv/CloseCamera_Request.msg
+[318.727s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/srv/CloseCamera_Response.msg
+[318.735s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/srv/OpenCamera.srv
+[318.743s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/srv/OpenCamera_Request.msg
+[318.784s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/srv/OpenCamera_Response.msg
+[318.857s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/srv/BridgePublishersForce.srv
+[318.865s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/srv/BridgePublishersForce_Request.msg
+[318.873s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/srv/BridgePublishersForce_Response.msg
+[318.880s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/srv/BridgePublishersAuth.srv
+[318.887s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/srv/BridgePublishersAuth_Request.msg
+[318.895s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/srv/BridgePublishersAuth_Response.msg
+[318.902s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/srv/SolvePositionIK.srv
+[318.910s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/srv/SolvePositionIK_Request.msg
+[318.918s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/srv/SolvePositionIK_Response.msg
+[318.925s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/mapping_rules.yaml
+[318.933s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/ament_index/resource_index/package_run_dependencies/baxter_core_msgs
+[318.941s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/ament_index/resource_index/parent_prefix_path/baxter_core_msgs
+[318.948s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/environment/ament_prefix_path.sh
+[318.956s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/environment/ament_prefix_path.dsv
+[318.963s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/environment/path.sh
+[318.971s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/environment/path.dsv
+[318.978s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/local_setup.bash
+[318.986s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/local_setup.sh
+[318.993s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/local_setup.zsh
+[319.001s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/local_setup.dsv
+[319.008s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/package.dsv
+[319.016s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/ament_index/resource_index/packages/baxter_core_msgs
+[319.023s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/cmake/rosidl_cmake-extras.cmake
+[319.030s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[319.038s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[319.045s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[319.053s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[319.060s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[319.067s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[319.075s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/cmake/baxter_core_msgsConfig.cmake
+[319.082s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/cmake/baxter_core_msgsConfig-version.cmake
+[319.089s] -- Symlinking: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/package.xml
+[319.097s] -- Installing: /home/mael/ros2_ws/install/baxter_core_msgs/lib/libbaxter_core_msgs__rosidl_generator_c.so
+[319.098s] -- Set runtime path of "/home/mael/ros2_ws/install/baxter_core_msgs/lib/libbaxter_core_msgs__rosidl_generator_c.so" to ""
+[319.098s] -- Installing: /home/mael/ros2_ws/install/baxter_core_msgs/lib/libbaxter_core_msgs__rosidl_typesupport_fastrtps_c.so
+[319.098s] -- Set runtime path of "/home/mael/ros2_ws/install/baxter_core_msgs/lib/libbaxter_core_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[319.098s] -- Installing: /home/mael/ros2_ws/install/baxter_core_msgs/lib/libbaxter_core_msgs__rosidl_typesupport_fastrtps_cpp.so
+[319.099s] -- Set runtime path of "/home/mael/ros2_ws/install/baxter_core_msgs/lib/libbaxter_core_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[319.099s] -- Installing: /home/mael/ros2_ws/install/baxter_core_msgs/lib/libbaxter_core_msgs__rosidl_typesupport_introspection_c.so
+[319.100s] -- Set runtime path of "/home/mael/ros2_ws/install/baxter_core_msgs/lib/libbaxter_core_msgs__rosidl_typesupport_introspection_c.so" to ""
+[319.100s] -- Installing: /home/mael/ros2_ws/install/baxter_core_msgs/lib/libbaxter_core_msgs__rosidl_typesupport_c.so
+[319.100s] -- Set runtime path of "/home/mael/ros2_ws/install/baxter_core_msgs/lib/libbaxter_core_msgs__rosidl_typesupport_c.so" to ""
+[319.101s] -- Installing: /home/mael/ros2_ws/install/baxter_core_msgs/lib/libbaxter_core_msgs__rosidl_typesupport_introspection_cpp.so
+[319.102s] -- Set runtime path of "/home/mael/ros2_ws/install/baxter_core_msgs/lib/libbaxter_core_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[319.102s] -- Installing: /home/mael/ros2_ws/install/baxter_core_msgs/lib/libbaxter_core_msgs__rosidl_typesupport_cpp.so
+[319.102s] -- Set runtime path of "/home/mael/ros2_ws/install/baxter_core_msgs/lib/libbaxter_core_msgs__rosidl_typesupport_cpp.so" to ""
+[319.169s] Listing '/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs'...
+[319.169s] Compiling '/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/__init__.py'...
+[319.169s] Listing '/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg'...
+[319.169s] Compiling '/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/__init__.py'...
+[319.169s] Compiling '/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_analog_io_state.py'...
+[319.169s] Compiling '/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_analog_io_states.py'...
+[319.170s] Compiling '/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_analog_output_command.py'...
+[319.170s] Compiling '/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_assembly_state.py'...
+[319.170s] Compiling '/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_assembly_states.py'...
+[319.170s] Compiling '/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_bridge_publisher.py'...
+[319.170s] Compiling '/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_camera_control.py'...
+[319.170s] Compiling '/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_camera_settings.py'...
+[319.170s] Compiling '/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_collision_avoidance_state.py'...
+[319.170s] Compiling '/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_collision_detection_state.py'...
+[319.170s] Compiling '/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_digital_io_state.py'...
+[319.170s] Compiling '/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_digital_io_states.py'...
+[319.170s] Compiling '/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_digital_output_command.py'...
+[319.171s] Compiling '/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_end_effector_command.py'...
+[319.171s] Compiling '/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_end_effector_properties.py'...
+[319.171s] Compiling '/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_end_effector_state.py'...
+[319.171s] Compiling '/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_endpoint_state.py'...
+[319.171s] Compiling '/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_endpoint_states.py'...
+[319.171s] Compiling '/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_head_pan_command.py'...
+[319.171s] Compiling '/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_head_state.py'...
+[319.171s] Compiling '/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_joint_command.py'...
+[319.171s] Compiling '/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_navigator_state.py'...
+[319.171s] Compiling '/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_navigator_states.py'...
+[319.171s] Compiling '/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_robust_controller_status.py'...
+[319.172s] Compiling '/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_sea_joint_state.py'...
+[319.172s] Compiling '/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/msg/_urdf_configuration.py'...
+[319.172s] Listing '/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/srv'...
+[319.172s] Compiling '/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/srv/__init__.py'...
+[319.172s] Compiling '/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/srv/_bridge_publishers_auth.py'...
+[319.172s] Compiling '/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/srv/_bridge_publishers_force.py'...
+[319.172s] Compiling '/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/srv/_close_camera.py'...
+[319.172s] Compiling '/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/srv/_list_cameras.py'...
+[319.172s] Compiling '/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/srv/_open_camera.py'...
+[319.172s] Compiling '/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages/baxter_core_msgs/srv/_solve_position_ik.py'...
+[319.174s] -- Installing: /home/mael/ros2_ws/install/baxter_core_msgs/lib/libbaxter_core_msgs__rosidl_generator_py.so
+[319.175s] -- Set runtime path of "/home/mael/ros2_ws/install/baxter_core_msgs/lib/libbaxter_core_msgs__rosidl_generator_py.so" to ""
+[319.175s] -- Installing: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/cmake/export_baxter_core_msgs__rosidl_generator_cExport.cmake
+[319.175s] -- Installing: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/cmake/export_baxter_core_msgs__rosidl_generator_cExport-noconfig.cmake
+[319.175s] -- Installing: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/cmake/export_baxter_core_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[319.175s] -- Installing: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/cmake/export_baxter_core_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[319.176s] -- Installing: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/cmake/export_baxter_core_msgs__rosidl_generator_cppExport.cmake
+[319.176s] -- Installing: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/cmake/export_baxter_core_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[319.176s] -- Installing: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/cmake/export_baxter_core_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[319.176s] -- Installing: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/cmake/baxter_core_msgs__rosidl_typesupport_introspection_cExport.cmake
+[319.176s] -- Installing: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/cmake/baxter_core_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[319.176s] -- Installing: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/cmake/baxter_core_msgs__rosidl_typesupport_cExport.cmake
+[319.177s] -- Installing: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/cmake/baxter_core_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[319.177s] -- Installing: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/cmake/baxter_core_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[319.177s] -- Installing: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/cmake/baxter_core_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[319.177s] -- Installing: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/cmake/baxter_core_msgs__rosidl_typesupport_cppExport.cmake
+[319.177s] -- Installing: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/cmake/baxter_core_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[319.177s] -- Installing: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/cmake/export_baxter_core_msgs__rosidl_generator_pyExport.cmake
+[319.177s] -- Installing: /home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/cmake/export_baxter_core_msgs__rosidl_generator_pyExport-noconfig.cmake
+[319.183s] Invoked command in '/home/mael/ros2_ws/build/baxter_core_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --install /home/mael/ros2_ws/build/baxter_core_msgs

@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing baxter_joint_controller.egg-info/PKG-INFO
+writing dependency_links to baxter_joint_controller.egg-info/dependency_links.txt
+writing entry points to baxter_joint_controller.egg-info/entry_points.txt
+writing requirements to baxter_joint_controller.egg-info/requires.txt
+writing top-level names to baxter_joint_controller.egg-info/top_level.txt
+reading manifest file 'baxter_joint_controller.egg-info/SOURCES.txt'
+writing manifest file 'baxter_joint_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/mael/ros2_ws/install/baxter_joint_controller/lib/python3.10/site-packages/baxter-joint-controller.egg-link (link to .)
+Installing controller script to /home/mael/ros2_ws/install/baxter_joint_controller/lib/baxter_joint_controller
+
+Installed /home/mael/ros2_ws/build/baxter_joint_controller
+running install_data

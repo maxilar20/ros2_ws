@@ -1,0 +1,12 @@
+{
+  "package_name": "baxter_maintenance_msgs",
+  "non_idl_tuples": [
+    "/home/mael/ros2_ws/src/baxter_common_ros2/baxter_maintenance_msgs:msg/UpdateStatus.msg",
+    "/home/mael/ros2_ws/src/baxter_common_ros2/baxter_maintenance_msgs:msg/UpdateSources.msg",
+    "/home/mael/ros2_ws/src/baxter_common_ros2/baxter_maintenance_msgs:msg/TareData.msg",
+    "/home/mael/ros2_ws/src/baxter_common_ros2/baxter_maintenance_msgs:msg/CalibrateArmEnable.msg",
+    "/home/mael/ros2_ws/src/baxter_common_ros2/baxter_maintenance_msgs:msg/CalibrateArmData.msg",
+    "/home/mael/ros2_ws/src/baxter_common_ros2/baxter_maintenance_msgs:msg/TareEnable.msg",
+    "/home/mael/ros2_ws/src/baxter_common_ros2/baxter_maintenance_msgs:msg/UpdateSource.msg"
+  ]
+}

@@ -1,0 +1,31 @@
+[2.600s] Invoking command in '/home/mael/ros2_ws/build/apriltag_ros_pose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --build /home/mael/ros2_ws/build/apriltag_ros_pose -- -j8 -l8
+[3.463s] [ 20%] Built target tags
+[3.463s] [ 60%] Built target apriltag_node
+[3.463s] [100%] Built target AprilTagNode
+[4.269s] Invoked command in '/home/mael/ros2_ws/build/apriltag_ros_pose' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --build /home/mael/ros2_ws/build/apriltag_ros_pose -- -j8 -l8
+[4.725s] Invoking command in '/home/mael/ros2_ws/build/apriltag_ros_pose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --install /home/mael/ros2_ws/build/apriltag_ros_pose
+[4.766s] -- Install configuration: ""
+[4.767s] -- Execute custom install script
+[4.767s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros_pose/lib/apriltag_ros_pose/apriltag_node
+[4.768s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros_pose/share/apriltag_ros_pose/environment/library_path.sh
+[4.769s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros_pose/share/apriltag_ros_pose/environment/library_path.dsv
+[4.771s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros_pose/lib/libAprilTagNode.so
+[4.771s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros_pose/share/apriltag_ros_pose/cfg/tags_36h11.yaml
+[4.772s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros_pose/share/apriltag_ros_pose/launch/v4l2_36h11.launch.yml
+[4.772s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros_pose/share/ament_index/resource_index/package_run_dependencies/apriltag_ros_pose
+[4.772s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros_pose/share/ament_index/resource_index/parent_prefix_path/apriltag_ros_pose
+[4.774s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros_pose/share/apriltag_ros_pose/environment/ament_prefix_path.sh
+[4.774s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros_pose/share/apriltag_ros_pose/environment/ament_prefix_path.dsv
+[4.774s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros_pose/share/apriltag_ros_pose/environment/path.sh
+[4.774s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros_pose/share/apriltag_ros_pose/environment/path.dsv
+[4.775s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros_pose/share/apriltag_ros_pose/local_setup.bash
+[4.775s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros_pose/share/apriltag_ros_pose/local_setup.sh
+[4.775s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros_pose/share/apriltag_ros_pose/local_setup.zsh
+[4.775s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros_pose/share/apriltag_ros_pose/local_setup.dsv
+[4.775s] -- Symlinking: /home/mael/ros2_ws/install/apriltag_ros_pose/share/apriltag_ros_pose/package.dsv
+[4.783s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros_pose/share/ament_index/resource_index/packages/apriltag_ros_pose
+[4.783s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros_pose/share/ament_index/resource_index/rclcpp_components/apriltag_ros_pose
+[4.783s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros_pose/share/apriltag_ros_pose/cmake/apriltag_ros_poseConfig.cmake
+[4.783s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros_pose/share/apriltag_ros_pose/cmake/apriltag_ros_poseConfig-version.cmake
+[4.783s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros_pose/share/apriltag_ros_pose/package.xml
+[6.738s] Invoked command in '/home/mael/ros2_ws/build/apriltag_ros_pose' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --install /home/mael/ros2_ws/build/apriltag_ros_pose

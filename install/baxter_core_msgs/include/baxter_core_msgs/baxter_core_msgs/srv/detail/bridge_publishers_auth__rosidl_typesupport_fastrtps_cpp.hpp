@@ -1,0 +1,1 @@
+/home/mael/ros2_ws/build/baxter_core_msgs/rosidl_typesupport_fastrtps_cpp/baxter_core_msgs/srv/detail/bridge_publishers_auth__rosidl_typesupport_fastrtps_cpp.hpp

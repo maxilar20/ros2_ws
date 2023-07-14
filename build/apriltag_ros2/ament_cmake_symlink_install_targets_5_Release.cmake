@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/mael/ros2_ws/build/apriltag_ros2/apriltag_ros2_single_image_client_node" "TARGETS" "apriltag_ros2_single_image_client_node" "DESTINATION" "lib/apriltag_ros2")

@@ -1,0 +1,103 @@
+[7.715s] Invoking command in '/home/mael/ros2_ws/build/pcl_ros': CMAKE_PREFIX_PATH=/home/mael/ros2_ws/install/pcl_conversions:/home/mael/ros2_ws/install/zed_ros2:/home/mael/ros2_ws/install/zed_wrapper:/home/mael/ros2_ws/install/zed_components:/home/mael/ros2_ws/install/zed_interfaces:/home/mael/ros2_ws/install/baxter_moveit_ros2:/home/mael/ros2_ws/install/baxter_description:/home/mael/ros2_ws/install/rethink_ee_description:/home/mael/ros2_ws/install/perception_pcl:/home/mael/ros2_ws/install/pcl_ros:/home/mael/ros2_ws/install/baxter_maintenance_msgs:/home/mael/ros2_ws/install/baxter_core_msgs:/home/mael/ros2_ws/install/apriltag_ros_pose:/home/mael/ros2_ws/install/apriltag_ros2:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --build /home/mael/ros2_ws/build/pcl_ros -- -j8 -l8
+[7.842s] [  6%] Built target filter_passthrough_node
+[7.843s] [ 12%] Built target filter_extract_indices_node
+[7.846s] [ 19%] Built target filter_project_inliers_node
+[7.867s] [ 25%] Built target pcl_ros_tf
+[7.880s] [ 32%] Built target filter_voxel_grid_node
+[7.883s] [ 38%] Built target pcd_to_pointcloud
+[7.894s] [ 45%] Built target pcd_to_pointcloud_lib
+[7.911s] [ 51%] Built target dummy_topics
+[7.911s] [ 58%] Built target filter_crop_box_node
+[7.922s] [ 64%] Built target filter_statistical_outlier_removal_node
+[7.939s] [ 70%] Built target filter_radius_outlier_removal_node
+[7.949s] [100%] Built target pcl_ros_filters
+[10.546s] Invoked command in '/home/mael/ros2_ws/build/pcl_ros' returned '0': CMAKE_PREFIX_PATH=/home/mael/ros2_ws/install/pcl_conversions:/home/mael/ros2_ws/install/zed_ros2:/home/mael/ros2_ws/install/zed_wrapper:/home/mael/ros2_ws/install/zed_components:/home/mael/ros2_ws/install/zed_interfaces:/home/mael/ros2_ws/install/baxter_moveit_ros2:/home/mael/ros2_ws/install/baxter_description:/home/mael/ros2_ws/install/rethink_ee_description:/home/mael/ros2_ws/install/perception_pcl:/home/mael/ros2_ws/install/pcl_ros:/home/mael/ros2_ws/install/baxter_maintenance_msgs:/home/mael/ros2_ws/install/baxter_core_msgs:/home/mael/ros2_ws/install/apriltag_ros_pose:/home/mael/ros2_ws/install/apriltag_ros2:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --build /home/mael/ros2_ws/build/pcl_ros -- -j8 -l8
+[10.666s] Invoking command in '/home/mael/ros2_ws/build/pcl_ros': CMAKE_PREFIX_PATH=/home/mael/ros2_ws/install/pcl_conversions:/home/mael/ros2_ws/install/zed_ros2:/home/mael/ros2_ws/install/zed_wrapper:/home/mael/ros2_ws/install/zed_components:/home/mael/ros2_ws/install/zed_interfaces:/home/mael/ros2_ws/install/baxter_moveit_ros2:/home/mael/ros2_ws/install/baxter_description:/home/mael/ros2_ws/install/rethink_ee_description:/home/mael/ros2_ws/install/perception_pcl:/home/mael/ros2_ws/install/pcl_ros:/home/mael/ros2_ws/install/baxter_maintenance_msgs:/home/mael/ros2_ws/install/baxter_core_msgs:/home/mael/ros2_ws/install/apriltag_ros_pose:/home/mael/ros2_ws/install/apriltag_ros2:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --install /home/mael/ros2_ws/build/pcl_ros
+[10.679s] -- Install configuration: ""
+[10.679s] -- Execute custom install script
+[10.680s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/lib/pcl_ros/filter_extract_indices_node
+[10.680s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/lib/pcl_ros/filter_passthrough_node
+[10.681s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/lib/pcl_ros/filter_project_inliers_node
+[10.681s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/lib/pcl_ros/filter_radius_outlier_removal_node
+[10.682s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/lib/pcl_ros/filter_statistical_outlier_removal_node
+[10.682s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/lib/pcl_ros/filter_crop_box_node
+[10.683s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/lib/pcl_ros/filter_voxel_grid_node
+[10.683s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/lib/pcl_ros/pcd_to_pointcloud
+[10.685s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/boundary.hpp
+[10.685s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/feature.hpp
+[10.686s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/fpfh.hpp
+[10.686s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/fpfh_omp.hpp
+[10.686s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/moment_invariants.hpp
+[10.686s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/normal_3d.hpp
+[10.686s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/normal_3d_omp.hpp
+[10.687s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/normal_3d_tbb.hpp
+[10.687s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/pfh.hpp
+[10.687s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/principal_curvatures.hpp
+[10.687s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/shot.hpp
+[10.687s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/shot_omp.hpp
+[10.688s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/vfh.hpp
+[10.688s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/crop_box.hpp
+[10.688s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/extract_indices.hpp
+[10.689s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/filter.hpp
+[10.689s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/passthrough.hpp
+[10.689s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/project_inliers.hpp
+[10.689s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/radius_outlier_removal.hpp
+[10.690s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/statistical_outlier_removal.hpp
+[10.690s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/voxel_grid.hpp
+[10.692s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/impl/transforms.hpp
+[10.693s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/io/bag_io.hpp
+[10.693s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/io/concatenate_data.hpp
+[10.693s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/io/concatenate_fields.hpp
+[10.695s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/io/pcd_io.hpp
+[10.695s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/pcl_node.hpp
+[10.696s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/point_cloud.hpp
+[10.697s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/publisher.hpp
+[10.698s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/segmentation/extract_clusters.hpp
+[10.699s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/segmentation/extract_polygonal_prism_data.hpp
+[10.699s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/segmentation/sac_segmentation.hpp
+[10.700s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/segmentation/segment_differences.hpp
+[10.700s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/surface/convex_hull.hpp
+[10.701s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/surface/moving_least_squares.hpp
+[10.701s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/include/pcl_ros/pcl_ros/transforms.hpp
+[10.702s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_features.xml
+[10.702s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_filters.xml
+[10.702s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_io.xml
+[10.703s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_segmentation.xml
+[10.703s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_surface.xml
+[10.703s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/samples/data/.gitignore
+[10.703s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/features/sample_normal_3d.launch
+[10.703s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/config/statistical_outlier_removal.rviz
+[10.704s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/config/voxel_grid.rviz
+[10.704s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/sample_statistical_outlier_removal.launch
+[10.704s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/sample_voxel_grid.launch
+[10.704s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/io/sample_concatenate_data.launch
+[10.704s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/segmentation/sample_extract_clusters.launch
+[10.705s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/surface/sample_convex_hull.launch
+[10.705s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/environment/library_path.sh
+[10.705s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/environment/library_path.dsv
+[10.705s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/share/ament_index/resource_index/package_run_dependencies/pcl_ros
+[10.705s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/share/ament_index/resource_index/parent_prefix_path/pcl_ros
+[10.706s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/environment/ament_prefix_path.sh
+[10.706s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/environment/ament_prefix_path.dsv
+[10.706s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/environment/path.sh
+[10.706s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/environment/path.dsv
+[10.707s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/local_setup.bash
+[10.707s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/local_setup.sh
+[10.707s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/local_setup.zsh
+[10.707s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/local_setup.dsv
+[10.708s] -- Symlinking: /home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/package.dsv
+[10.716s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/share/ament_index/resource_index/packages/pcl_ros
+[10.716s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/share/ament_index/resource_index/rclcpp_components/pcl_ros
+[10.716s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.718s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[10.728s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/cmake/ament_cmake_export_targets-extras.cmake
+[10.728s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.728s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/cmake/pcl_rosConfig.cmake
+[10.728s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/cmake/pcl_rosConfig-version.cmake
+[10.729s] -- Up-to-date symlink: /home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/package.xml
+[10.729s] -- Up-to-date: /home/mael/ros2_ws/install/pcl_ros/lib/libpcl_ros_tf.a
+[10.729s] -- Up-to-date: /home/mael/ros2_ws/install/pcl_ros/lib/libpcd_to_pointcloud_lib.so
+[10.730s] -- Up-to-date: /home/mael/ros2_ws/install/pcl_ros/lib/libpcl_ros_filters.so
+[10.731s] -- Up-to-date: /home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/cmake/export_pcl_rosExport.cmake
+[10.731s] -- Up-to-date: /home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/cmake/export_pcl_rosExport-noconfig.cmake
+[12.486s] Invoked command in '/home/mael/ros2_ws/build/pcl_ros' returned '0': CMAKE_PREFIX_PATH=/home/mael/ros2_ws/install/pcl_conversions:/home/mael/ros2_ws/install/zed_ros2:/home/mael/ros2_ws/install/zed_wrapper:/home/mael/ros2_ws/install/zed_components:/home/mael/ros2_ws/install/zed_interfaces:/home/mael/ros2_ws/install/baxter_moveit_ros2:/home/mael/ros2_ws/install/baxter_description:/home/mael/ros2_ws/install/rethink_ee_description:/home/mael/ros2_ws/install/perception_pcl:/home/mael/ros2_ws/install/pcl_ros:/home/mael/ros2_ws/install/baxter_maintenance_msgs:/home/mael/ros2_ws/install/baxter_core_msgs:/home/mael/ros2_ws/install/apriltag_ros_pose:/home/mael/ros2_ws/install/apriltag_ros2:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --install /home/mael/ros2_ws/build/pcl_ros

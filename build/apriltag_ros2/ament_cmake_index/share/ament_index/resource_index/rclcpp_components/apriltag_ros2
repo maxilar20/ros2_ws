@@ -1,0 +1,3 @@
+apriltag_ros2::ContinuousDetector;lib/libapriltag_ros2_continuous_detector.so
+apriltag_ros2::SingleImageDetector;lib/libapriltag_ros2_single_image_detector.so
+apriltag_ros2::SingleImageClient;lib/libapriltag_ros2_single_image_client.so

@@ -1,0 +1,46 @@
+[1.759s] Invoking command in '/home/mael/ros2_ws/build/baxter_joint_controller': PYTHONPATH=/home/mael/ros2_ws/build/baxter_joint_controller/prefix_override:/home/mael/ros2_ws/install/baxter_joint_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mael/ros2_ws/build/baxter_joint_controller/build --no-deps install_data
+[2.168s] running develop
+[2.169s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.169s]   warnings.warn(
+[2.171s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.171s]   warnings.warn(
+[2.268s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[2.269s]   warnings.warn(
+[2.269s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[2.269s]   warnings.warn(
+[2.270s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[2.270s]   warnings.warn(
+[2.436s] running egg_info
+[2.436s] creating baxter_joint_controller.egg-info
+[2.436s] writing baxter_joint_controller.egg-info/PKG-INFO
+[2.437s] writing dependency_links to baxter_joint_controller.egg-info/dependency_links.txt
+[2.437s] writing entry points to baxter_joint_controller.egg-info/entry_points.txt
+[2.438s] writing requirements to baxter_joint_controller.egg-info/requires.txt
+[2.438s] writing top-level names to baxter_joint_controller.egg-info/top_level.txt
+[2.439s] writing manifest file 'baxter_joint_controller.egg-info/SOURCES.txt'
+[2.442s] reading manifest file 'baxter_joint_controller.egg-info/SOURCES.txt'
+[2.443s] writing manifest file 'baxter_joint_controller.egg-info/SOURCES.txt'
+[2.498s] running build_ext
+[2.499s] Creating /home/mael/ros2_ws/install/baxter_joint_controller/lib/python3.10/site-packages/baxter-joint-controller.egg-link (link to .)
+[2.500s] Installing controller script to /home/mael/ros2_ws/install/baxter_joint_controller/lib/baxter_joint_controller
+[2.500s] 
+[2.501s] Installed /home/mael/ros2_ws/build/baxter_joint_controller
+[2.501s] running install_data
+[2.501s] creating /home/mael/ros2_ws/install/baxter_joint_controller/share/ament_index
+[2.501s] creating /home/mael/ros2_ws/install/baxter_joint_controller/share/ament_index/resource_index
+[2.501s] creating /home/mael/ros2_ws/install/baxter_joint_controller/share/ament_index/resource_index/packages
+[2.502s] copying resource/baxter_joint_controller -> /home/mael/ros2_ws/install/baxter_joint_controller/share/ament_index/resource_index/packages
+[2.502s] copying package.xml -> /home/mael/ros2_ws/install/baxter_joint_controller/share/baxter_joint_controller
+[2.502s] creating /home/mael/ros2_ws/install/baxter_joint_controller/share/baxter_joint_controller/launch
+[2.503s] copying launch/baxter_ros2.launch.py -> /home/mael/ros2_ws/install/baxter_joint_controller/share/baxter_joint_controller/launch
+[2.503s] creating /home/mael/ros2_ws/install/baxter_joint_controller/share/baxter_joint_controller/urdf
+[2.504s] copying urdf/baxter.urdf -> /home/mael/ros2_ws/install/baxter_joint_controller/share/baxter_joint_controller/urdf
+[2.505s] creating /home/mael/ros2_ws/install/baxter_joint_controller/share/baxter_joint_controller/rmpflow
+[2.506s] copying rmpflow/right_robot_descriptor.yaml -> /home/mael/ros2_ws/install/baxter_joint_controller/share/baxter_joint_controller/rmpflow
+[2.507s] copying rmpflow/right_config.json -> /home/mael/ros2_ws/install/baxter_joint_controller/share/baxter_joint_controller/rmpflow
+[2.507s] copying rmpflow/left_robot_descriptor.yaml -> /home/mael/ros2_ws/install/baxter_joint_controller/share/baxter_joint_controller/rmpflow
+[2.508s] copying rmpflow/baxter_rmpflow_common.yaml -> /home/mael/ros2_ws/install/baxter_joint_controller/share/baxter_joint_controller/rmpflow
+[2.508s] copying rmpflow/left_config.json -> /home/mael/ros2_ws/install/baxter_joint_controller/share/baxter_joint_controller/rmpflow
+[2.509s] copying rmpflow/robot_descriptor.yaml -> /home/mael/ros2_ws/install/baxter_joint_controller/share/baxter_joint_controller/rmpflow
+[2.510s] copying baxter_joint_controller/gripper.py -> /home/mael/ros2_ws/install/baxter_joint_controller/lib/baxter_joint_controller
+[2.560s] Invoked command in '/home/mael/ros2_ws/build/baxter_joint_controller' returned '0': PYTHONPATH=/home/mael/ros2_ws/build/baxter_joint_controller/prefix_override:/home/mael/ros2_ws/install/baxter_joint_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mael/ros2_ws/build/baxter_joint_controller/build --no-deps install_data

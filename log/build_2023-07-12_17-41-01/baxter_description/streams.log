@@ -1,0 +1,57 @@
+[2.136s] Invoking command in '/home/mael/ros2_ws/build/baxter_description': CMAKE_PREFIX_PATH=/home/mael/ros2_ws/install/rethink_ee_description:/home/mael/ros2_ws/install/zed_ros2:/home/mael/ros2_ws/install/zed_wrapper:/home/mael/ros2_ws/install/zed_components:/home/mael/ros2_ws/install/zed_interfaces:/home/mael/ros2_ws/install/baxter_moveit_ros2:/home/mael/ros2_ws/install/baxter_description:/home/mael/ros2_ws/install/perception_pcl:/home/mael/ros2_ws/install/pcl_ros:/home/mael/ros2_ws/install/pcl_conversions:/home/mael/ros2_ws/install/baxter_maintenance_msgs:/home/mael/ros2_ws/install/baxter_core_msgs:/home/mael/ros2_ws/install/apriltag_ros_pose:/home/mael/ros2_ws/install/apriltag_ros2:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --build /home/mael/ros2_ws/build/baxter_description -- -j8 -l8
+[2.806s] Invoked command in '/home/mael/ros2_ws/build/baxter_description' returned '0': CMAKE_PREFIX_PATH=/home/mael/ros2_ws/install/rethink_ee_description:/home/mael/ros2_ws/install/zed_ros2:/home/mael/ros2_ws/install/zed_wrapper:/home/mael/ros2_ws/install/zed_components:/home/mael/ros2_ws/install/zed_interfaces:/home/mael/ros2_ws/install/baxter_moveit_ros2:/home/mael/ros2_ws/install/baxter_description:/home/mael/ros2_ws/install/perception_pcl:/home/mael/ros2_ws/install/pcl_ros:/home/mael/ros2_ws/install/pcl_conversions:/home/mael/ros2_ws/install/baxter_maintenance_msgs:/home/mael/ros2_ws/install/baxter_core_msgs:/home/mael/ros2_ws/install/apriltag_ros_pose:/home/mael/ros2_ws/install/apriltag_ros2:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --build /home/mael/ros2_ws/build/baxter_description -- -j8 -l8
+[3.211s] Invoking command in '/home/mael/ros2_ws/build/baxter_description': CMAKE_PREFIX_PATH=/home/mael/ros2_ws/install/rethink_ee_description:/home/mael/ros2_ws/install/zed_ros2:/home/mael/ros2_ws/install/zed_wrapper:/home/mael/ros2_ws/install/zed_components:/home/mael/ros2_ws/install/zed_interfaces:/home/mael/ros2_ws/install/baxter_moveit_ros2:/home/mael/ros2_ws/install/baxter_description:/home/mael/ros2_ws/install/perception_pcl:/home/mael/ros2_ws/install/pcl_ros:/home/mael/ros2_ws/install/pcl_conversions:/home/mael/ros2_ws/install/baxter_maintenance_msgs:/home/mael/ros2_ws/install/baxter_core_msgs:/home/mael/ros2_ws/install/apriltag_ros_pose:/home/mael/ros2_ws/install/apriltag_ros2:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --install /home/mael/ros2_ws/build/baxter_description
+[3.214s] -- Install configuration: ""
+[3.214s] -- Execute custom install script
+[3.214s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/meshes/base/PEDESTAL.DAE
+[3.214s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/meshes/base/PEDESTAL.STL
+[3.214s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/meshes/base/pedestal_link_collision.DAE
+[3.215s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/meshes/base/pedestal_link_collision.STL
+[3.215s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/meshes/head/H0.DAE
+[3.215s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/meshes/head/H0.STL
+[3.215s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/meshes/head/H1.DAE
+[3.216s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/meshes/head/H1.STL
+[3.216s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/meshes/lower_elbow/E1.DAE
+[3.216s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/meshes/lower_elbow/E1.STL
+[3.216s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/meshes/lower_forearm/W1.DAE
+[3.216s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/meshes/lower_forearm/W1.STL
+[3.217s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/meshes/lower_shoulder/S1.DAE
+[3.217s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/meshes/lower_shoulder/S1.STL
+[3.218s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/meshes/torso/base_link.DAE
+[3.218s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/meshes/torso/base_link.STL
+[3.218s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/meshes/torso/base_link_collision.DAE
+[3.219s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/meshes/torso/base_link_collision.STL
+[3.219s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/meshes/upper_elbow/E0.DAE
+[3.219s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/meshes/upper_elbow/E0.STL
+[3.219s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/meshes/upper_forearm/W0.DAE
+[3.220s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/meshes/upper_forearm/W0.STL
+[3.220s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/meshes/upper_shoulder/S0.DAE
+[3.220s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/meshes/upper_shoulder/S0.STL
+[3.220s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/meshes/wrist/W2.DAE
+[3.220s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/meshes/wrist/W2.STL
+[3.221s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/urdf/baxter.urdf.xacro
+[3.221s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/urdf/baxter_base/baxter_base.gazebo.xacro
+[3.221s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/urdf/baxter_base/baxter_base.urdf.xacro
+[3.221s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/urdf/gazebosim.urdf.xacro
+[3.221s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/urdf/left_end_effector.urdf.xacro
+[3.222s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/urdf/pedestal/pedestal.xacro
+[3.222s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/urdf/right_end_effector.urdf.xacro
+[3.222s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/launch/baxter_state_publisher_launch.py
+[3.222s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/launch/config.rviz
+[3.222s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/launch/rviz_launch.py
+[3.223s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/ament_index/resource_index/package_run_dependencies/baxter_description
+[3.223s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/ament_index/resource_index/parent_prefix_path/baxter_description
+[3.223s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/environment/ament_prefix_path.sh
+[3.224s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/environment/ament_prefix_path.dsv
+[3.224s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/environment/path.sh
+[3.224s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/environment/path.dsv
+[3.225s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/local_setup.bash
+[3.225s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/local_setup.sh
+[3.225s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/local_setup.zsh
+[3.225s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/local_setup.dsv
+[3.225s] -- Symlinking: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/package.dsv
+[3.231s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/ament_index/resource_index/packages/baxter_description
+[3.231s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/cmake/baxter_descriptionConfig.cmake
+[3.232s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/cmake/baxter_descriptionConfig-version.cmake
+[3.232s] -- Up-to-date symlink: /home/mael/ros2_ws/install/baxter_description/share/baxter_description/package.xml
+[3.237s] Invoked command in '/home/mael/ros2_ws/build/baxter_description' returned '0': CMAKE_PREFIX_PATH=/home/mael/ros2_ws/install/rethink_ee_description:/home/mael/ros2_ws/install/zed_ros2:/home/mael/ros2_ws/install/zed_wrapper:/home/mael/ros2_ws/install/zed_components:/home/mael/ros2_ws/install/zed_interfaces:/home/mael/ros2_ws/install/baxter_moveit_ros2:/home/mael/ros2_ws/install/baxter_description:/home/mael/ros2_ws/install/perception_pcl:/home/mael/ros2_ws/install/pcl_ros:/home/mael/ros2_ws/install/pcl_conversions:/home/mael/ros2_ws/install/baxter_maintenance_msgs:/home/mael/ros2_ws/install/baxter_core_msgs:/home/mael/ros2_ws/install/apriltag_ros_pose:/home/mael/ros2_ws/install/apriltag_ros2:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --install /home/mael/ros2_ws/build/baxter_description

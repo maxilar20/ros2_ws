@@ -1,0 +1,3 @@
+[console_scripts]
+controller = baxter_joint_controller.controller:main
+

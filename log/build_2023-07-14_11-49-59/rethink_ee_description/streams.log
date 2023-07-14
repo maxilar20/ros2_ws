@@ -1,0 +1,65 @@
+[2.631s] Invoking command in '/home/mael/ros2_ws/build/rethink_ee_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --build /home/mael/ros2_ws/build/rethink_ee_description -- -j8 -l8
+[5.507s] Invoked command in '/home/mael/ros2_ws/build/rethink_ee_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --build /home/mael/ros2_ws/build/rethink_ee_description -- -j8 -l8
+[6.016s] Invoking command in '/home/mael/ros2_ws/build/rethink_ee_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --install /home/mael/ros2_ws/build/rethink_ee_description
+[6.038s] -- Install configuration: ""
+[6.038s] -- Execute custom install script
+[6.038s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/electric_gripper_base.DAE
+[6.038s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/electric_gripper_base.STL
+[6.038s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/electric_gripper_w_fingers.DAE
+[6.038s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/electric_gripper_w_fingers.STL
+[6.038s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/basic_hard_tip.DAE
+[6.038s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/basic_hard_tip.STL
+[6.038s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/basic_soft_tip.DAE
+[6.039s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/basic_soft_tip.STL
+[6.039s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/extended_narrow.DAE
+[6.039s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/extended_narrow.STL
+[6.039s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/extended_wide.DAE
+[6.039s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/extended_wide.STL
+[6.039s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/half_round_tip.DAE
+[6.039s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/half_round_tip.STL
+[6.039s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/limiter.DAE
+[6.039s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/limiter.STL
+[6.039s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/paddle_tip.DAE
+[6.039s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/paddle_tip.STL
+[6.040s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/standard_narrow.DAE
+[6.040s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/standard_narrow.STL
+[6.040s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/standard_wide.DAE
+[6.040s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/standard_wide.STL
+[6.041s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/pneumatic_gripper/archive/pneumatic_gripper.STL
+[6.041s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/pneumatic_gripper/archive/pneumatic_gripper_30mm_cup.STL
+[6.041s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/pneumatic_gripper/pneumatic_gripper_base.DAE
+[6.041s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/pneumatic_gripper/pneumatic_gripper_base.STL
+[6.041s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/pneumatic_gripper/pneumatic_gripper_w_cup.DAE
+[6.041s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/meshes/pneumatic_gripper/pneumatic_gripper_w_cup.STL
+[6.041s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/example_end_effector.urdf.xacro
+[6.041s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/basic_hard_tip.xacro
+[6.041s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/basic_soft_tip.xacro
+[6.042s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/extended_narrow.xacro
+[6.042s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/extended_wide.xacro
+[6.042s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/half_round_tip.xacro
+[6.042s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/none.xacro
+[6.042s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/paddle_tip.xacro
+[6.042s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/standard_narrow.xacro
+[6.042s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/standard_wide.xacro
+[6.042s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/rethink_electric_gripper.xacro
+[6.042s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/null_gripper/example_end_effector.urdf.xacro
+[6.042s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/null_gripper/null_gripper.xacro
+[6.042s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/pneumatic_gripper/example_end_effector.urdf.xacro
+[6.045s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/pneumatic_gripper/pneumatic_gripper_base.xacro
+[6.045s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/urdf/pneumatic_gripper/rethink_pneumatic_gripper.xacro
+[6.045s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/ament_index/resource_index/package_run_dependencies/rethink_ee_description
+[6.045s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/ament_index/resource_index/parent_prefix_path/rethink_ee_description
+[6.046s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/environment/ament_prefix_path.sh
+[6.046s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/environment/ament_prefix_path.dsv
+[6.048s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/environment/path.sh
+[6.049s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/environment/path.dsv
+[6.054s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/local_setup.bash
+[6.054s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/local_setup.sh
+[6.054s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/local_setup.zsh
+[6.054s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/local_setup.dsv
+[6.054s] -- Symlinking: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/package.dsv
+[6.067s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/ament_index/resource_index/packages/rethink_ee_description
+[6.067s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/cmake/rethink_ee_descriptionConfig.cmake
+[6.067s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/cmake/rethink_ee_descriptionConfig-version.cmake
+[6.067s] -- Up-to-date symlink: /home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/package.xml
+[7.780s] Invoked command in '/home/mael/ros2_ws/build/rethink_ee_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --install /home/mael/ros2_ws/build/rethink_ee_description

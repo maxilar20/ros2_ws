@@ -1,0 +1,38 @@
+[1.256s] Invoking command in '/home/mael/ros2_ws/build/ros_tcp_endpoint': PYTHONPATH=/home/mael/ros2_ws/build/ros_tcp_endpoint/prefix_override:/home/mael/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mael/ros2_ws/build/ros_tcp_endpoint/build --no-deps install_data
+[8.064s] running develop
+[8.064s] running egg_info
+[8.064s] creating ros_tcp_endpoint.egg-info
+[8.064s] writing ros_tcp_endpoint.egg-info/PKG-INFO
+[8.064s] writing dependency_links to ros_tcp_endpoint.egg-info/dependency_links.txt
+[8.065s] writing entry points to ros_tcp_endpoint.egg-info/entry_points.txt
+[8.065s] writing requirements to ros_tcp_endpoint.egg-info/requires.txt
+[8.065s] writing top-level names to ros_tcp_endpoint.egg-info/top_level.txt
+[8.065s] writing manifest file 'ros_tcp_endpoint.egg-info/SOURCES.txt'
+[8.066s] reading manifest file 'ros_tcp_endpoint.egg-info/SOURCES.txt'
+[8.066s] writing manifest file 'ros_tcp_endpoint.egg-info/SOURCES.txt'
+[8.069s] running build_ext
+[8.069s] Creating /home/mael/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros-tcp-endpoint.egg-link (link to .)
+[8.070s] Installing default_server_endpoint script to /home/mael/ros2_ws/install/ros_tcp_endpoint/lib/ros_tcp_endpoint
+[8.070s] 
+[8.070s] Installed /home/mael/ros2_ws/build/ros_tcp_endpoint
+[8.071s] running install_data
+[8.071s] creating /home/mael/ros2_ws/install/ros_tcp_endpoint/share/ament_index
+[8.071s] creating /home/mael/ros2_ws/install/ros_tcp_endpoint/share/ament_index/resource_index
+[8.072s] creating /home/mael/ros2_ws/install/ros_tcp_endpoint/share/ament_index/resource_index/packages
+[8.072s] copying resource/ros_tcp_endpoint -> /home/mael/ros2_ws/install/ros_tcp_endpoint/share/ament_index/resource_index/packages
+[8.073s] copying package.xml -> /home/mael/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint
+[8.076s] creating /home/mael/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch
+[8.076s] copying launch/endpoint.py -> /home/mael/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch
+[8.077s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[8.077s]   warnings.warn(
+[8.078s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[8.078s]   warnings.warn(
+[8.078s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.078s]   warnings.warn(
+[8.079s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[8.079s]   warnings.warn(
+[8.079s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[8.080s]   warnings.warn(
+[8.080s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[8.080s]   warnings.warn(
+[8.082s] Invoked command in '/home/mael/ros2_ws/build/ros_tcp_endpoint' returned '0': PYTHONPATH=/home/mael/ros2_ws/build/ros_tcp_endpoint/prefix_override:/home/mael/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mael/ros2_ws/build/ros_tcp_endpoint/build --no-deps install_data

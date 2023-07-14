@@ -1,0 +1,1 @@
+/home/mael/ros2_ws/src/baxter_moveit_ros2/launch/setup_assistant.launch.py

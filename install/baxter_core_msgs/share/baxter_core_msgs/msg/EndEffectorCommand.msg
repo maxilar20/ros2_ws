@@ -1,0 +1,1 @@
+/home/mael/ros2_ws/src/baxter_common_ros2/baxter_core_msgs/msg/EndEffectorCommand.msg

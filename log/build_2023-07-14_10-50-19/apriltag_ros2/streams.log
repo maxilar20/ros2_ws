@@ -1,0 +1,181 @@
+[7.598s] Invoking command in '/home/mael/ros2_ws/build/apriltag_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --build /home/mael/ros2_ws/build/apriltag_ros2 -- -j8 -l8
+[14.469s] [  1%] Built target apriltag_ros2__cpp
+[14.478s] [  1%] Built target ament_cmake_python_symlink_apriltag_ros2
+[14.823s] [  4%] Built target apriltag_ros2_single_image_detector_node
+[14.830s] [  8%] Built target apriltag_ros2_single_image_client_node
+[15.133s] [ 16%] Built target apriltag_ros2__rosidl_generator_c
+[15.604s] [ 19%] Built target apriltag_ros2_continuous_detector_node
+[15.733s] [ 27%] Built target apriltag_ros2__rosidl_typesupport_c
+[15.756s] [ 36%] Built target apriltag_ros2__rosidl_typesupport_cpp
+[15.773s] [ 44%] Built target apriltag_ros2__rosidl_typesupport_fastrtps_cpp
+[15.779s] [ 52%] Built target apriltag_ros2__rosidl_typesupport_fastrtps_c
+[15.942s] running egg_info
+[15.942s] writing apriltag_ros2.egg-info/PKG-INFO
+[15.943s] [ 68%] Built target apriltag_ros2__rosidl_typesupport_introspection_c
+[15.943s] [ 68%] Built target apriltag_ros2__rosidl_typesupport_introspection_cpp
+[16.422s] writing dependency_links to apriltag_ros2.egg-info/dependency_links.txt
+[16.422s] writing top-level names to apriltag_ros2.egg-info/top_level.txt
+[16.425s] reading manifest file 'apriltag_ros2.egg-info/SOURCES.txt'
+[16.545s] writing manifest file 'apriltag_ros2.egg-info/SOURCES.txt'
+[16.921s] [ 68%] Built target ament_cmake_python_build_apriltag_ros2_egg
+[17.249s] [ 68%] Built target apriltag_ros2
+[18.074s] [ 72%] Built target apriltag_ros2_common
+[20.051s] [ 73%] Built target apriltag_ros2__py
+[21.402s] [ 77%] Built target apriltag_ros2_continuous_detector
+[23.849s] [ 83%] Built target apriltag_ros2__rosidl_generator_py
+[25.053s] [ 86%] Built target apriltag_ros2_single_image_detector
+[25.731s] [ 90%] Built target apriltag_ros2__rosidl_typesupport_c__pyext
+[26.957s] [ 93%] Built target apriltag_ros2_single_image_client
+[28.191s] [ 96%] Built target apriltag_ros2__rosidl_typesupport_introspection_c__pyext
+[28.843s] [100%] Built target apriltag_ros2__rosidl_typesupport_fastrtps_c__pyext
+[29.673s] Invoked command in '/home/mael/ros2_ws/build/apriltag_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --build /home/mael/ros2_ws/build/apriltag_ros2 -- -j8 -l8
+[31.492s] Invoking command in '/home/mael/ros2_ws/build/apriltag_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --install /home/mael/ros2_ws/build/apriltag_ros2
+[31.698s] -- Install configuration: "Release"
+[31.939s] -- Execute custom install script
+[31.939s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/ament_index/resource_index/rosidl_interfaces/apriltag_ros2
+[31.941s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/msg/april_tag_detection.h
+[31.942s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/msg/april_tag_detection_array.h
+[31.946s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/msg/detail/april_tag_detection__functions.h
+[31.947s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/msg/detail/april_tag_detection__struct.h
+[31.947s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/msg/detail/april_tag_detection__type_support.h
+[31.947s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/msg/detail/april_tag_detection_array__functions.h
+[31.948s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/msg/detail/april_tag_detection_array__struct.h
+[31.948s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/msg/detail/april_tag_detection_array__type_support.h
+[31.948s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/msg/rosidl_generator_c__visibility_control.h
+[31.948s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/srv/analyze_single_image.h
+[31.948s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/srv/detail/analyze_single_image__functions.h
+[31.949s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/srv/detail/analyze_single_image__struct.h
+[31.949s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/srv/detail/analyze_single_image__type_support.h
+[31.949s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/environment/library_path.sh
+[31.949s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/environment/library_path.dsv
+[31.949s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/msg/detail/april_tag_detection__rosidl_typesupport_fastrtps_c.h
+[31.949s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/msg/detail/april_tag_detection_array__rosidl_typesupport_fastrtps_c.h
+[31.949s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[31.949s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/srv/detail/analyze_single_image__rosidl_typesupport_fastrtps_c.h
+[31.949s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/msg/april_tag_detection.hpp
+[31.949s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/msg/april_tag_detection_array.hpp
+[31.950s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/msg/detail/april_tag_detection__builder.hpp
+[31.950s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/msg/detail/april_tag_detection__struct.hpp
+[31.950s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/msg/detail/april_tag_detection__traits.hpp
+[31.950s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/msg/detail/april_tag_detection_array__builder.hpp
+[31.950s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/msg/detail/april_tag_detection_array__struct.hpp
+[31.950s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/msg/detail/april_tag_detection_array__traits.hpp
+[31.950s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/srv/analyze_single_image.hpp
+[31.950s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/srv/detail/analyze_single_image__builder.hpp
+[31.950s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/srv/detail/analyze_single_image__struct.hpp
+[31.950s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/srv/detail/analyze_single_image__traits.hpp
+[31.950s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/msg/detail/april_tag_detection__rosidl_typesupport_fastrtps_cpp.hpp
+[31.950s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/msg/detail/april_tag_detection_array__rosidl_typesupport_fastrtps_cpp.hpp
+[31.950s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[31.951s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/srv/detail/analyze_single_image__rosidl_typesupport_fastrtps_cpp.hpp
+[31.951s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/msg/detail/april_tag_detection__rosidl_typesupport_introspection_c.h
+[31.951s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/msg/detail/april_tag_detection_array__rosidl_typesupport_introspection_c.h
+[31.951s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[31.951s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/srv/detail/analyze_single_image__rosidl_typesupport_introspection_c.h
+[31.951s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/msg/detail/april_tag_detection__rosidl_typesupport_introspection_cpp.hpp
+[31.951s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/msg/detail/april_tag_detection_array__rosidl_typesupport_introspection_cpp.hpp
+[31.951s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/apriltag_ros2/srv/detail/analyze_single_image__rosidl_typesupport_introspection_cpp.hpp
+[31.951s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/environment/pythonpath.sh
+[31.951s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/environment/pythonpath.dsv
+[31.951s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/local/lib/python3.10/dist-packages/apriltag_ros2-3.2.1-py3.10.egg-info/PKG-INFO
+[31.951s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/local/lib/python3.10/dist-packages/apriltag_ros2-3.2.1-py3.10.egg-info/SOURCES.txt
+[31.951s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/local/lib/python3.10/dist-packages/apriltag_ros2-3.2.1-py3.10.egg-info/dependency_links.txt
+[31.952s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/local/lib/python3.10/dist-packages/apriltag_ros2-3.2.1-py3.10.egg-info/top_level.txt
+[31.952s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/local/lib/python3.10/dist-packages/apriltag_ros2/__init__.py
+[31.952s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/local/lib/python3.10/dist-packages/apriltag_ros2/_apriltag_ros2_s.ep.rosidl_typesupport_c.c
+[31.952s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/local/lib/python3.10/dist-packages/apriltag_ros2/_apriltag_ros2_s.ep.rosidl_typesupport_fastrtps_c.c
+[31.952s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/local/lib/python3.10/dist-packages/apriltag_ros2/_apriltag_ros2_s.ep.rosidl_typesupport_introspection_c.c
+[31.952s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/local/lib/python3.10/dist-packages/apriltag_ros2/apriltag_ros2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[31.952s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/local/lib/python3.10/dist-packages/apriltag_ros2/apriltag_ros2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[31.953s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/local/lib/python3.10/dist-packages/apriltag_ros2/apriltag_ros2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[31.953s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/local/lib/python3.10/dist-packages/apriltag_ros2/libapriltag_ros2__rosidl_generator_py.so
+[31.953s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/local/lib/python3.10/dist-packages/apriltag_ros2/msg/__init__.py
+[31.953s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/local/lib/python3.10/dist-packages/apriltag_ros2/msg/_april_tag_detection.py
+[31.953s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/local/lib/python3.10/dist-packages/apriltag_ros2/msg/_april_tag_detection_array.py
+[31.954s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/local/lib/python3.10/dist-packages/apriltag_ros2/msg/_april_tag_detection_array_s.c
+[31.954s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/local/lib/python3.10/dist-packages/apriltag_ros2/msg/_april_tag_detection_s.c
+[31.954s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/local/lib/python3.10/dist-packages/apriltag_ros2/srv/__init__.py
+[31.954s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/local/lib/python3.10/dist-packages/apriltag_ros2/srv/_analyze_single_image.py
+[31.955s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/local/lib/python3.10/dist-packages/apriltag_ros2/srv/_analyze_single_image_s.c
+[32.282s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/local/lib/python3.10/dist-packages/apriltag_ros2/apriltag_ros2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[32.287s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/local/lib/python3.10/dist-packages/apriltag_ros2/apriltag_ros2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[32.432s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/local/lib/python3.10/dist-packages/apriltag_ros2/apriltag_ros2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[32.434s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/msg/AprilTagDetection.idl
+[32.435s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/msg/AprilTagDetectionArray.idl
+[32.436s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/srv/AnalyzeSingleImage.idl
+[32.437s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/msg/AprilTagDetection.msg
+[32.438s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/msg/AprilTagDetectionArray.msg
+[32.440s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/srv/AnalyzeSingleImage.srv
+[32.441s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/srv/AnalyzeSingleImage_Request.msg
+[32.443s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/srv/AnalyzeSingleImage_Response.msg
+[32.711s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/lib/apriltag_ros2/apriltag_ros2_continuous_detector_node
+[32.764s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/lib/apriltag_ros2/apriltag_ros2_single_image_detector_node
+[33.003s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/lib/apriltag_ros2/apriltag_ros2_single_image_client_node
+[33.006s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/common_functions.hpp
+[33.007s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/continuous_detector.hpp
+[33.008s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/include/apriltag_ros2/single_image_detector.hpp
+[33.108s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/lib/libapriltag_ros2_common.so
+[33.109s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/lib/libapriltag_ros2_continuous_detector.so
+[33.109s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/lib/libapriltag_ros2_single_image_detector.so
+[33.110s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/lib/libapriltag_ros2_single_image_client.so
+[33.348s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/config/settings.param.yaml
+[33.348s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/config/tags.param.yaml
+[33.348s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/config/tags.yaml
+[33.348s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/launch/continuous_detection.launch.xml
+[33.349s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/launch/continuous_detection_zed.launch.xml
+[33.349s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/launch/single_image_client.launch.xml
+[33.349s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/launch/single_image_detector.launch.xml
+[33.349s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/scripts/analyze_image
+[33.350s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/scripts/calibrate_bundle.m
+[33.350s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/ament_index/resource_index/package_run_dependencies/apriltag_ros2
+[33.350s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/ament_index/resource_index/parent_prefix_path/apriltag_ros2
+[33.351s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/environment/ament_prefix_path.sh
+[33.351s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/environment/ament_prefix_path.dsv
+[33.351s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/environment/path.sh
+[33.352s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/environment/path.dsv
+[33.352s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/local_setup.bash
+[33.352s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/local_setup.sh
+[33.353s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/local_setup.zsh
+[33.353s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/local_setup.dsv
+[33.353s] -- Symlinking: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/package.dsv
+[33.363s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/ament_index/resource_index/packages/apriltag_ros2
+[33.364s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/ament_index/resource_index/rclcpp_components/apriltag_ros2
+[33.364s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/cmake/rosidl_cmake-extras.cmake
+[33.364s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[33.364s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[33.364s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/cmake/ament_cmake_export_libraries-extras.cmake
+[33.365s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/cmake/ament_cmake_export_targets-extras.cmake
+[33.365s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[33.365s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[33.365s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/cmake/apriltag_ros2Config.cmake
+[33.366s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/cmake/apriltag_ros2Config-version.cmake
+[33.366s] -- Up-to-date symlink: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/package.xml
+[33.799s] -- Up-to-date: /home/mael/ros2_ws/install/apriltag_ros2/lib/libapriltag_ros2__rosidl_generator_c.so
+[34.525s] -- Up-to-date: /home/mael/ros2_ws/install/apriltag_ros2/lib/libapriltag_ros2__rosidl_typesupport_fastrtps_c.so
+[34.907s] -- Up-to-date: /home/mael/ros2_ws/install/apriltag_ros2/lib/libapriltag_ros2__rosidl_typesupport_fastrtps_cpp.so
+[35.727s] -- Up-to-date: /home/mael/ros2_ws/install/apriltag_ros2/lib/libapriltag_ros2__rosidl_typesupport_introspection_c.so
+[35.736s] -- Up-to-date: /home/mael/ros2_ws/install/apriltag_ros2/lib/libapriltag_ros2__rosidl_typesupport_c.so
+[36.082s] -- Up-to-date: /home/mael/ros2_ws/install/apriltag_ros2/lib/libapriltag_ros2__rosidl_typesupport_introspection_cpp.so
+[36.724s] -- Up-to-date: /home/mael/ros2_ws/install/apriltag_ros2/lib/libapriltag_ros2__rosidl_typesupport_cpp.so
+[37.513s] Listing '/home/mael/ros2_ws/install/apriltag_ros2/local/lib/python3.10/dist-packages/apriltag_ros2'...
+[37.513s] Listing '/home/mael/ros2_ws/install/apriltag_ros2/local/lib/python3.10/dist-packages/apriltag_ros2/msg'...
+[37.513s] Listing '/home/mael/ros2_ws/install/apriltag_ros2/local/lib/python3.10/dist-packages/apriltag_ros2/srv'...
+[37.651s] -- Up-to-date: /home/mael/ros2_ws/install/apriltag_ros2/lib/libapriltag_ros2__rosidl_generator_py.so
+[38.081s] -- Up-to-date: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/cmake/export_apriltag_ros2__rosidl_generator_cExport.cmake
+[38.082s] -- Up-to-date: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/cmake/export_apriltag_ros2__rosidl_generator_cExport-release.cmake
+[38.086s] -- Up-to-date: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/cmake/export_apriltag_ros2__rosidl_typesupport_fastrtps_cExport.cmake
+[38.086s] -- Up-to-date: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/cmake/export_apriltag_ros2__rosidl_typesupport_fastrtps_cExport-release.cmake
+[38.092s] -- Up-to-date: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/cmake/export_apriltag_ros2__rosidl_generator_cppExport.cmake
+[38.318s] -- Up-to-date: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/cmake/export_apriltag_ros2__rosidl_typesupport_fastrtps_cppExport.cmake
+[38.318s] -- Up-to-date: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/cmake/export_apriltag_ros2__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[38.891s] -- Up-to-date: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/cmake/apriltag_ros2__rosidl_typesupport_introspection_cExport.cmake
+[38.892s] -- Up-to-date: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/cmake/apriltag_ros2__rosidl_typesupport_introspection_cExport-release.cmake
+[38.905s] -- Up-to-date: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/cmake/apriltag_ros2__rosidl_typesupport_cExport.cmake
+[38.906s] -- Up-to-date: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/cmake/apriltag_ros2__rosidl_typesupport_cExport-release.cmake
+[38.912s] -- Up-to-date: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/cmake/apriltag_ros2__rosidl_typesupport_introspection_cppExport.cmake
+[38.912s] -- Up-to-date: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/cmake/apriltag_ros2__rosidl_typesupport_introspection_cppExport-release.cmake
+[39.165s] -- Up-to-date: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/cmake/apriltag_ros2__rosidl_typesupport_cppExport.cmake
+[39.166s] -- Up-to-date: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/cmake/apriltag_ros2__rosidl_typesupport_cppExport-release.cmake
+[39.803s] -- Up-to-date: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/cmake/export_apriltag_ros2__rosidl_generator_pyExport.cmake
+[39.804s] -- Up-to-date: /home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/cmake/export_apriltag_ros2__rosidl_generator_pyExport-release.cmake
+[40.124s] Invoked command in '/home/mael/ros2_ws/build/apriltag_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --install /home/mael/ros2_ws/build/apriltag_ros2

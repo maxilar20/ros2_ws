@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing baxter_6dof_vr.egg-info/PKG-INFO
+writing dependency_links to baxter_6dof_vr.egg-info/dependency_links.txt
+writing entry points to baxter_6dof_vr.egg-info/entry_points.txt
+writing requirements to baxter_6dof_vr.egg-info/requires.txt
+writing top-level names to baxter_6dof_vr.egg-info/top_level.txt
+reading manifest file 'baxter_6dof_vr.egg-info/SOURCES.txt'
+writing manifest file 'baxter_6dof_vr.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/mael/ros2_ws/install/baxter_6dof_vr/lib/python3.10/site-packages/baxter-6dof-vr.egg-link (link to .)
+Installing pose_to_tf script to /home/mael/ros2_ws/install/baxter_6dof_vr/lib/baxter_6dof_vr
+
+Installed /home/mael/ros2_ws/build/baxter_6dof_vr
+running install_data
+copying launch/pointcloud_aligned_apriltag.launch.py -> /home/mael/ros2_ws/install/baxter_6dof_vr/share/baxter_6dof_vr/launch

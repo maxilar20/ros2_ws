@@ -1,0 +1,27 @@
+[2.120s] Invoking command in '/home/mael/ros2_ws/build/baxter_joint_controller': PYTHONPATH=/home/mael/ros2_ws/build/baxter_joint_controller/prefix_override:/home/mael/ros2_ws/install/baxter_joint_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mael/ros2_ws/build/baxter_joint_controller/build --no-deps install_data
+[2.812s] running develop
+[2.812s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.812s]   warnings.warn(
+[2.815s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.816s]   warnings.warn(
+[2.971s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[2.971s]   warnings.warn(
+[2.971s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[2.971s]   warnings.warn(
+[2.972s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[2.972s]   warnings.warn(
+[3.238s] running egg_info
+[3.238s] writing baxter_joint_controller.egg-info/PKG-INFO
+[3.238s] writing dependency_links to baxter_joint_controller.egg-info/dependency_links.txt
+[3.238s] writing entry points to baxter_joint_controller.egg-info/entry_points.txt
+[3.238s] writing requirements to baxter_joint_controller.egg-info/requires.txt
+[3.239s] writing top-level names to baxter_joint_controller.egg-info/top_level.txt
+[3.239s] reading manifest file 'baxter_joint_controller.egg-info/SOURCES.txt'
+[3.239s] writing manifest file 'baxter_joint_controller.egg-info/SOURCES.txt'
+[3.301s] running build_ext
+[3.301s] Creating /home/mael/ros2_ws/install/baxter_joint_controller/lib/python3.10/site-packages/baxter-joint-controller.egg-link (link to .)
+[3.303s] Installing controller script to /home/mael/ros2_ws/install/baxter_joint_controller/lib/baxter_joint_controller
+[3.303s] 
+[3.303s] Installed /home/mael/ros2_ws/build/baxter_joint_controller
+[3.303s] running install_data
+[3.358s] Invoked command in '/home/mael/ros2_ws/build/baxter_joint_controller' returned '0': PYTHONPATH=/home/mael/ros2_ws/build/baxter_joint_controller/prefix_override:/home/mael/ros2_ws/install/baxter_joint_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mael/ros2_ws/build/baxter_joint_controller/build --no-deps install_data

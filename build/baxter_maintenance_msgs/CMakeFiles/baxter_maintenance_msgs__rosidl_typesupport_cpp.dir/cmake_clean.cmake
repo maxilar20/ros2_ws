@@ -1,0 +1,30 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_maintenance_msgs/msg/calibrate_arm_data__type_support.cpp.o"
+  "CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_maintenance_msgs/msg/calibrate_arm_data__type_support.cpp.o.d"
+  "CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_maintenance_msgs/msg/calibrate_arm_enable__type_support.cpp.o"
+  "CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_maintenance_msgs/msg/calibrate_arm_enable__type_support.cpp.o.d"
+  "CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_maintenance_msgs/msg/tare_data__type_support.cpp.o"
+  "CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_maintenance_msgs/msg/tare_data__type_support.cpp.o.d"
+  "CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_maintenance_msgs/msg/tare_enable__type_support.cpp.o"
+  "CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_maintenance_msgs/msg/tare_enable__type_support.cpp.o.d"
+  "CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_maintenance_msgs/msg/update_source__type_support.cpp.o"
+  "CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_maintenance_msgs/msg/update_source__type_support.cpp.o.d"
+  "CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_maintenance_msgs/msg/update_sources__type_support.cpp.o"
+  "CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_maintenance_msgs/msg/update_sources__type_support.cpp.o.d"
+  "CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_maintenance_msgs/msg/update_status__type_support.cpp.o"
+  "CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baxter_maintenance_msgs/msg/update_status__type_support.cpp.o.d"
+  "libbaxter_maintenance_msgs__rosidl_typesupport_cpp.pdb"
+  "libbaxter_maintenance_msgs__rosidl_typesupport_cpp.so"
+  "rosidl_typesupport_cpp/baxter_maintenance_msgs/msg/calibrate_arm_data__type_support.cpp"
+  "rosidl_typesupport_cpp/baxter_maintenance_msgs/msg/calibrate_arm_enable__type_support.cpp"
+  "rosidl_typesupport_cpp/baxter_maintenance_msgs/msg/tare_data__type_support.cpp"
+  "rosidl_typesupport_cpp/baxter_maintenance_msgs/msg/tare_enable__type_support.cpp"
+  "rosidl_typesupport_cpp/baxter_maintenance_msgs/msg/update_source__type_support.cpp"
+  "rosidl_typesupport_cpp/baxter_maintenance_msgs/msg/update_sources__type_support.cpp"
+  "rosidl_typesupport_cpp/baxter_maintenance_msgs/msg/update_status__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/baxter_maintenance_msgs__rosidl_typesupport_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,1 @@
+/home/mael/ros2_ws/build/apriltag_ros2/rosidl_generator_py/apriltag_ros2/srv/__init__.py

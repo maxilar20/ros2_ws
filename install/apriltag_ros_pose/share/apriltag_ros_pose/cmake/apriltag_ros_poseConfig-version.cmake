@@ -1,0 +1,1 @@
+/home/mael/ros2_ws/build/apriltag_ros_pose/ament_cmake_core/apriltag_ros_poseConfig-version.cmake

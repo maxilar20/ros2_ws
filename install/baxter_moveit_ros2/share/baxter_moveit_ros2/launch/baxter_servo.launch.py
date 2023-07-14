@@ -1,0 +1,1 @@
+/home/mael/ros2_ws/src/baxter_moveit_ros2/launch/baxter_servo.launch.py

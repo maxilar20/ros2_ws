@@ -1,0 +1,388 @@
+[7.164s] Invoking command in '/home/mael/ros2_ws/build/zed_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --build /home/mael/ros2_ws/build/zed_interfaces -- -j8 -l8
+[16.731s] [  0%] Built target ament_cmake_python_symlink_zed_interfaces
+[17.030s] [  0%] Built target zed_interfaces__cpp
+[17.157s] [ 12%] Built target zed_interfaces__rosidl_generator_c
+[17.622s] [ 24%] Built target zed_interfaces__rosidl_typesupport_fastrtps_cpp
+[18.033s] running egg_info
+[18.036s] writing zed_interfaces.egg-info/PKG-INFO
+[18.388s] writing dependency_links to zed_interfaces.egg-info/dependency_links.txt
+[18.388s] [ 36%] Built target zed_interfaces__rosidl_typesupport_introspection_cpp
+[18.521s] writing top-level names to zed_interfaces.egg-info/top_level.txt
+[18.553s] [ 48%] Built target zed_interfaces__rosidl_typesupport_cpp
+[18.561s] [ 60%] Built target zed_interfaces__rosidl_typesupport_c
+[18.728s] [ 72%] Built target zed_interfaces__rosidl_typesupport_introspection_c
+[18.735s] reading manifest file 'zed_interfaces.egg-info/SOURCES.txt'
+[18.755s] [ 84%] Built target zed_interfaces__rosidl_typesupport_fastrtps_c
+[19.079s] writing manifest file 'zed_interfaces.egg-info/SOURCES.txt'
+[19.330s] [ 84%] Built target ament_cmake_python_build_zed_interfaces_egg
+[19.705s] [ 84%] Built target zed_interfaces
+[20.042s] [ 85%] Built target zed_interfaces__py
+[20.896s] [ 96%] Built target zed_interfaces__rosidl_generator_py
+[22.836s] [ 97%] Built target zed_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[23.684s] [ 98%] Built target zed_interfaces__rosidl_typesupport_c__pyext
+[26.426s] [100%] Built target zed_interfaces__rosidl_typesupport_introspection_c__pyext
+[31.601s] Invoked command in '/home/mael/ros2_ws/build/zed_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --build /home/mael/ros2_ws/build/zed_interfaces -- -j8 -l8
+[33.701s] Invoking command in '/home/mael/ros2_ws/build/zed_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --install /home/mael/ros2_ws/build/zed_interfaces
+[33.954s] -- Install configuration: ""
+[33.959s] -- Execute custom install script
+[33.960s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/ament_index/resource_index/rosidl_interfaces/zed_interfaces
+[33.961s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/bounding_box2_df.h
+[33.963s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/bounding_box2_di.h
+[33.963s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/bounding_box3_d.h
+[33.963s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/depth_info_stamped.h
+[33.964s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__functions.h
+[33.964s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__struct.h
+[33.964s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__type_support.h
+[33.964s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__functions.h
+[33.964s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__struct.h
+[33.964s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__type_support.h
+[33.965s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__functions.h
+[33.965s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__struct.h
+[33.966s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__type_support.h
+[33.966s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__functions.h
+[33.966s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__struct.h
+[33.967s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__type_support.h
+[33.967s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__functions.h
+[33.967s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__struct.h
+[33.967s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__type_support.h
+[33.967s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__functions.h
+[33.968s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__struct.h
+[33.968s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__type_support.h
+[33.968s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__functions.h
+[33.968s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__struct.h
+[33.968s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__type_support.h
+[33.969s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__functions.h
+[33.969s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__struct.h
+[33.969s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__type_support.h
+[33.969s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__functions.h
+[33.969s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__struct.h
+[33.969s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__type_support.h
+[33.970s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__functions.h
+[33.970s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__struct.h
+[33.970s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__type_support.h
+[33.970s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__functions.h
+[33.970s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__struct.h
+[33.970s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__type_support.h
+[33.971s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__functions.h
+[33.971s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__struct.h
+[33.971s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__type_support.h
+[33.971s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__functions.h
+[33.971s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__struct.h
+[33.971s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__type_support.h
+[33.971s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__functions.h
+[33.971s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__struct.h
+[33.971s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__type_support.h
+[33.971s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/heartbeat.h
+[33.971s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/keypoint2_df.h
+[33.972s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/keypoint2_di.h
+[33.972s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/keypoint3_d.h
+[33.972s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/object.h
+[33.972s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/objects_stamped.h
+[33.972s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/plane_stamped.h
+[33.972s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/pos_track_status.h
+[33.972s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/rosidl_generator_c__visibility_control.h
+[33.972s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/skeleton2_d.h
+[33.972s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/skeleton3_d.h
+[33.972s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__functions.h
+[33.972s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__struct.h
+[33.972s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__type_support.h
+[33.972s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__functions.h
+[33.973s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__struct.h
+[33.973s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__type_support.h
+[33.973s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__functions.h
+[33.973s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__struct.h
+[33.973s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__type_support.h
+[33.973s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/set_pose.h
+[33.973s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/set_roi.h
+[33.973s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/start_svo_rec.h
+[33.973s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/library_path.sh
+[33.973s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/library_path.dsv
+[33.974s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__rosidl_typesupport_fastrtps_c.h
+[33.974s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__rosidl_typesupport_fastrtps_c.h
+[33.974s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_c.h
+[33.975s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__rosidl_typesupport_fastrtps_c.h
+[33.975s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__rosidl_typesupport_fastrtps_c.h
+[33.975s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__rosidl_typesupport_fastrtps_c.h
+[33.975s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__rosidl_typesupport_fastrtps_c.h
+[33.975s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__rosidl_typesupport_fastrtps_c.h
+[33.976s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__rosidl_typesupport_fastrtps_c.h
+[33.976s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__rosidl_typesupport_fastrtps_c.h
+[33.976s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__rosidl_typesupport_fastrtps_c.h
+[33.976s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__rosidl_typesupport_fastrtps_c.h
+[33.977s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__rosidl_typesupport_fastrtps_c.h
+[33.977s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__rosidl_typesupport_fastrtps_c.h
+[33.977s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[33.977s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__rosidl_typesupport_fastrtps_c.h
+[33.977s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__rosidl_typesupport_fastrtps_c.h
+[33.978s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__rosidl_typesupport_fastrtps_c.h
+[33.980s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/bounding_box2_df.hpp
+[33.980s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/bounding_box2_di.hpp
+[33.980s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/bounding_box3_d.hpp
+[33.980s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/depth_info_stamped.hpp
+[33.980s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__builder.hpp
+[33.981s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__struct.hpp
+[33.981s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__traits.hpp
+[33.981s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__builder.hpp
+[33.981s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__struct.hpp
+[33.982s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__traits.hpp
+[33.982s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__builder.hpp
+[33.982s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__struct.hpp
+[33.982s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__traits.hpp
+[33.982s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__builder.hpp
+[33.983s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__struct.hpp
+[33.983s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__traits.hpp
+[33.983s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__builder.hpp
+[33.983s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__struct.hpp
+[33.984s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__traits.hpp
+[33.984s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__builder.hpp
+[33.984s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__struct.hpp
+[33.984s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__traits.hpp
+[33.984s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__builder.hpp
+[33.985s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__struct.hpp
+[33.985s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__traits.hpp
+[33.985s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__builder.hpp
+[33.985s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__struct.hpp
+[33.985s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__traits.hpp
+[33.986s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__builder.hpp
+[33.986s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__struct.hpp
+[33.986s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__traits.hpp
+[33.986s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__builder.hpp
+[33.986s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__struct.hpp
+[33.987s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__traits.hpp
+[33.987s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__builder.hpp
+[33.987s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__struct.hpp
+[33.987s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__traits.hpp
+[33.987s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__builder.hpp
+[33.988s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__struct.hpp
+[33.988s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__traits.hpp
+[33.988s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__builder.hpp
+[33.988s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__struct.hpp
+[33.988s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__traits.hpp
+[33.989s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__builder.hpp
+[33.989s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__struct.hpp
+[33.989s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__traits.hpp
+[33.989s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/heartbeat.hpp
+[33.989s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/keypoint2_df.hpp
+[33.990s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/keypoint2_di.hpp
+[33.990s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/keypoint3_d.hpp
+[33.990s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/object.hpp
+[33.990s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/objects_stamped.hpp
+[33.990s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/plane_stamped.hpp
+[33.991s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/pos_track_status.hpp
+[33.991s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/skeleton2_d.hpp
+[33.991s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/skeleton3_d.hpp
+[33.991s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__builder.hpp
+[33.991s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__struct.hpp
+[33.991s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__traits.hpp
+[33.992s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__builder.hpp
+[33.992s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__struct.hpp
+[33.992s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__traits.hpp
+[33.992s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__builder.hpp
+[33.992s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__struct.hpp
+[33.993s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__traits.hpp
+[33.993s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/set_pose.hpp
+[33.993s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/set_roi.hpp
+[33.993s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/start_svo_rec.hpp
+[33.995s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__rosidl_typesupport_fastrtps_cpp.hpp
+[33.995s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__rosidl_typesupport_fastrtps_cpp.hpp
+[33.995s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[33.995s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[33.995s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__rosidl_typesupport_fastrtps_cpp.hpp
+[33.996s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__rosidl_typesupport_fastrtps_cpp.hpp
+[33.996s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__rosidl_typesupport_fastrtps_cpp.hpp
+[33.996s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[33.996s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp
+[33.996s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[33.997s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[33.997s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__rosidl_typesupport_fastrtps_cpp.hpp
+[33.997s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[33.997s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[33.997s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[33.997s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[33.998s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__rosidl_typesupport_fastrtps_cpp.hpp
+[33.998s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__rosidl_typesupport_fastrtps_cpp.hpp
+[33.999s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__rosidl_typesupport_introspection_c.h
+[33.999s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__rosidl_typesupport_introspection_c.h
+[33.999s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_c.h
+[33.999s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__rosidl_typesupport_introspection_c.h
+[33.999s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__rosidl_typesupport_introspection_c.h
+[34.000s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__rosidl_typesupport_introspection_c.h
+[34.000s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__rosidl_typesupport_introspection_c.h
+[34.000s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__rosidl_typesupport_introspection_c.h
+[34.000s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__rosidl_typesupport_introspection_c.h
+[34.000s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__rosidl_typesupport_introspection_c.h
+[34.001s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__rosidl_typesupport_introspection_c.h
+[34.001s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__rosidl_typesupport_introspection_c.h
+[34.001s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__rosidl_typesupport_introspection_c.h
+[34.001s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__rosidl_typesupport_introspection_c.h
+[34.001s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[34.002s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__rosidl_typesupport_introspection_c.h
+[34.002s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__rosidl_typesupport_introspection_c.h
+[34.002s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__rosidl_typesupport_introspection_c.h
+[34.003s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_df__rosidl_typesupport_introspection_cpp.hpp
+[34.003s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box2_di__rosidl_typesupport_introspection_cpp.hpp
+[34.003s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/bounding_box3_d__rosidl_typesupport_introspection_cpp.hpp
+[34.003s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/depth_info_stamped__rosidl_typesupport_introspection_cpp.hpp
+[34.003s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/heartbeat__rosidl_typesupport_introspection_cpp.hpp
+[34.004s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_df__rosidl_typesupport_introspection_cpp.hpp
+[34.004s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint2_di__rosidl_typesupport_introspection_cpp.hpp
+[34.004s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/keypoint3_d__rosidl_typesupport_introspection_cpp.hpp
+[34.004s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp
+[34.004s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/objects_stamped__rosidl_typesupport_introspection_cpp.hpp
+[34.004s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/plane_stamped__rosidl_typesupport_introspection_cpp.hpp
+[34.005s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/pos_track_status__rosidl_typesupport_introspection_cpp.hpp
+[34.005s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton2_d__rosidl_typesupport_introspection_cpp.hpp
+[34.005s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/msg/detail/skeleton3_d__rosidl_typesupport_introspection_cpp.hpp
+[34.005s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_pose__rosidl_typesupport_introspection_cpp.hpp
+[34.005s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/set_roi__rosidl_typesupport_introspection_cpp.hpp
+[34.005s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/include/zed_interfaces/zed_interfaces/srv/detail/start_svo_rec__rosidl_typesupport_introspection_cpp.hpp
+[34.006s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/pythonpath.sh
+[34.006s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/pythonpath.dsv
+[34.006s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces-4.0.0-py3.10.egg-info/PKG-INFO
+[34.007s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces-4.0.0-py3.10.egg-info/SOURCES.txt
+[34.007s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces-4.0.0-py3.10.egg-info/dependency_links.txt
+[34.007s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces-4.0.0-py3.10.egg-info/top_level.txt
+[34.009s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/__init__.py
+[34.009s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/_zed_interfaces_s.ep.rosidl_typesupport_c.c
+[34.009s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/_zed_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[34.009s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/_zed_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[34.009s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/libzed_interfaces__rosidl_generator_py.so
+[34.009s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/__init__.py
+[34.009s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_bounding_box2_df.py
+[34.010s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_bounding_box2_df_s.c
+[34.010s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_bounding_box2_di.py
+[34.010s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_bounding_box2_di_s.c
+[34.010s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_bounding_box3_d.py
+[34.010s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_bounding_box3_d_s.c
+[34.010s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_depth_info_stamped.py
+[34.011s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_depth_info_stamped_s.c
+[34.011s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_heartbeat.py
+[34.011s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_heartbeat_s.c
+[34.011s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_keypoint2_df.py
+[34.011s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_keypoint2_df_s.c
+[34.011s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_keypoint2_di.py
+[34.012s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_keypoint2_di_s.c
+[34.012s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_keypoint3_d.py
+[34.012s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_keypoint3_d_s.c
+[34.012s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_object.py
+[34.012s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_object_s.c
+[34.012s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_objects_stamped.py
+[34.013s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_objects_stamped_s.c
+[34.013s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_plane_stamped.py
+[34.013s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_plane_stamped_s.c
+[34.013s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_pos_track_status.py
+[34.013s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_pos_track_status_s.c
+[34.013s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_skeleton2_d.py
+[34.014s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_skeleton2_d_s.c
+[34.014s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_skeleton3_d.py
+[34.014s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg/_skeleton3_d_s.c
+[34.014s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv/__init__.py
+[34.014s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv/_set_pose.py
+[34.015s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv/_set_pose_s.c
+[34.015s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv/_set_roi.py
+[34.015s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv/_set_roi_s.c
+[34.015s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv/_start_svo_rec.py
+[34.015s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv/_start_svo_rec_s.c
+[34.015s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/zed_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[34.016s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/zed_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[34.016s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/zed_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[34.035s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/zed_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[34.143s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/zed_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[34.151s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/zed_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[34.152s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Object.idl
+[34.153s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/ObjectsStamped.idl
+[34.155s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Keypoint2Di.idl
+[34.155s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Keypoint2Df.idl
+[34.157s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Keypoint3D.idl
+[34.158s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox2Di.idl
+[34.159s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox2Df.idl
+[34.160s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox3D.idl
+[34.161s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Skeleton2D.idl
+[34.162s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Skeleton3D.idl
+[34.163s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/DepthInfoStamped.idl
+[34.164s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/PlaneStamped.idl
+[34.164s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/PosTrackStatus.idl
+[34.165s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Heartbeat.idl
+[34.166s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/SetPose.idl
+[34.167s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/StartSvoRec.idl
+[34.167s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/SetROI.idl
+[34.168s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Object.msg
+[34.168s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/ObjectsStamped.msg
+[34.169s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Keypoint2Di.msg
+[34.170s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Keypoint2Df.msg
+[34.170s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Keypoint3D.msg
+[34.171s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox2Di.msg
+[34.171s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox2Df.msg
+[34.172s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/BoundingBox3D.msg
+[34.172s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Skeleton2D.msg
+[34.173s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Skeleton3D.msg
+[34.173s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/DepthInfoStamped.msg
+[34.174s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/PlaneStamped.msg
+[34.174s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/PosTrackStatus.msg
+[34.175s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/msg/Heartbeat.msg
+[34.175s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/SetPose.srv
+[34.176s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/SetPose_Request.msg
+[34.176s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/SetPose_Response.msg
+[34.177s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/StartSvoRec.srv
+[34.177s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/StartSvoRec_Request.msg
+[34.177s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/StartSvoRec_Response.msg
+[34.178s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/SetROI.srv
+[34.178s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/SetROI_Request.msg
+[34.179s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/srv/SetROI_Response.msg
+[34.179s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/meshes/zed.stl
+[34.180s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/meshes/zed2.stl
+[34.180s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/meshes/zed2i.stl
+[34.180s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/meshes/zedm.stl
+[34.181s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/meshes/zedx.stl
+[34.181s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/meshes/zedxm.stl
+[34.181s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/ament_index/resource_index/package_run_dependencies/zed_interfaces
+[34.182s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/ament_index/resource_index/parent_prefix_path/zed_interfaces
+[34.182s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/ament_prefix_path.sh
+[34.182s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/ament_prefix_path.dsv
+[34.183s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/path.sh
+[34.183s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/environment/path.dsv
+[34.183s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/local_setup.bash
+[34.184s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/local_setup.sh
+[34.184s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/local_setup.zsh
+[34.184s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/local_setup.dsv
+[34.184s] -- Symlinking: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/package.dsv
+[34.194s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/ament_index/resource_index/packages/zed_interfaces
+[34.194s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/rosidl_cmake-extras.cmake
+[34.194s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[34.195s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[34.195s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[34.195s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[34.195s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[34.196s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[34.196s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfacesConfig.cmake
+[34.196s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfacesConfig-version.cmake
+[34.196s] -- Up-to-date symlink: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/package.xml
+[34.494s] -- Up-to-date: /home/mael/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_generator_c.so
+[34.733s] -- Up-to-date: /home/mael/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_fastrtps_c.so
+[35.070s] -- Up-to-date: /home/mael/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[35.219s] -- Up-to-date: /home/mael/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_introspection_c.so
+[35.783s] -- Up-to-date: /home/mael/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_c.so
+[36.132s] -- Up-to-date: /home/mael/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_introspection_cpp.so
+[36.583s] -- Up-to-date: /home/mael/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_typesupport_cpp.so
+[40.064s] Listing '/home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces'...
+[40.064s] Listing '/home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/msg'...
+[40.064s] Listing '/home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages/zed_interfaces/srv'...
+[40.434s] -- Up-to-date: /home/mael/ros2_ws/install/zed_interfaces/lib/libzed_interfaces__rosidl_generator_py.so
+[40.868s] -- Up-to-date: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/export_zed_interfaces__rosidl_generator_cExport.cmake
+[40.868s] -- Up-to-date: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/export_zed_interfaces__rosidl_generator_cExport-noconfig.cmake
+[40.875s] -- Up-to-date: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/export_zed_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[40.875s] -- Up-to-date: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/export_zed_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[40.987s] -- Up-to-date: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/export_zed_interfaces__rosidl_generator_cppExport.cmake
+[41.099s] -- Up-to-date: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/export_zed_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[41.099s] -- Up-to-date: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/export_zed_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[41.437s] -- Up-to-date: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[41.438s] -- Up-to-date: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[41.685s] -- Up-to-date: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_cExport.cmake
+[41.685s] -- Up-to-date: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[41.692s] -- Up-to-date: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[41.693s] -- Up-to-date: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[41.954s] -- Up-to-date: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_cppExport.cmake
+[41.954s] -- Up-to-date: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[42.445s] -- Up-to-date: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/export_zed_interfaces__rosidl_generator_pyExport.cmake
+[42.445s] -- Up-to-date: /home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/cmake/export_zed_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[45.668s] Invoked command in '/home/mael/ros2_ws/build/zed_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --install /home/mael/ros2_ws/build/zed_interfaces

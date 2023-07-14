@@ -1,0 +1,1168 @@
+[0.390s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.390s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fdd9c3449a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fdd9ce0b250>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fdd9ce0b250>>)
+[0.415s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.415s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.415s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.415s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.415s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.415s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.415s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mael/ros2_ws'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['ignore', 'ignore_ament_install']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'ignore'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'ignore_ament_install'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['colcon_pkg']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'colcon_pkg'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['colcon_meta']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'colcon_meta'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['ros']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'ros'
+[0.431s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ROS-TCP-Endpoint' with type 'ros.ament_python' and name 'ros_tcp_endpoint'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros2) by extension 'ignore'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros2) by extension 'ignore_ament_install'
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros2) by extensions ['colcon_pkg']
+[0.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros2) by extension 'colcon_pkg'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros2) by extensions ['colcon_meta']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros2) by extension 'colcon_meta'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros2) by extensions ['ros']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros2) by extension 'ros'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros2) by extensions ['cmake', 'python']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros2) by extension 'cmake'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros2) by extension 'python'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros2) by extensions ['python_setup_py']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros2) by extension 'python_setup_py'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros2/apriltag_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros2/apriltag_ros2) by extension 'ignore'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros2/apriltag_ros2) by extension 'ignore_ament_install'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros2/apriltag_ros2) by extensions ['colcon_pkg']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros2/apriltag_ros2) by extension 'colcon_pkg'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros2/apriltag_ros2) by extensions ['colcon_meta']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros2/apriltag_ros2) by extension 'colcon_meta'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros2/apriltag_ros2) by extensions ['ros']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros2/apriltag_ros2) by extension 'ros'
+[0.434s] DEBUG:colcon.colcon_core.package_identification:Package 'src/apriltag_ros2/apriltag_ros2' with type 'ros.ament_cmake' and name 'apriltag_ros2'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros_pose) by extensions ['ignore', 'ignore_ament_install']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros_pose) by extension 'ignore'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros_pose) by extension 'ignore_ament_install'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros_pose) by extensions ['colcon_pkg']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros_pose) by extension 'colcon_pkg'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros_pose) by extensions ['colcon_meta']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros_pose) by extension 'colcon_meta'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros_pose) by extensions ['ros']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros_pose) by extension 'ros'
+[0.436s] DEBUG:colcon.colcon_core.package_identification:Package 'src/apriltag_ros_pose' with type 'ros.ament_cmake' and name 'apriltag_ros_pose'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter) by extensions ['ignore', 'ignore_ament_install']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter) by extension 'ignore'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter) by extension 'ignore_ament_install'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter) by extensions ['colcon_pkg']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter) by extension 'colcon_pkg'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter) by extensions ['colcon_meta']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter) by extension 'colcon_meta'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter) by extensions ['ros']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter) by extension 'ros'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter) by extensions ['cmake', 'python']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter) by extension 'cmake'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter) by extension 'python'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter) by extensions ['python_setup_py']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter) by extension 'python_setup_py'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_6dof_vr) by extensions ['ignore', 'ignore_ament_install']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_6dof_vr) by extension 'ignore'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_6dof_vr) by extension 'ignore_ament_install'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_6dof_vr) by extensions ['colcon_pkg']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_6dof_vr) by extension 'colcon_pkg'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_6dof_vr) by extensions ['colcon_meta']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_6dof_vr) by extension 'colcon_meta'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_6dof_vr) by extensions ['ros']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_6dof_vr) by extension 'ros'
+[0.438s] DEBUG:colcon.colcon_core.package_identification:Package 'src/baxter_6dof_vr' with type 'ros.ament_python' and name 'baxter_6dof_vr'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2) by extension 'ignore'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2) by extension 'ignore_ament_install'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2) by extensions ['colcon_pkg']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2) by extension 'colcon_pkg'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2) by extensions ['colcon_meta']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2) by extension 'colcon_meta'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2) by extensions ['ros']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2) by extension 'ros'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2) by extensions ['cmake', 'python']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2) by extension 'cmake'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2) by extension 'python'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2) by extensions ['python_setup_py']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2) by extension 'python_setup_py'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2/baxter_core_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2/baxter_core_msgs) by extension 'ignore'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2/baxter_core_msgs) by extension 'ignore_ament_install'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2/baxter_core_msgs) by extensions ['colcon_pkg']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2/baxter_core_msgs) by extension 'colcon_pkg'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2/baxter_core_msgs) by extensions ['colcon_meta']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2/baxter_core_msgs) by extension 'colcon_meta'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2/baxter_core_msgs) by extensions ['ros']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2/baxter_core_msgs) by extension 'ros'
+[0.439s] DEBUG:colcon.colcon_core.package_identification:Package 'src/baxter_common_ros2/baxter_core_msgs' with type 'ros.ament_cmake' and name 'baxter_core_msgs'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2/baxter_description) by extensions ['ignore', 'ignore_ament_install']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2/baxter_description) by extension 'ignore'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2/baxter_description) by extension 'ignore_ament_install'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2/baxter_description) by extensions ['colcon_pkg']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2/baxter_description) by extension 'colcon_pkg'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2/baxter_description) by extensions ['colcon_meta']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2/baxter_description) by extension 'colcon_meta'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2/baxter_description) by extensions ['ros']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2/baxter_description) by extension 'ros'
+[0.440s] DEBUG:colcon.colcon_core.package_identification:Package 'src/baxter_common_ros2/baxter_description' with type 'ros.ament_cmake' and name 'baxter_description'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2/baxter_maintenance_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2/baxter_maintenance_msgs) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2/baxter_maintenance_msgs) by extension 'ignore_ament_install'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2/baxter_maintenance_msgs) by extensions ['colcon_pkg']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2/baxter_maintenance_msgs) by extension 'colcon_pkg'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2/baxter_maintenance_msgs) by extensions ['colcon_meta']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2/baxter_maintenance_msgs) by extension 'colcon_meta'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2/baxter_maintenance_msgs) by extensions ['ros']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2/baxter_maintenance_msgs) by extension 'ros'
+[0.441s] DEBUG:colcon.colcon_core.package_identification:Package 'src/baxter_common_ros2/baxter_maintenance_msgs' with type 'ros.ament_cmake' and name 'baxter_maintenance_msgs'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2/rethink_ee_description) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2/rethink_ee_description) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2/rethink_ee_description) by extension 'ignore_ament_install'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2/rethink_ee_description) by extensions ['colcon_pkg']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2/rethink_ee_description) by extension 'colcon_pkg'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2/rethink_ee_description) by extensions ['colcon_meta']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2/rethink_ee_description) by extension 'colcon_meta'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2/rethink_ee_description) by extensions ['ros']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_common_ros2/rethink_ee_description) by extension 'ros'
+[0.442s] DEBUG:colcon.colcon_core.package_identification:Package 'src/baxter_common_ros2/rethink_ee_description' with type 'ros.ament_cmake' and name 'rethink_ee_description'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_joint_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_joint_controller) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_joint_controller) by extension 'ignore_ament_install'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_joint_controller) by extensions ['colcon_pkg']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_joint_controller) by extension 'colcon_pkg'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_joint_controller) by extensions ['colcon_meta']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_joint_controller) by extension 'colcon_meta'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_joint_controller) by extensions ['ros']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_joint_controller) by extension 'ros'
+[0.443s] DEBUG:colcon.colcon_core.package_identification:Package 'src/baxter_joint_controller' with type 'ros.ament_python' and name 'baxter_joint_controller'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_moveit_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_moveit_ros2) by extension 'ignore'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_moveit_ros2) by extension 'ignore_ament_install'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_moveit_ros2) by extensions ['colcon_pkg']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_moveit_ros2) by extension 'colcon_pkg'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_moveit_ros2) by extensions ['colcon_meta']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_moveit_ros2) by extension 'colcon_meta'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_moveit_ros2) by extensions ['ros']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_moveit_ros2) by extension 'ros'
+[0.444s] DEBUG:colcon.colcon_core.package_identification:Package 'src/baxter_moveit_ros2' with type 'ros.ament_cmake' and name 'baxter_moveit_ros2'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_servo_baxter) by extensions ['ignore', 'ignore_ament_install']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_servo_baxter) by extension 'ignore'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_servo_baxter) by extension 'ignore_ament_install'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_servo_baxter) by extensions ['colcon_pkg']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_servo_baxter) by extension 'colcon_pkg'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_servo_baxter) by extensions ['colcon_meta']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_servo_baxter) by extension 'colcon_meta'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_servo_baxter) by extensions ['ros']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_servo_baxter) by extension 'ros'
+[0.447s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveit_servo_baxter' with type 'ros.ament_cmake' and name 'moveit_servo_baxter'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extensions ['ignore', 'ignore_ament_install']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extension 'ignore'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extension 'ignore_ament_install'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extensions ['colcon_pkg']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extension 'colcon_pkg'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extensions ['colcon_meta']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extension 'colcon_meta'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extensions ['ros']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extension 'ros'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extensions ['cmake', 'python']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extension 'cmake'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extension 'python'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extensions ['python_setup_py']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extension 'python_setup_py'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_conversions) by extensions ['ignore', 'ignore_ament_install']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_conversions) by extension 'ignore'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_conversions) by extension 'ignore_ament_install'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_conversions) by extensions ['colcon_pkg']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_conversions) by extension 'colcon_pkg'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_conversions) by extensions ['colcon_meta']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_conversions) by extension 'colcon_meta'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_conversions) by extensions ['ros']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_conversions) by extension 'ros'
+[0.449s] DEBUG:colcon.colcon_core.package_identification:Package 'src/perception_pcl/pcl_conversions' with type 'ros.ament_cmake' and name 'pcl_conversions'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_ros) by extension 'ignore'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_ros) by extension 'ignore_ament_install'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_ros) by extensions ['colcon_pkg']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_ros) by extension 'colcon_pkg'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_ros) by extensions ['colcon_meta']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_ros) by extension 'colcon_meta'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_ros) by extensions ['ros']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_ros) by extension 'ros'
+[0.451s] DEBUG:colcon.colcon_core.package_identification:Package 'src/perception_pcl/pcl_ros' with type 'ros.ament_cmake' and name 'pcl_ros'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/perception_pcl) by extensions ['ignore', 'ignore_ament_install']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/perception_pcl) by extension 'ignore'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/perception_pcl) by extension 'ignore_ament_install'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/perception_pcl) by extensions ['colcon_pkg']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/perception_pcl) by extension 'colcon_pkg'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/perception_pcl) by extensions ['colcon_meta']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/perception_pcl) by extension 'colcon_meta'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/perception_pcl) by extensions ['ros']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/perception_pcl) by extension 'ros'
+[0.453s] DEBUG:colcon.colcon_core.package_identification:Package 'src/perception_pcl/perception_pcl' with type 'ros.ament_cmake' and name 'perception_pcl'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extensions ['ignore', 'ignore_ament_install']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extension 'ignore'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extension 'ignore_ament_install'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extensions ['colcon_pkg']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extension 'colcon_pkg'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extensions ['colcon_meta']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extension 'colcon_meta'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extensions ['ros']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extension 'ros'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extensions ['cmake', 'python']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extension 'cmake'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extension 'python'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extensions ['python_setup_py']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper) by extension 'python_setup_py'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extensions ['ignore', 'ignore_ament_install']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extension 'ignore'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extension 'ignore_ament_install'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extensions ['colcon_pkg']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extension 'colcon_pkg'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extensions ['colcon_meta']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extension 'colcon_meta'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extensions ['ros']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extension 'ros'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extensions ['cmake', 'python']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extension 'cmake'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extension 'python'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extensions ['python_setup_py']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/docker) by extension 'python_setup_py'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extensions ['ignore', 'ignore_ament_install']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extension 'ignore'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extension 'ignore_ament_install'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extensions ['colcon_pkg']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extension 'colcon_pkg'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extensions ['colcon_meta']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extension 'colcon_meta'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extensions ['ros']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extension 'ros'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extensions ['cmake', 'python']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extension 'cmake'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extension 'python'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extensions ['python_setup_py']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/images) by extension 'python_setup_py'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed-ros2-interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed-ros2-interfaces) by extension 'ignore'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed-ros2-interfaces) by extension 'ignore_ament_install'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed-ros2-interfaces) by extensions ['colcon_pkg']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed-ros2-interfaces) by extension 'colcon_pkg'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed-ros2-interfaces) by extensions ['colcon_meta']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed-ros2-interfaces) by extension 'colcon_meta'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed-ros2-interfaces) by extensions ['ros']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed-ros2-interfaces) by extension 'ros'
+[0.456s] DEBUG:colcon.colcon_core.package_identification:Package 'src/zed-ros2-wrapper/zed-ros2-interfaces' with type 'ros.ament_cmake' and name 'zed_interfaces'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_components) by extensions ['ignore', 'ignore_ament_install']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_components) by extension 'ignore'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_components) by extension 'ignore_ament_install'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_components) by extensions ['colcon_pkg']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_components) by extension 'colcon_pkg'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_components) by extensions ['colcon_meta']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_components) by extension 'colcon_meta'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_components) by extensions ['ros']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_components) by extension 'ros'
+[0.457s] DEBUG:colcon.colcon_core.package_identification:Package 'src/zed-ros2-wrapper/zed_components' with type 'ros.ament_cmake' and name 'zed_components'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_ros2) by extension 'ignore'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_ros2) by extension 'ignore_ament_install'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_ros2) by extensions ['colcon_pkg']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_ros2) by extension 'colcon_pkg'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_ros2) by extensions ['colcon_meta']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_ros2) by extension 'colcon_meta'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_ros2) by extensions ['ros']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_ros2) by extension 'ros'
+[0.458s] DEBUG:colcon.colcon_core.package_identification:Package 'src/zed-ros2-wrapper/zed_ros2' with type 'ros.ament_cmake' and name 'zed_ros2'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_wrapper) by extensions ['ignore', 'ignore_ament_install']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_wrapper) by extension 'ignore'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_wrapper) by extension 'ignore_ament_install'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_wrapper) by extensions ['colcon_pkg']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_wrapper) by extension 'colcon_pkg'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_wrapper) by extensions ['colcon_meta']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_wrapper) by extension 'colcon_meta'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_wrapper) by extensions ['ros']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/zed-ros2-wrapper/zed_wrapper) by extension 'ros'
+[0.459s] DEBUG:colcon.colcon_core.package_identification:Package 'src/zed-ros2-wrapper/zed_wrapper' with type 'ros.ament_cmake' and name 'zed_wrapper'
+[0.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.460s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.460s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.460s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.483s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.484s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.487s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 18 installed packages in /home/mael/ros2_ws/install
+[0.490s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 363 installed packages in /opt/ros/humble
+[0.492s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.563s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'pcl_conversions' is in: /home/mael/ros2_ws/install/pcl_conversions, /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding pcl_conversions
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros2' build argument 'cmake_args' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros2' build argument 'cmake_target' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.566s] DEBUG:colcon.colcon_core.verb:Building package 'apriltag_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mael/ros2_ws/build/apriltag_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mael/ros2_ws/install/apriltag_ros2', 'merge_install': False, 'path': '/home/mael/ros2_ws/src/apriltag_ros2/apriltag_ros2', 'symlink_install': True, 'test_result_base': None}
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros_pose' build argument 'cmake_args' from command line to 'None'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros_pose' build argument 'cmake_target' from command line to 'None'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros_pose' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros_pose' build argument 'cmake_clean_cache' from command line to 'False'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros_pose' build argument 'cmake_clean_first' from command line to 'False'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros_pose' build argument 'cmake_force_configure' from command line to 'False'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros_pose' build argument 'ament_cmake_args' from command line to 'None'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros_pose' build argument 'catkin_cmake_args' from command line to 'None'
+[0.567s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros_pose' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.567s] DEBUG:colcon.colcon_core.verb:Building package 'apriltag_ros_pose' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mael/ros2_ws/build/apriltag_ros_pose', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mael/ros2_ws/install/apriltag_ros_pose', 'merge_install': False, 'path': '/home/mael/ros2_ws/src/apriltag_ros_pose', 'symlink_install': True, 'test_result_base': None}
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'baxter_6dof_vr' build argument 'cmake_args' from command line to 'None'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'baxter_6dof_vr' build argument 'cmake_target' from command line to 'None'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'baxter_6dof_vr' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'baxter_6dof_vr' build argument 'cmake_clean_cache' from command line to 'False'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'baxter_6dof_vr' build argument 'cmake_clean_first' from command line to 'False'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'baxter_6dof_vr' build argument 'cmake_force_configure' from command line to 'False'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'baxter_6dof_vr' build argument 'ament_cmake_args' from command line to 'None'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'baxter_6dof_vr' build argument 'catkin_cmake_args' from command line to 'None'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'baxter_6dof_vr' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.568s] DEBUG:colcon.colcon_core.verb:Building package 'baxter_6dof_vr' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mael/ros2_ws/build/baxter_6dof_vr', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mael/ros2_ws/install/baxter_6dof_vr', 'merge_install': False, 'path': '/home/mael/ros2_ws/src/baxter_6dof_vr', 'symlink_install': True, 'test_result_base': None}
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'baxter_core_msgs' build argument 'cmake_args' from command line to 'None'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'baxter_core_msgs' build argument 'cmake_target' from command line to 'None'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'baxter_core_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'baxter_core_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'baxter_core_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'baxter_core_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'baxter_core_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'baxter_core_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'baxter_core_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.570s] DEBUG:colcon.colcon_core.verb:Building package 'baxter_core_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mael/ros2_ws/build/baxter_core_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mael/ros2_ws/install/baxter_core_msgs', 'merge_install': False, 'path': '/home/mael/ros2_ws/src/baxter_common_ros2/baxter_core_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'baxter_joint_controller' build argument 'cmake_args' from command line to 'None'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'baxter_joint_controller' build argument 'cmake_target' from command line to 'None'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'baxter_joint_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'baxter_joint_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'baxter_joint_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'baxter_joint_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'baxter_joint_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'baxter_joint_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.571s] Level 5:colcon.colcon_core.verb:set package 'baxter_joint_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.571s] DEBUG:colcon.colcon_core.verb:Building package 'baxter_joint_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mael/ros2_ws/build/baxter_joint_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mael/ros2_ws/install/baxter_joint_controller', 'merge_install': False, 'path': '/home/mael/ros2_ws/src/baxter_joint_controller', 'symlink_install': True, 'test_result_base': None}
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'baxter_maintenance_msgs' build argument 'cmake_args' from command line to 'None'
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'baxter_maintenance_msgs' build argument 'cmake_target' from command line to 'None'
+[0.572s] Level 5:colcon.colcon_core.verb:set package 'baxter_maintenance_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'baxter_maintenance_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'baxter_maintenance_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'baxter_maintenance_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'baxter_maintenance_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'baxter_maintenance_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.573s] Level 5:colcon.colcon_core.verb:set package 'baxter_maintenance_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.573s] DEBUG:colcon.colcon_core.verb:Building package 'baxter_maintenance_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mael/ros2_ws/build/baxter_maintenance_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mael/ros2_ws/install/baxter_maintenance_msgs', 'merge_install': False, 'path': '/home/mael/ros2_ws/src/baxter_common_ros2/baxter_maintenance_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'moveit_servo_baxter' build argument 'cmake_args' from command line to 'None'
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'moveit_servo_baxter' build argument 'cmake_target' from command line to 'None'
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'moveit_servo_baxter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'moveit_servo_baxter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'moveit_servo_baxter' build argument 'cmake_clean_first' from command line to 'False'
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'moveit_servo_baxter' build argument 'cmake_force_configure' from command line to 'False'
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'moveit_servo_baxter' build argument 'ament_cmake_args' from command line to 'None'
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'moveit_servo_baxter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'moveit_servo_baxter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.574s] DEBUG:colcon.colcon_core.verb:Building package 'moveit_servo_baxter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mael/ros2_ws/build/moveit_servo_baxter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mael/ros2_ws/install/moveit_servo_baxter', 'merge_install': False, 'path': '/home/mael/ros2_ws/src/moveit_servo_baxter', 'symlink_install': True, 'test_result_base': None}
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'pcl_conversions' build argument 'cmake_args' from command line to 'None'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'pcl_conversions' build argument 'cmake_target' from command line to 'None'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'pcl_conversions' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'pcl_conversions' build argument 'cmake_clean_cache' from command line to 'False'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'pcl_conversions' build argument 'cmake_clean_first' from command line to 'False'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'pcl_conversions' build argument 'cmake_force_configure' from command line to 'False'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'pcl_conversions' build argument 'ament_cmake_args' from command line to 'None'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'pcl_conversions' build argument 'catkin_cmake_args' from command line to 'None'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'pcl_conversions' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.575s] DEBUG:colcon.colcon_core.verb:Building package 'pcl_conversions' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mael/ros2_ws/build/pcl_conversions', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mael/ros2_ws/install/pcl_conversions', 'merge_install': False, 'path': '/home/mael/ros2_ws/src/perception_pcl/pcl_conversions', 'symlink_install': True, 'test_result_base': None}
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'rethink_ee_description' build argument 'cmake_args' from command line to 'None'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'rethink_ee_description' build argument 'cmake_target' from command line to 'None'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'rethink_ee_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'rethink_ee_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'rethink_ee_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'rethink_ee_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'rethink_ee_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'rethink_ee_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'rethink_ee_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.576s] DEBUG:colcon.colcon_core.verb:Building package 'rethink_ee_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mael/ros2_ws/build/rethink_ee_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mael/ros2_ws/install/rethink_ee_description', 'merge_install': False, 'path': '/home/mael/ros2_ws/src/baxter_common_ros2/rethink_ee_description', 'symlink_install': True, 'test_result_base': None}
+[0.577s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_args' from command line to 'None'
+[0.577s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target' from command line to 'None'
+[0.577s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.577s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_cache' from command line to 'False'
+[0.577s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_first' from command line to 'False'
+[0.577s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_force_configure' from command line to 'False'
+[0.577s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'ament_cmake_args' from command line to 'None'
+[0.577s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_cmake_args' from command line to 'None'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.578s] DEBUG:colcon.colcon_core.verb:Building package 'ros_tcp_endpoint' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mael/ros2_ws/build/ros_tcp_endpoint', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mael/ros2_ws/install/ros_tcp_endpoint', 'merge_install': False, 'path': '/home/mael/ros2_ws/src/ROS-TCP-Endpoint', 'symlink_install': True, 'test_result_base': None}
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'zed_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'zed_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'zed_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'zed_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'zed_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'zed_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'zed_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'zed_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'zed_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.579s] DEBUG:colcon.colcon_core.verb:Building package 'zed_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mael/ros2_ws/build/zed_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mael/ros2_ws/install/zed_interfaces', 'merge_install': False, 'path': '/home/mael/ros2_ws/src/zed-ros2-wrapper/zed-ros2-interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'baxter_description' build argument 'cmake_args' from command line to 'None'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'baxter_description' build argument 'cmake_target' from command line to 'None'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'baxter_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'baxter_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'baxter_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'baxter_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'baxter_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'baxter_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'baxter_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.580s] DEBUG:colcon.colcon_core.verb:Building package 'baxter_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mael/ros2_ws/build/baxter_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mael/ros2_ws/install/baxter_description', 'merge_install': False, 'path': '/home/mael/ros2_ws/src/baxter_common_ros2/baxter_description', 'symlink_install': True, 'test_result_base': None}
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'pcl_ros' build argument 'cmake_args' from command line to 'None'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'pcl_ros' build argument 'cmake_target' from command line to 'None'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'pcl_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'pcl_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'pcl_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'pcl_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'pcl_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'pcl_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'pcl_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.581s] DEBUG:colcon.colcon_core.verb:Building package 'pcl_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mael/ros2_ws/build/pcl_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mael/ros2_ws/install/pcl_ros', 'merge_install': False, 'path': '/home/mael/ros2_ws/src/perception_pcl/pcl_ros', 'symlink_install': True, 'test_result_base': None}
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'zed_components' build argument 'cmake_args' from command line to 'None'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'zed_components' build argument 'cmake_target' from command line to 'None'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'zed_components' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'zed_components' build argument 'cmake_clean_cache' from command line to 'False'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'zed_components' build argument 'cmake_clean_first' from command line to 'False'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'zed_components' build argument 'cmake_force_configure' from command line to 'False'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'zed_components' build argument 'ament_cmake_args' from command line to 'None'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'zed_components' build argument 'catkin_cmake_args' from command line to 'None'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'zed_components' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.583s] DEBUG:colcon.colcon_core.verb:Building package 'zed_components' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mael/ros2_ws/build/zed_components', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mael/ros2_ws/install/zed_components', 'merge_install': False, 'path': '/home/mael/ros2_ws/src/zed-ros2-wrapper/zed_components', 'symlink_install': True, 'test_result_base': None}
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'baxter_moveit_ros2' build argument 'cmake_args' from command line to 'None'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'baxter_moveit_ros2' build argument 'cmake_target' from command line to 'None'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'baxter_moveit_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'baxter_moveit_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'baxter_moveit_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'baxter_moveit_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'baxter_moveit_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'baxter_moveit_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'baxter_moveit_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.584s] DEBUG:colcon.colcon_core.verb:Building package 'baxter_moveit_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mael/ros2_ws/build/baxter_moveit_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mael/ros2_ws/install/baxter_moveit_ros2', 'merge_install': False, 'path': '/home/mael/ros2_ws/src/baxter_moveit_ros2', 'symlink_install': True, 'test_result_base': None}
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'perception_pcl' build argument 'cmake_args' from command line to 'None'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'perception_pcl' build argument 'cmake_target' from command line to 'None'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'perception_pcl' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'perception_pcl' build argument 'cmake_clean_cache' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'perception_pcl' build argument 'cmake_clean_first' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'perception_pcl' build argument 'cmake_force_configure' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'perception_pcl' build argument 'ament_cmake_args' from command line to 'None'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'perception_pcl' build argument 'catkin_cmake_args' from command line to 'None'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'perception_pcl' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.585s] DEBUG:colcon.colcon_core.verb:Building package 'perception_pcl' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mael/ros2_ws/build/perception_pcl', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mael/ros2_ws/install/perception_pcl', 'merge_install': False, 'path': '/home/mael/ros2_ws/src/perception_pcl/perception_pcl', 'symlink_install': True, 'test_result_base': None}
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'zed_wrapper' build argument 'cmake_args' from command line to 'None'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'zed_wrapper' build argument 'cmake_target' from command line to 'None'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'zed_wrapper' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'zed_wrapper' build argument 'cmake_clean_cache' from command line to 'False'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'zed_wrapper' build argument 'cmake_clean_first' from command line to 'False'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'zed_wrapper' build argument 'cmake_force_configure' from command line to 'False'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'zed_wrapper' build argument 'ament_cmake_args' from command line to 'None'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'zed_wrapper' build argument 'catkin_cmake_args' from command line to 'None'
+[0.586s] Level 5:colcon.colcon_core.verb:set package 'zed_wrapper' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.586s] DEBUG:colcon.colcon_core.verb:Building package 'zed_wrapper' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mael/ros2_ws/build/zed_wrapper', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mael/ros2_ws/install/zed_wrapper', 'merge_install': False, 'path': '/home/mael/ros2_ws/src/zed-ros2-wrapper/zed_wrapper', 'symlink_install': True, 'test_result_base': None}
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'zed_ros2' build argument 'cmake_args' from command line to 'None'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'zed_ros2' build argument 'cmake_target' from command line to 'None'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'zed_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'zed_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'zed_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'zed_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'zed_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'zed_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.587s] Level 5:colcon.colcon_core.verb:set package 'zed_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.587s] DEBUG:colcon.colcon_core.verb:Building package 'zed_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mael/ros2_ws/build/zed_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mael/ros2_ws/install/zed_ros2', 'merge_install': False, 'path': '/home/mael/ros2_ws/src/zed-ros2-wrapper/zed_ros2', 'symlink_install': True, 'test_result_base': None}
+[0.588s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.591s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.592s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mael/ros2_ws/src/zed-ros2-wrapper/zed-ros2-interfaces' with build type 'ament_cmake'
+[0.592s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mael/ros2_ws/src/zed-ros2-wrapper/zed-ros2-interfaces'
+[0.597s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.598s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.598s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.782s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mael/ros2_ws/src/perception_pcl/pcl_conversions' with build type 'ament_cmake'
+[0.782s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mael/ros2_ws/src/perception_pcl/pcl_conversions'
+[0.784s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.784s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.088s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mael/ros2_ws/src/baxter_common_ros2/rethink_ee_description' with build type 'ament_cmake'
+[1.089s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mael/ros2_ws/src/baxter_common_ros2/rethink_ee_description'
+[1.101s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.101s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.310s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mael/ros2_ws/src/apriltag_ros2/apriltag_ros2' with build type 'ament_cmake'
+[1.311s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mael/ros2_ws/src/apriltag_ros2/apriltag_ros2'
+[1.316s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.316s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.677s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mael/ros2_ws/src/apriltag_ros_pose' with build type 'ament_cmake'
+[1.677s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mael/ros2_ws/src/apriltag_ros_pose'
+[1.682s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.682s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.904s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mael/ros2_ws/src/baxter_6dof_vr' with build type 'ament_python'
+[1.905s] Level 1:colcon.colcon_core.shell:create_environment_hook('baxter_6dof_vr', 'ament_prefix_path')
+[1.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/baxter_6dof_vr/share/baxter_6dof_vr/hook/ament_prefix_path.ps1'
+[2.021s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/baxter_6dof_vr/share/baxter_6dof_vr/hook/ament_prefix_path.dsv'
+[2.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/baxter_6dof_vr/share/baxter_6dof_vr/hook/ament_prefix_path.sh'
+[2.288s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.288s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.509s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mael/ros2_ws/src/baxter_common_ros2/baxter_core_msgs' with build type 'ament_cmake'
+[2.509s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mael/ros2_ws/src/baxter_common_ros2/baxter_core_msgs'
+[2.512s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.512s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.654s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mael/ros2_ws/src/baxter_joint_controller' with build type 'ament_python'
+[2.654s] Level 1:colcon.colcon_core.shell:create_environment_hook('baxter_joint_controller', 'ament_prefix_path')
+[2.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/baxter_joint_controller/share/baxter_joint_controller/hook/ament_prefix_path.ps1'
+[2.757s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/baxter_joint_controller/share/baxter_joint_controller/hook/ament_prefix_path.dsv'
+[2.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/baxter_joint_controller/share/baxter_joint_controller/hook/ament_prefix_path.sh'
+[2.759s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.759s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mael/ros2_ws/build/zed_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --build /home/mael/ros2_ws/build/zed_interfaces -- -j8 -l8
+[3.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mael/ros2_ws/build/pcl_conversions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --build /home/mael/ros2_ws/build/pcl_conversions -- -j8 -l8
+[3.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mael/ros2_ws/build/rethink_ee_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --build /home/mael/ros2_ws/build/rethink_ee_description -- -j8 -l8
+[4.222s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mael/ros2_ws/build/apriltag_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --build /home/mael/ros2_ws/build/apriltag_ros2 -- -j8 -l8
+[4.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mael/ros2_ws/build/apriltag_ros_pose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --build /home/mael/ros2_ws/build/apriltag_ros_pose -- -j8 -l8
+[5.053s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mael/ros2_ws/src/baxter_6dof_vr'
+[5.054s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.055s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.410s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mael/ros2_ws/build/baxter_core_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --build /home/mael/ros2_ws/build/baxter_core_msgs -- -j8 -l8
+[6.024s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mael/ros2_ws/src/baxter_joint_controller'
+[6.026s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.026s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mael/ros2_ws/build/zed_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --build /home/mael/ros2_ws/build/zed_interfaces -- -j8 -l8
+[6.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mael/ros2_ws/build/pcl_conversions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --build /home/mael/ros2_ws/build/pcl_conversions -- -j8 -l8
+[6.234s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mael/ros2_ws/build/rethink_ee_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --build /home/mael/ros2_ws/build/rethink_ee_description -- -j8 -l8
+[6.240s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mael/ros2_ws/build/apriltag_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --build /home/mael/ros2_ws/build/apriltag_ros2 -- -j8 -l8
+[6.244s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mael/ros2_ws/build/apriltag_ros_pose' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --build /home/mael/ros2_ws/build/apriltag_ros_pose -- -j8 -l8
+[6.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mael/ros2_ws/build/baxter_core_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --build /home/mael/ros2_ws/build/baxter_core_msgs -- -j8 -l8
+[6.791s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mael/ros2_ws/build/apriltag_ros_pose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --install /home/mael/ros2_ws/build/apriltag_ros_pose
+[6.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mael/ros2_ws/build/rethink_ee_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --install /home/mael/ros2_ws/build/rethink_ee_description
+[6.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mael/ros2_ws/build/pcl_conversions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --install /home/mael/ros2_ws/build/pcl_conversions
+[6.821s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mael/ros2_ws/build/apriltag_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --install /home/mael/ros2_ws/build/apriltag_ros2
+[6.827s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mael/ros2_ws/build/zed_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --install /home/mael/ros2_ws/build/zed_interfaces
+[6.884s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag_ros_pose)
+[6.900s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/apriltag_ros_pose' for CMake module files
+[6.902s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/apriltag_ros_pose' for CMake config files
+[6.903s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_ros_pose', 'cmake_prefix_path')
+[6.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/apriltag_ros_pose/share/apriltag_ros_pose/hook/cmake_prefix_path.ps1'
+[6.920s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mael/ros2_ws/build/apriltag_ros_pose' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --install /home/mael/ros2_ws/build/apriltag_ros_pose
+[7.030s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/apriltag_ros_pose/share/apriltag_ros_pose/hook/cmake_prefix_path.dsv'
+[7.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/apriltag_ros_pose/share/apriltag_ros_pose/hook/cmake_prefix_path.sh'
+[7.351s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/apriltag_ros_pose/lib'
+[7.352s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_ros_pose', 'ld_library_path_lib')
+[7.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/apriltag_ros_pose/share/apriltag_ros_pose/hook/ld_library_path_lib.ps1'
+[7.465s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/apriltag_ros_pose/share/apriltag_ros_pose/hook/ld_library_path_lib.dsv'
+[7.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/apriltag_ros_pose/share/apriltag_ros_pose/hook/ld_library_path_lib.sh'
+[7.748s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/apriltag_ros_pose/bin'
+[7.749s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/apriltag_ros_pose/lib/pkgconfig/apriltag_ros_pose.pc'
+[7.749s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/apriltag_ros_pose/lib/python3.10/site-packages'
+[7.749s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/apriltag_ros_pose/bin'
+[7.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/apriltag_ros_pose/share/apriltag_ros_pose/package.ps1'
+[8.035s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mael/ros2_ws/install/apriltag_ros_pose/share/apriltag_ros_pose/package.dsv'
+[8.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/apriltag_ros_pose/share/apriltag_ros_pose/package.sh'
+[8.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/apriltag_ros_pose/share/apriltag_ros_pose/package.bash'
+[8.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/apriltag_ros_pose/share/apriltag_ros_pose/package.zsh'
+[8.336s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mael/ros2_ws/install/apriltag_ros_pose/share/colcon-core/packages/apriltag_ros_pose)
+[8.440s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rethink_ee_description)
+[8.441s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mael/ros2_ws/build/rethink_ee_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --install /home/mael/ros2_ws/build/rethink_ee_description
+[8.444s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/rethink_ee_description' for CMake module files
+[8.445s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/rethink_ee_description' for CMake config files
+[8.445s] Level 1:colcon.colcon_core.shell:create_environment_hook('rethink_ee_description', 'cmake_prefix_path')
+[8.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/hook/cmake_prefix_path.ps1'
+[8.634s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/hook/cmake_prefix_path.dsv'
+[8.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/hook/cmake_prefix_path.sh'
+[8.745s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/rethink_ee_description/bin'
+[8.942s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/rethink_ee_description/lib/pkgconfig/rethink_ee_description.pc'
+[8.943s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/rethink_ee_description/lib/python3.10/site-packages'
+[8.943s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/rethink_ee_description/bin'
+[8.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/package.ps1'
+[8.951s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/package.dsv'
+[8.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/package.sh'
+[9.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/package.bash'
+[9.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/package.zsh'
+[9.282s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mael/ros2_ws/install/rethink_ee_description/share/colcon-core/packages/rethink_ee_description)
+[9.284s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pcl_conversions)
+[9.286s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/pcl_conversions' for CMake module files
+[9.286s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/pcl_conversions' for CMake config files
+[9.287s] Level 1:colcon.colcon_core.shell:create_environment_hook('pcl_conversions', 'cmake_prefix_path')
+[9.288s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/pcl_conversions/share/pcl_conversions/hook/cmake_prefix_path.ps1'
+[9.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mael/ros2_ws/build/pcl_conversions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --install /home/mael/ros2_ws/build/pcl_conversions
+[9.486s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/pcl_conversions/share/pcl_conversions/hook/cmake_prefix_path.dsv'
+[9.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/pcl_conversions/share/pcl_conversions/hook/cmake_prefix_path.sh'
+[9.680s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/pcl_conversions/bin'
+[9.680s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/pcl_conversions/lib/pkgconfig/pcl_conversions.pc'
+[9.681s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/pcl_conversions/lib/python3.10/site-packages'
+[9.681s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/pcl_conversions/bin'
+[9.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/pcl_conversions/share/pcl_conversions/package.ps1'
+[9.875s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mael/ros2_ws/install/pcl_conversions/share/pcl_conversions/package.dsv'
+[9.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/pcl_conversions/share/pcl_conversions/package.sh'
+[9.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/pcl_conversions/share/pcl_conversions/package.bash'
+[9.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/pcl_conversions/share/pcl_conversions/package.zsh'
+[10.144s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mael/ros2_ws/install/pcl_conversions/share/colcon-core/packages/pcl_conversions)
+[10.146s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag_ros2)
+[10.150s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/apriltag_ros2' for CMake module files
+[10.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mael/ros2_ws/build/apriltag_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --install /home/mael/ros2_ws/build/apriltag_ros2
+[10.152s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/apriltag_ros2' for CMake config files
+[10.152s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_ros2', 'cmake_prefix_path')
+[10.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/hook/cmake_prefix_path.ps1'
+[10.282s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/hook/cmake_prefix_path.dsv'
+[10.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/hook/cmake_prefix_path.sh'
+[10.380s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/apriltag_ros2/lib'
+[10.380s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_ros2', 'ld_library_path_lib')
+[10.382s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/hook/ld_library_path_lib.ps1'
+[10.590s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/hook/ld_library_path_lib.dsv'
+[10.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/hook/ld_library_path_lib.sh'
+[10.697s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/apriltag_ros2/bin'
+[10.697s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/apriltag_ros2/lib/pkgconfig/apriltag_ros2.pc'
+[10.697s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/apriltag_ros2/lib/python3.10/site-packages'
+[10.697s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/apriltag_ros2/bin'
+[10.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/package.ps1'
+[10.893s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/package.dsv'
+[10.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/package.sh'
+[11.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/package.bash'
+[11.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/package.zsh'
+[11.304s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mael/ros2_ws/install/apriltag_ros2/share/colcon-core/packages/apriltag_ros2)
+[11.406s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_interfaces)
+[11.423s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/zed_interfaces' for CMake module files
+[11.424s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mael/ros2_ws/build/zed_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --install /home/mael/ros2_ws/build/zed_interfaces
+[11.429s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/zed_interfaces' for CMake config files
+[11.434s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_interfaces', 'cmake_prefix_path')
+[11.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/hook/cmake_prefix_path.ps1'
+[11.545s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/hook/cmake_prefix_path.dsv'
+[11.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/hook/cmake_prefix_path.sh'
+[11.644s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/zed_interfaces/lib'
+[11.645s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_interfaces', 'ld_library_path_lib')
+[11.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/hook/ld_library_path_lib.ps1'
+[11.753s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/hook/ld_library_path_lib.dsv'
+[11.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/hook/ld_library_path_lib.sh'
+[12.066s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/zed_interfaces/bin'
+[12.067s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/zed_interfaces/lib/pkgconfig/zed_interfaces.pc'
+[12.067s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/zed_interfaces/lib/python3.10/site-packages'
+[12.067s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/zed_interfaces/bin'
+[12.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/package.ps1'
+[12.071s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/package.dsv'
+[12.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/package.sh'
+[12.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/package.bash'
+[12.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/package.zsh'
+[12.276s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mael/ros2_ws/install/zed_interfaces/share/colcon-core/packages/zed_interfaces)
+[12.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mael/ros2_ws/build/baxter_6dof_vr': PYTHONPATH=/home/mael/ros2_ws/build/baxter_6dof_vr/prefix_override:/home/mael/ros2_ws/install/baxter_6dof_vr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mael/ros2_ws/build/baxter_6dof_vr/build --no-deps install_data
+[12.287s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mael/ros2_ws/build/baxter_joint_controller': PYTHONPATH=/home/mael/ros2_ws/build/baxter_joint_controller/prefix_override:/home/mael/ros2_ws/install/baxter_joint_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mael/ros2_ws/build/baxter_joint_controller/build --no-deps install_data
+[12.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mael/ros2_ws/build/baxter_core_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --install /home/mael/ros2_ws/build/baxter_core_msgs
+[12.292s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag_ros_pose)
+[12.296s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/apriltag_ros_pose' for CMake module files
+[12.297s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/apriltag_ros_pose' for CMake config files
+[12.297s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_ros_pose', 'cmake_prefix_path')
+[12.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/apriltag_ros_pose/share/apriltag_ros_pose/hook/cmake_prefix_path.ps1'
+[12.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/apriltag_ros_pose/share/apriltag_ros_pose/hook/cmake_prefix_path.dsv'
+[12.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/apriltag_ros_pose/share/apriltag_ros_pose/hook/cmake_prefix_path.sh'
+[12.469s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/apriltag_ros_pose/lib'
+[12.469s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_ros_pose', 'ld_library_path_lib')
+[12.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/apriltag_ros_pose/share/apriltag_ros_pose/hook/ld_library_path_lib.ps1'
+[12.627s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/apriltag_ros_pose/share/apriltag_ros_pose/hook/ld_library_path_lib.dsv'
+[12.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/apriltag_ros_pose/share/apriltag_ros_pose/hook/ld_library_path_lib.sh'
+[12.630s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/apriltag_ros_pose/bin'
+[12.630s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/apriltag_ros_pose/lib/pkgconfig/apriltag_ros_pose.pc'
+[12.630s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/apriltag_ros_pose/lib/python3.10/site-packages'
+[12.631s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/apriltag_ros_pose/bin'
+[12.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/apriltag_ros_pose/share/apriltag_ros_pose/package.ps1'
+[12.971s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mael/ros2_ws/install/apriltag_ros_pose/share/apriltag_ros_pose/package.dsv'
+[12.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/apriltag_ros_pose/share/apriltag_ros_pose/package.sh'
+[13.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/apriltag_ros_pose/share/apriltag_ros_pose/package.bash'
+[13.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/apriltag_ros_pose/share/apriltag_ros_pose/package.zsh'
+[13.357s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mael/ros2_ws/install/apriltag_ros_pose/share/colcon-core/packages/apriltag_ros_pose)
+[13.360s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rethink_ee_description)
+[13.362s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/rethink_ee_description' for CMake module files
+[13.362s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/rethink_ee_description' for CMake config files
+[13.362s] Level 1:colcon.colcon_core.shell:create_environment_hook('rethink_ee_description', 'cmake_prefix_path')
+[13.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/hook/cmake_prefix_path.ps1'
+[13.456s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/hook/cmake_prefix_path.dsv'
+[13.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/hook/cmake_prefix_path.sh'
+[13.644s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/rethink_ee_description/bin'
+[13.644s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/rethink_ee_description/lib/pkgconfig/rethink_ee_description.pc'
+[13.644s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/rethink_ee_description/lib/python3.10/site-packages'
+[13.645s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/rethink_ee_description/bin'
+[13.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/package.ps1'
+[13.827s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/package.dsv'
+[13.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/package.sh'
+[13.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/package.bash'
+[13.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/rethink_ee_description/share/rethink_ee_description/package.zsh'
+[14.101s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mael/ros2_ws/install/rethink_ee_description/share/colcon-core/packages/rethink_ee_description)
+[14.102s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mael/ros2_ws/src/baxter_common_ros2/baxter_maintenance_msgs' with build type 'ament_cmake'
+[14.102s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mael/ros2_ws/src/baxter_common_ros2/baxter_maintenance_msgs'
+[14.104s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.104s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.292s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pcl_conversions)
+[14.295s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/pcl_conversions' for CMake module files
+[14.298s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/pcl_conversions' for CMake config files
+[14.298s] Level 1:colcon.colcon_core.shell:create_environment_hook('pcl_conversions', 'cmake_prefix_path')
+[14.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/pcl_conversions/share/pcl_conversions/hook/cmake_prefix_path.ps1'
+[14.475s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/pcl_conversions/share/pcl_conversions/hook/cmake_prefix_path.dsv'
+[14.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/pcl_conversions/share/pcl_conversions/hook/cmake_prefix_path.sh'
+[14.477s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/pcl_conversions/bin'
+[14.477s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/pcl_conversions/lib/pkgconfig/pcl_conversions.pc'
+[14.478s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/pcl_conversions/lib/python3.10/site-packages'
+[14.478s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/pcl_conversions/bin'
+[14.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/pcl_conversions/share/pcl_conversions/package.ps1'
+[14.483s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mael/ros2_ws/install/pcl_conversions/share/pcl_conversions/package.dsv'
+[14.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/pcl_conversions/share/pcl_conversions/package.sh'
+[14.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/pcl_conversions/share/pcl_conversions/package.bash'
+[14.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/pcl_conversions/share/pcl_conversions/package.zsh'
+[14.681s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mael/ros2_ws/install/pcl_conversions/share/colcon-core/packages/pcl_conversions)
+[14.865s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mael/ros2_ws/src/baxter_common_ros2/baxter_description' with build type 'ament_cmake'
+[14.866s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mael/ros2_ws/src/baxter_common_ros2/baxter_description'
+[14.867s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.867s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.068s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mael/ros2_ws/src/perception_pcl/pcl_ros' with build type 'ament_cmake'
+[15.068s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mael/ros2_ws/src/perception_pcl/pcl_ros'
+[15.070s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.070s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.222s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag_ros2)
+[15.225s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/apriltag_ros2' for CMake module files
+[15.227s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/apriltag_ros2' for CMake config files
+[15.227s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_ros2', 'cmake_prefix_path')
+[15.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/hook/cmake_prefix_path.ps1'
+[15.318s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/hook/cmake_prefix_path.dsv'
+[15.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/hook/cmake_prefix_path.sh'
+[15.507s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/apriltag_ros2/lib'
+[15.507s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_ros2', 'ld_library_path_lib')
+[15.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/hook/ld_library_path_lib.ps1'
+[15.697s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/hook/ld_library_path_lib.dsv'
+[15.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/hook/ld_library_path_lib.sh'
+[15.800s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/apriltag_ros2/bin'
+[15.800s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/apriltag_ros2/lib/pkgconfig/apriltag_ros2.pc'
+[15.801s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/apriltag_ros2/lib/python3.10/site-packages'
+[15.801s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/apriltag_ros2/bin'
+[15.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/package.ps1'
+[15.914s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/package.dsv'
+[15.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/package.sh'
+[15.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/package.bash'
+[16.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/apriltag_ros2/share/apriltag_ros2/package.zsh'
+[16.048s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mael/ros2_ws/install/apriltag_ros2/share/colcon-core/packages/apriltag_ros2)
+[16.054s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_interfaces)
+[16.057s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/zed_interfaces' for CMake module files
+[16.058s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/zed_interfaces' for CMake config files
+[16.059s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_interfaces', 'cmake_prefix_path')
+[16.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/hook/cmake_prefix_path.ps1'
+[16.348s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/hook/cmake_prefix_path.dsv'
+[16.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/hook/cmake_prefix_path.sh'
+[16.556s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/zed_interfaces/lib'
+[16.556s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_interfaces', 'ld_library_path_lib')
+[16.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/hook/ld_library_path_lib.ps1'
+[16.642s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/hook/ld_library_path_lib.dsv'
+[16.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/hook/ld_library_path_lib.sh'
+[16.766s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/zed_interfaces/bin'
+[16.766s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/zed_interfaces/lib/pkgconfig/zed_interfaces.pc'
+[16.767s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/zed_interfaces/lib/python3.10/site-packages'
+[16.767s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/zed_interfaces/bin'
+[16.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/package.ps1'
+[16.926s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/package.dsv'
+[17.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/package.sh'
+[17.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/package.bash'
+[17.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/zed_interfaces/share/zed_interfaces/package.zsh'
+[17.142s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mael/ros2_ws/install/zed_interfaces/share/colcon-core/packages/zed_interfaces)
+[17.142s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mael/ros2_ws/src/moveit_servo_baxter' with build type 'ament_cmake'
+[17.142s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mael/ros2_ws/src/moveit_servo_baxter'
+[17.144s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.227s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.544s] Level 1:colcon.colcon_core.shell:create_environment_hook('baxter_6dof_vr', 'pythonpath_develop')
+[17.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/build/baxter_6dof_vr/share/baxter_6dof_vr/hook/pythonpath_develop.ps1'
+[17.629s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mael/ros2_ws/build/baxter_6dof_vr' returned '0': PYTHONPATH=/home/mael/ros2_ws/build/baxter_6dof_vr/prefix_override:/home/mael/ros2_ws/install/baxter_6dof_vr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mael/ros2_ws/build/baxter_6dof_vr/build --no-deps install_data
+[17.631s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/build/baxter_6dof_vr/share/baxter_6dof_vr/hook/pythonpath_develop.dsv'
+[17.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/build/baxter_6dof_vr/share/baxter_6dof_vr/hook/pythonpath_develop.sh'
+[17.920s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_6dof_vr' for CMake module files
+[17.921s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_6dof_vr' for CMake config files
+[17.922s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_6dof_vr/lib'
+[17.922s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_6dof_vr/bin'
+[17.922s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_6dof_vr/lib/pkgconfig/baxter_6dof_vr.pc'
+[17.922s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_6dof_vr/lib/python3.10/site-packages'
+[17.922s] Level 1:colcon.colcon_core.shell:create_environment_hook('baxter_6dof_vr', 'pythonpath')
+[17.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/baxter_6dof_vr/share/baxter_6dof_vr/hook/pythonpath.ps1'
+[18.074s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/baxter_6dof_vr/share/baxter_6dof_vr/hook/pythonpath.dsv'
+[18.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/baxter_6dof_vr/share/baxter_6dof_vr/hook/pythonpath.sh'
+[18.225s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_6dof_vr/bin'
+[18.225s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(baxter_6dof_vr)
+[18.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/baxter_6dof_vr/share/baxter_6dof_vr/package.ps1'
+[18.333s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mael/ros2_ws/install/baxter_6dof_vr/share/baxter_6dof_vr/package.dsv'
+[18.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/baxter_6dof_vr/share/baxter_6dof_vr/package.sh'
+[18.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/baxter_6dof_vr/share/baxter_6dof_vr/package.bash'
+[18.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/baxter_6dof_vr/share/baxter_6dof_vr/package.zsh'
+[18.693s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mael/ros2_ws/install/baxter_6dof_vr/share/colcon-core/packages/baxter_6dof_vr)
+[18.693s] Level 1:colcon.colcon_core.shell:create_environment_hook('baxter_joint_controller', 'pythonpath_develop')
+[18.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/build/baxter_joint_controller/share/baxter_joint_controller/hook/pythonpath_develop.ps1'
+[18.887s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mael/ros2_ws/build/baxter_joint_controller' returned '0': PYTHONPATH=/home/mael/ros2_ws/build/baxter_joint_controller/prefix_override:/home/mael/ros2_ws/install/baxter_joint_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mael/ros2_ws/build/baxter_joint_controller/build --no-deps install_data
+[18.888s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/build/baxter_joint_controller/share/baxter_joint_controller/hook/pythonpath_develop.dsv'
+[18.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/build/baxter_joint_controller/share/baxter_joint_controller/hook/pythonpath_develop.sh'
+[19.090s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_joint_controller' for CMake module files
+[19.091s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_joint_controller' for CMake config files
+[19.091s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_joint_controller/lib'
+[19.092s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_joint_controller/bin'
+[19.092s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_joint_controller/lib/pkgconfig/baxter_joint_controller.pc'
+[19.092s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_joint_controller/lib/python3.10/site-packages'
+[19.092s] Level 1:colcon.colcon_core.shell:create_environment_hook('baxter_joint_controller', 'pythonpath')
+[19.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/baxter_joint_controller/share/baxter_joint_controller/hook/pythonpath.ps1'
+[19.189s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/baxter_joint_controller/share/baxter_joint_controller/hook/pythonpath.dsv'
+[19.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/baxter_joint_controller/share/baxter_joint_controller/hook/pythonpath.sh'
+[19.289s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_joint_controller/bin'
+[19.289s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(baxter_joint_controller)
+[19.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/baxter_joint_controller/share/baxter_joint_controller/package.ps1'
+[19.432s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mael/ros2_ws/install/baxter_joint_controller/share/baxter_joint_controller/package.dsv'
+[19.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/baxter_joint_controller/share/baxter_joint_controller/package.sh'
+[19.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/baxter_joint_controller/share/baxter_joint_controller/package.bash'
+[19.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/baxter_joint_controller/share/baxter_joint_controller/package.zsh'
+[19.703s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mael/ros2_ws/install/baxter_joint_controller/share/colcon-core/packages/baxter_joint_controller)
+[19.705s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(baxter_core_msgs)
+[19.708s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_core_msgs' for CMake module files
+[19.710s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_core_msgs' for CMake config files
+[19.710s] Level 1:colcon.colcon_core.shell:create_environment_hook('baxter_core_msgs', 'cmake_prefix_path')
+[19.713s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/hook/cmake_prefix_path.ps1'
+[19.901s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mael/ros2_ws/build/baxter_core_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --install /home/mael/ros2_ws/build/baxter_core_msgs
+[19.902s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/hook/cmake_prefix_path.dsv'
+[19.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/hook/cmake_prefix_path.sh'
+[20.092s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_core_msgs/lib'
+[20.092s] Level 1:colcon.colcon_core.shell:create_environment_hook('baxter_core_msgs', 'ld_library_path_lib')
+[20.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/hook/ld_library_path_lib.ps1'
+[20.191s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/hook/ld_library_path_lib.dsv'
+[20.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/hook/ld_library_path_lib.sh'
+[20.330s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_core_msgs/bin'
+[20.330s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_core_msgs/lib/pkgconfig/baxter_core_msgs.pc'
+[20.331s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_core_msgs/lib/python3.10/site-packages'
+[20.331s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_core_msgs/bin'
+[20.333s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/package.ps1'
+[20.527s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/package.dsv'
+[20.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/package.sh'
+[20.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/package.bash'
+[20.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/package.zsh'
+[20.806s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mael/ros2_ws/install/baxter_core_msgs/share/colcon-core/packages/baxter_core_msgs)
+[20.808s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mael/ros2_ws/src/zed-ros2-wrapper/zed_components' with build type 'ament_cmake'
+[20.809s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mael/ros2_ws/src/zed-ros2-wrapper/zed_components'
+[20.811s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[20.811s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[20.995s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mael/ros2_ws/src/ROS-TCP-Endpoint' with build type 'ament_python'
+[20.995s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'ament_prefix_path')
+[20.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.ps1'
+[21.185s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.dsv'
+[21.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.sh'
+[21.187s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[21.187s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[21.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mael/ros2_ws/build/baxter_maintenance_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --build /home/mael/ros2_ws/build/baxter_maintenance_msgs -- -j8 -l8
+[21.738s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mael/ros2_ws/build/baxter_description': CMAKE_PREFIX_PATH=/home/mael/ros2_ws/install/rethink_ee_description:/home/mael/ros2_ws/install/zed_ros2:/home/mael/ros2_ws/install/zed_wrapper:/home/mael/ros2_ws/install/zed_components:/home/mael/ros2_ws/install/zed_interfaces:/home/mael/ros2_ws/install/baxter_moveit_ros2:/home/mael/ros2_ws/install/baxter_description:/home/mael/ros2_ws/install/perception_pcl:/home/mael/ros2_ws/install/pcl_ros:/home/mael/ros2_ws/install/pcl_conversions:/home/mael/ros2_ws/install/baxter_maintenance_msgs:/home/mael/ros2_ws/install/baxter_core_msgs:/home/mael/ros2_ws/install/apriltag_ros_pose:/home/mael/ros2_ws/install/apriltag_ros2:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --build /home/mael/ros2_ws/build/baxter_description -- -j8 -l8
+[21.943s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mael/ros2_ws/build/pcl_ros': CMAKE_PREFIX_PATH=/home/mael/ros2_ws/install/pcl_conversions:/home/mael/ros2_ws/install/zed_ros2:/home/mael/ros2_ws/install/zed_wrapper:/home/mael/ros2_ws/install/zed_components:/home/mael/ros2_ws/install/zed_interfaces:/home/mael/ros2_ws/install/baxter_moveit_ros2:/home/mael/ros2_ws/install/baxter_description:/home/mael/ros2_ws/install/rethink_ee_description:/home/mael/ros2_ws/install/perception_pcl:/home/mael/ros2_ws/install/pcl_ros:/home/mael/ros2_ws/install/baxter_maintenance_msgs:/home/mael/ros2_ws/install/baxter_core_msgs:/home/mael/ros2_ws/install/apriltag_ros_pose:/home/mael/ros2_ws/install/apriltag_ros2:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --build /home/mael/ros2_ws/build/pcl_ros -- -j8 -l8
+[22.284s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mael/ros2_ws/build/moveit_servo_baxter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake /home/mael/ros2_ws/src/moveit_servo_baxter -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mael/ros2_ws/install/moveit_servo_baxter
+[22.605s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mael/ros2_ws/build/zed_components': CMAKE_PREFIX_PATH=/home/mael/ros2_ws/install/zed_interfaces:/home/mael/ros2_ws/install/zed_ros2:/home/mael/ros2_ws/install/zed_wrapper:/home/mael/ros2_ws/install/zed_components:/home/mael/ros2_ws/install/baxter_moveit_ros2:/home/mael/ros2_ws/install/baxter_description:/home/mael/ros2_ws/install/rethink_ee_description:/home/mael/ros2_ws/install/perception_pcl:/home/mael/ros2_ws/install/pcl_ros:/home/mael/ros2_ws/install/pcl_conversions:/home/mael/ros2_ws/install/baxter_maintenance_msgs:/home/mael/ros2_ws/install/baxter_core_msgs:/home/mael/ros2_ws/install/apriltag_ros_pose:/home/mael/ros2_ws/install/apriltag_ros2:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble LD_LIBRARY_PATH=/home/mael/ros2_ws/install/zed_interfaces/lib:/home/mael/ros2_ws/install/zed_components/lib:/home/mael/ros2_ws/install/pcl_ros/lib:/home/mael/ros2_ws/install/baxter_maintenance_msgs/lib:/home/mael/ros2_ws/install/baxter_core_msgs/lib:/home/mael/ros2_ws/install/apriltag_ros_pose/lib:/home/mael/ros2_ws/install/apriltag_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/mael/ros2_ws/build/zed_components -- -j8 -l8
+[23.294s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mael/ros2_ws/src/ROS-TCP-Endpoint'
+[23.295s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[23.295s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[23.647s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(baxter_core_msgs)
+[23.651s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_core_msgs' for CMake module files
+[23.652s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_core_msgs' for CMake config files
+[23.653s] Level 1:colcon.colcon_core.shell:create_environment_hook('baxter_core_msgs', 'cmake_prefix_path')
+[23.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/hook/cmake_prefix_path.ps1'
+[23.857s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/hook/cmake_prefix_path.dsv'
+[23.961s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/hook/cmake_prefix_path.sh'
+[24.121s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_core_msgs/lib'
+[24.121s] Level 1:colcon.colcon_core.shell:create_environment_hook('baxter_core_msgs', 'ld_library_path_lib')
+[24.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/hook/ld_library_path_lib.ps1'
+[24.200s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/hook/ld_library_path_lib.dsv'
+[24.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/hook/ld_library_path_lib.sh'
+[24.280s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_core_msgs/bin'
+[24.280s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_core_msgs/lib/pkgconfig/baxter_core_msgs.pc'
+[24.281s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_core_msgs/lib/python3.10/site-packages'
+[24.281s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_core_msgs/bin'
+[24.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/package.ps1'
+[24.431s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/package.dsv'
+[24.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/package.sh'
+[24.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/package.bash'
+[24.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/baxter_core_msgs/share/baxter_core_msgs/package.zsh'
+[24.595s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mael/ros2_ws/install/baxter_core_msgs/share/colcon-core/packages/baxter_core_msgs)
+[24.796s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mael/ros2_ws/build/baxter_description' returned '0': CMAKE_PREFIX_PATH=/home/mael/ros2_ws/install/rethink_ee_description:/home/mael/ros2_ws/install/zed_ros2:/home/mael/ros2_ws/install/zed_wrapper:/home/mael/ros2_ws/install/zed_components:/home/mael/ros2_ws/install/zed_interfaces:/home/mael/ros2_ws/install/baxter_moveit_ros2:/home/mael/ros2_ws/install/baxter_description:/home/mael/ros2_ws/install/perception_pcl:/home/mael/ros2_ws/install/pcl_ros:/home/mael/ros2_ws/install/pcl_conversions:/home/mael/ros2_ws/install/baxter_maintenance_msgs:/home/mael/ros2_ws/install/baxter_core_msgs:/home/mael/ros2_ws/install/apriltag_ros_pose:/home/mael/ros2_ws/install/apriltag_ros2:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --build /home/mael/ros2_ws/build/baxter_description -- -j8 -l8
+[24.797s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mael/ros2_ws/build/pcl_ros' returned '0': CMAKE_PREFIX_PATH=/home/mael/ros2_ws/install/pcl_conversions:/home/mael/ros2_ws/install/zed_ros2:/home/mael/ros2_ws/install/zed_wrapper:/home/mael/ros2_ws/install/zed_components:/home/mael/ros2_ws/install/zed_interfaces:/home/mael/ros2_ws/install/baxter_moveit_ros2:/home/mael/ros2_ws/install/baxter_description:/home/mael/ros2_ws/install/rethink_ee_description:/home/mael/ros2_ws/install/perception_pcl:/home/mael/ros2_ws/install/pcl_ros:/home/mael/ros2_ws/install/baxter_maintenance_msgs:/home/mael/ros2_ws/install/baxter_core_msgs:/home/mael/ros2_ws/install/apriltag_ros_pose:/home/mael/ros2_ws/install/apriltag_ros2:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --build /home/mael/ros2_ws/build/pcl_ros -- -j8 -l8
+[24.797s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mael/ros2_ws/build/baxter_maintenance_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --build /home/mael/ros2_ws/build/baxter_maintenance_msgs -- -j8 -l8
+[24.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mael/ros2_ws/build/zed_components' returned '0': CMAKE_PREFIX_PATH=/home/mael/ros2_ws/install/zed_interfaces:/home/mael/ros2_ws/install/zed_ros2:/home/mael/ros2_ws/install/zed_wrapper:/home/mael/ros2_ws/install/zed_components:/home/mael/ros2_ws/install/baxter_moveit_ros2:/home/mael/ros2_ws/install/baxter_description:/home/mael/ros2_ws/install/rethink_ee_description:/home/mael/ros2_ws/install/perception_pcl:/home/mael/ros2_ws/install/pcl_ros:/home/mael/ros2_ws/install/pcl_conversions:/home/mael/ros2_ws/install/baxter_maintenance_msgs:/home/mael/ros2_ws/install/baxter_core_msgs:/home/mael/ros2_ws/install/apriltag_ros_pose:/home/mael/ros2_ws/install/apriltag_ros2:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble LD_LIBRARY_PATH=/home/mael/ros2_ws/install/zed_interfaces/lib:/home/mael/ros2_ws/install/zed_components/lib:/home/mael/ros2_ws/install/pcl_ros/lib:/home/mael/ros2_ws/install/baxter_maintenance_msgs/lib:/home/mael/ros2_ws/install/baxter_core_msgs/lib:/home/mael/ros2_ws/install/apriltag_ros_pose/lib:/home/mael/ros2_ws/install/apriltag_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/mael/ros2_ws/build/zed_components -- -j8 -l8
+[24.878s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mael/ros2_ws/build/zed_components': CMAKE_PREFIX_PATH=/home/mael/ros2_ws/install/zed_interfaces:/home/mael/ros2_ws/install/zed_ros2:/home/mael/ros2_ws/install/zed_wrapper:/home/mael/ros2_ws/install/zed_components:/home/mael/ros2_ws/install/baxter_moveit_ros2:/home/mael/ros2_ws/install/baxter_description:/home/mael/ros2_ws/install/rethink_ee_description:/home/mael/ros2_ws/install/perception_pcl:/home/mael/ros2_ws/install/pcl_ros:/home/mael/ros2_ws/install/pcl_conversions:/home/mael/ros2_ws/install/baxter_maintenance_msgs:/home/mael/ros2_ws/install/baxter_core_msgs:/home/mael/ros2_ws/install/apriltag_ros_pose:/home/mael/ros2_ws/install/apriltag_ros2:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble LD_LIBRARY_PATH=/home/mael/ros2_ws/install/zed_interfaces/lib:/home/mael/ros2_ws/install/zed_components/lib:/home/mael/ros2_ws/install/pcl_ros/lib:/home/mael/ros2_ws/install/baxter_maintenance_msgs/lib:/home/mael/ros2_ws/install/baxter_core_msgs/lib:/home/mael/ros2_ws/install/apriltag_ros_pose/lib:/home/mael/ros2_ws/install/apriltag_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/mael/ros2_ws/build/zed_components
+[24.879s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mael/ros2_ws/build/baxter_description': CMAKE_PREFIX_PATH=/home/mael/ros2_ws/install/rethink_ee_description:/home/mael/ros2_ws/install/zed_ros2:/home/mael/ros2_ws/install/zed_wrapper:/home/mael/ros2_ws/install/zed_components:/home/mael/ros2_ws/install/zed_interfaces:/home/mael/ros2_ws/install/baxter_moveit_ros2:/home/mael/ros2_ws/install/baxter_description:/home/mael/ros2_ws/install/perception_pcl:/home/mael/ros2_ws/install/pcl_ros:/home/mael/ros2_ws/install/pcl_conversions:/home/mael/ros2_ws/install/baxter_maintenance_msgs:/home/mael/ros2_ws/install/baxter_core_msgs:/home/mael/ros2_ws/install/apriltag_ros_pose:/home/mael/ros2_ws/install/apriltag_ros2:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --install /home/mael/ros2_ws/build/baxter_description
+[24.881s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mael/ros2_ws/build/pcl_ros': CMAKE_PREFIX_PATH=/home/mael/ros2_ws/install/pcl_conversions:/home/mael/ros2_ws/install/zed_ros2:/home/mael/ros2_ws/install/zed_wrapper:/home/mael/ros2_ws/install/zed_components:/home/mael/ros2_ws/install/zed_interfaces:/home/mael/ros2_ws/install/baxter_moveit_ros2:/home/mael/ros2_ws/install/baxter_description:/home/mael/ros2_ws/install/rethink_ee_description:/home/mael/ros2_ws/install/perception_pcl:/home/mael/ros2_ws/install/pcl_ros:/home/mael/ros2_ws/install/baxter_maintenance_msgs:/home/mael/ros2_ws/install/baxter_core_msgs:/home/mael/ros2_ws/install/apriltag_ros_pose:/home/mael/ros2_ws/install/apriltag_ros2:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --install /home/mael/ros2_ws/build/pcl_ros
+[24.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mael/ros2_ws/build/baxter_maintenance_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --install /home/mael/ros2_ws/build/baxter_maintenance_msgs
+[24.925s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(baxter_description)
+[24.928s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_description' for CMake module files
+[24.930s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_description' for CMake config files
+[24.932s] Level 1:colcon.colcon_core.shell:create_environment_hook('baxter_description', 'cmake_prefix_path')
+[24.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/baxter_description/share/baxter_description/hook/cmake_prefix_path.ps1'
+[24.949s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mael/ros2_ws/build/baxter_description' returned '0': CMAKE_PREFIX_PATH=/home/mael/ros2_ws/install/rethink_ee_description:/home/mael/ros2_ws/install/zed_ros2:/home/mael/ros2_ws/install/zed_wrapper:/home/mael/ros2_ws/install/zed_components:/home/mael/ros2_ws/install/zed_interfaces:/home/mael/ros2_ws/install/baxter_moveit_ros2:/home/mael/ros2_ws/install/baxter_description:/home/mael/ros2_ws/install/perception_pcl:/home/mael/ros2_ws/install/pcl_ros:/home/mael/ros2_ws/install/pcl_conversions:/home/mael/ros2_ws/install/baxter_maintenance_msgs:/home/mael/ros2_ws/install/baxter_core_msgs:/home/mael/ros2_ws/install/apriltag_ros_pose:/home/mael/ros2_ws/install/apriltag_ros2:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --install /home/mael/ros2_ws/build/baxter_description
+[25.107s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/baxter_description/share/baxter_description/hook/cmake_prefix_path.dsv'
+[25.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/baxter_description/share/baxter_description/hook/cmake_prefix_path.sh'
+[25.267s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_description/bin'
+[25.268s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_description/lib/pkgconfig/baxter_description.pc'
+[25.268s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_description/lib/python3.10/site-packages'
+[25.268s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_description/bin'
+[25.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/baxter_description/share/baxter_description/package.ps1'
+[25.423s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mael/ros2_ws/install/baxter_description/share/baxter_description/package.dsv'
+[25.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/baxter_description/share/baxter_description/package.sh'
+[25.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/baxter_description/share/baxter_description/package.bash'
+[25.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/baxter_description/share/baxter_description/package.zsh'
+[25.425s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mael/ros2_ws/install/baxter_description/share/colcon-core/packages/baxter_description)
+[25.520s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_components)
+[25.523s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/zed_components' for CMake module files
+[25.523s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mael/ros2_ws/build/zed_components' returned '0': CMAKE_PREFIX_PATH=/home/mael/ros2_ws/install/zed_interfaces:/home/mael/ros2_ws/install/zed_ros2:/home/mael/ros2_ws/install/zed_wrapper:/home/mael/ros2_ws/install/zed_components:/home/mael/ros2_ws/install/baxter_moveit_ros2:/home/mael/ros2_ws/install/baxter_description:/home/mael/ros2_ws/install/rethink_ee_description:/home/mael/ros2_ws/install/perception_pcl:/home/mael/ros2_ws/install/pcl_ros:/home/mael/ros2_ws/install/pcl_conversions:/home/mael/ros2_ws/install/baxter_maintenance_msgs:/home/mael/ros2_ws/install/baxter_core_msgs:/home/mael/ros2_ws/install/apriltag_ros_pose:/home/mael/ros2_ws/install/apriltag_ros2:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble LD_LIBRARY_PATH=/home/mael/ros2_ws/install/zed_interfaces/lib:/home/mael/ros2_ws/install/zed_components/lib:/home/mael/ros2_ws/install/pcl_ros/lib:/home/mael/ros2_ws/install/baxter_maintenance_msgs/lib:/home/mael/ros2_ws/install/baxter_core_msgs/lib:/home/mael/ros2_ws/install/apriltag_ros_pose/lib:/home/mael/ros2_ws/install/apriltag_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/mael/ros2_ws/build/zed_components
+[25.524s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/zed_components' for CMake config files
+[25.524s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_components', 'cmake_prefix_path')
+[25.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/zed_components/share/zed_components/hook/cmake_prefix_path.ps1'
+[25.696s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/zed_components/share/zed_components/hook/cmake_prefix_path.dsv'
+[25.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/zed_components/share/zed_components/hook/cmake_prefix_path.sh'
+[25.697s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/zed_components/lib'
+[25.697s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_components', 'ld_library_path_lib')
+[25.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/zed_components/share/zed_components/hook/ld_library_path_lib.ps1'
+[25.894s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/zed_components/share/zed_components/hook/ld_library_path_lib.dsv'
+[25.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/zed_components/share/zed_components/hook/ld_library_path_lib.sh'
+[25.895s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/zed_components/bin'
+[25.895s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/zed_components/lib/pkgconfig/zed_components.pc'
+[25.895s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/zed_components/lib/python3.10/site-packages'
+[25.896s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/zed_components/bin'
+[25.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/zed_components/share/zed_components/package.ps1'
+[25.983s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mael/ros2_ws/install/zed_components/share/zed_components/package.dsv'
+[25.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/zed_components/share/zed_components/package.sh'
+[26.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/zed_components/share/zed_components/package.bash'
+[26.173s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/zed_components/share/zed_components/package.zsh'
+[26.174s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mael/ros2_ws/install/zed_components/share/colcon-core/packages/zed_components)
+[26.177s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pcl_ros)
+[26.180s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/pcl_ros' for CMake module files
+[26.181s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mael/ros2_ws/build/pcl_ros' returned '0': CMAKE_PREFIX_PATH=/home/mael/ros2_ws/install/pcl_conversions:/home/mael/ros2_ws/install/zed_ros2:/home/mael/ros2_ws/install/zed_wrapper:/home/mael/ros2_ws/install/zed_components:/home/mael/ros2_ws/install/zed_interfaces:/home/mael/ros2_ws/install/baxter_moveit_ros2:/home/mael/ros2_ws/install/baxter_description:/home/mael/ros2_ws/install/rethink_ee_description:/home/mael/ros2_ws/install/perception_pcl:/home/mael/ros2_ws/install/pcl_ros:/home/mael/ros2_ws/install/baxter_maintenance_msgs:/home/mael/ros2_ws/install/baxter_core_msgs:/home/mael/ros2_ws/install/apriltag_ros_pose:/home/mael/ros2_ws/install/apriltag_ros2:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --install /home/mael/ros2_ws/build/pcl_ros
+[26.182s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/pcl_ros' for CMake config files
+[26.182s] Level 1:colcon.colcon_core.shell:create_environment_hook('pcl_ros', 'cmake_prefix_path')
+[26.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/hook/cmake_prefix_path.ps1'
+[26.401s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/hook/cmake_prefix_path.dsv'
+[26.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/hook/cmake_prefix_path.sh'
+[26.506s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/pcl_ros/lib'
+[26.506s] Level 1:colcon.colcon_core.shell:create_environment_hook('pcl_ros', 'ld_library_path_lib')
+[26.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/hook/ld_library_path_lib.ps1'
+[26.763s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/hook/ld_library_path_lib.dsv'
+[26.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/hook/ld_library_path_lib.sh'
+[26.766s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/pcl_ros/bin'
+[26.766s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/pcl_ros/lib/pkgconfig/pcl_ros.pc'
+[26.766s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/pcl_ros/lib/python3.10/site-packages'
+[26.766s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/pcl_ros/bin'
+[26.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/package.ps1'
+[26.969s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/package.dsv'
+[26.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/package.sh'
+[27.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/package.bash'
+[27.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/package.zsh'
+[27.184s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mael/ros2_ws/install/pcl_ros/share/colcon-core/packages/pcl_ros)
+[27.185s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(baxter_maintenance_msgs)
+[27.188s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_maintenance_msgs' for CMake module files
+[27.189s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mael/ros2_ws/build/baxter_maintenance_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --install /home/mael/ros2_ws/build/baxter_maintenance_msgs
+[27.190s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_maintenance_msgs' for CMake config files
+[27.190s] Level 1:colcon.colcon_core.shell:create_environment_hook('baxter_maintenance_msgs', 'cmake_prefix_path')
+[27.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/hook/cmake_prefix_path.ps1'
+[27.431s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/hook/cmake_prefix_path.dsv'
+[27.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/hook/cmake_prefix_path.sh'
+[27.434s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_maintenance_msgs/lib'
+[27.434s] Level 1:colcon.colcon_core.shell:create_environment_hook('baxter_maintenance_msgs', 'ld_library_path_lib')
+[27.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/hook/ld_library_path_lib.ps1'
+[27.641s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/hook/ld_library_path_lib.dsv'
+[27.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/hook/ld_library_path_lib.sh'
+[28.056s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_maintenance_msgs/bin'
+[28.056s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_maintenance_msgs/lib/pkgconfig/baxter_maintenance_msgs.pc'
+[28.057s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_maintenance_msgs/lib/python3.10/site-packages'
+[28.057s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_maintenance_msgs/bin'
+[28.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/package.ps1'
+[28.250s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mael/ros2_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/package.dsv'
+[28.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/package.sh'
+[28.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/package.bash'
+[28.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/package.zsh'
+[28.544s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mael/ros2_ws/install/baxter_maintenance_msgs/share/colcon-core/packages/baxter_maintenance_msgs)
+[28.639s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(baxter_description)
+[28.646s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_description' for CMake module files
+[28.648s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mael/ros2_ws/build/ros_tcp_endpoint': PYTHONPATH=/home/mael/ros2_ws/build/ros_tcp_endpoint/prefix_override:/home/mael/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mael/ros2_ws/build/ros_tcp_endpoint/build --no-deps install_data
+[28.649s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_description' for CMake config files
+[28.650s] Level 1:colcon.colcon_core.shell:create_environment_hook('baxter_description', 'cmake_prefix_path')
+[28.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/baxter_description/share/baxter_description/hook/cmake_prefix_path.ps1'
+[28.772s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/baxter_description/share/baxter_description/hook/cmake_prefix_path.dsv'
+[28.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/baxter_description/share/baxter_description/hook/cmake_prefix_path.sh'
+[28.774s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_description/bin'
+[28.774s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_description/lib/pkgconfig/baxter_description.pc'
+[28.775s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_description/lib/python3.10/site-packages'
+[28.775s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_description/bin'
+[28.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/baxter_description/share/baxter_description/package.ps1'
+[28.970s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mael/ros2_ws/install/baxter_description/share/baxter_description/package.dsv'
+[28.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/baxter_description/share/baxter_description/package.sh'
+[29.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/baxter_description/share/baxter_description/package.bash'
+[29.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/baxter_description/share/baxter_description/package.zsh'
+[29.256s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mael/ros2_ws/install/baxter_description/share/colcon-core/packages/baxter_description)
+[29.350s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mael/ros2_ws/src/baxter_moveit_ros2' with build type 'ament_cmake'
+[29.350s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mael/ros2_ws/src/baxter_moveit_ros2'
+[29.353s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[29.353s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[29.561s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(zed_components)
+[29.565s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/zed_components' for CMake module files
+[29.568s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/zed_components' for CMake config files
+[29.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mael/ros2_ws/build/moveit_servo_baxter' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake /home/mael/ros2_ws/src/moveit_servo_baxter -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mael/ros2_ws/install/moveit_servo_baxter
+[29.569s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_components', 'cmake_prefix_path')
+[29.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/zed_components/share/zed_components/hook/cmake_prefix_path.ps1'
+[29.735s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/zed_components/share/zed_components/hook/cmake_prefix_path.dsv'
+[29.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/zed_components/share/zed_components/hook/cmake_prefix_path.sh'
+[29.735s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/zed_components/lib'
+[29.735s] Level 1:colcon.colcon_core.shell:create_environment_hook('zed_components', 'ld_library_path_lib')
+[29.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/zed_components/share/zed_components/hook/ld_library_path_lib.ps1'
+[29.900s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/zed_components/share/zed_components/hook/ld_library_path_lib.dsv'
+[29.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/zed_components/share/zed_components/hook/ld_library_path_lib.sh'
+[29.901s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/zed_components/bin'
+[29.901s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/zed_components/lib/pkgconfig/zed_components.pc'
+[29.901s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/zed_components/lib/python3.10/site-packages'
+[29.901s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/zed_components/bin'
+[29.904s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/zed_components/share/zed_components/package.ps1'
+[29.996s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mael/ros2_ws/install/zed_components/share/zed_components/package.dsv'
+[29.997s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/zed_components/share/zed_components/package.sh'
+[30.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/zed_components/share/zed_components/package.bash'
+[30.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/zed_components/share/zed_components/package.zsh'
+[30.229s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mael/ros2_ws/install/zed_components/share/colcon-core/packages/zed_components)
+[30.303s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pcl_ros)
+[30.306s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/pcl_ros' for CMake module files
+[30.307s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/pcl_ros' for CMake config files
+[30.307s] Level 1:colcon.colcon_core.shell:create_environment_hook('pcl_ros', 'cmake_prefix_path')
+[30.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/hook/cmake_prefix_path.ps1'
+[30.533s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/hook/cmake_prefix_path.dsv'
+[30.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/hook/cmake_prefix_path.sh'
+[30.534s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/pcl_ros/lib'
+[30.534s] Level 1:colcon.colcon_core.shell:create_environment_hook('pcl_ros', 'ld_library_path_lib')
+[30.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/hook/ld_library_path_lib.ps1'
+[30.678s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/hook/ld_library_path_lib.dsv'
+[30.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/hook/ld_library_path_lib.sh'
+[30.757s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/pcl_ros/bin'
+[30.758s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/pcl_ros/lib/pkgconfig/pcl_ros.pc'
+[30.758s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/pcl_ros/lib/python3.10/site-packages'
+[30.758s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/pcl_ros/bin'
+[30.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/package.ps1'
+[30.911s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/package.dsv'
+[30.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/package.sh'
+[30.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/package.bash'
+[30.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/pcl_ros/share/pcl_ros/package.zsh'
+[31.073s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mael/ros2_ws/install/pcl_ros/share/colcon-core/packages/pcl_ros)
+[31.073s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mael/ros2_ws/src/zed-ros2-wrapper/zed_wrapper' with build type 'ament_cmake'
+[31.074s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mael/ros2_ws/src/zed-ros2-wrapper/zed_wrapper'
+[31.076s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[31.076s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[31.177s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(baxter_maintenance_msgs)
+[31.180s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_maintenance_msgs' for CMake module files
+[31.181s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_maintenance_msgs' for CMake config files
+[31.181s] Level 1:colcon.colcon_core.shell:create_environment_hook('baxter_maintenance_msgs', 'cmake_prefix_path')
+[31.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/hook/cmake_prefix_path.ps1'
+[31.279s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/hook/cmake_prefix_path.dsv'
+[31.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/hook/cmake_prefix_path.sh'
+[31.280s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_maintenance_msgs/lib'
+[31.280s] Level 1:colcon.colcon_core.shell:create_environment_hook('baxter_maintenance_msgs', 'ld_library_path_lib')
+[31.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/hook/ld_library_path_lib.ps1'
+[31.283s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/hook/ld_library_path_lib.dsv'
+[31.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/hook/ld_library_path_lib.sh'
+[31.441s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_maintenance_msgs/bin'
+[31.441s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_maintenance_msgs/lib/pkgconfig/baxter_maintenance_msgs.pc'
+[31.441s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_maintenance_msgs/lib/python3.10/site-packages'
+[31.442s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/baxter_maintenance_msgs/bin'
+[31.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/package.ps1'
+[31.521s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mael/ros2_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/package.dsv'
+[31.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/package.sh'
+[31.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/package.bash'
+[31.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/package.zsh'
+[31.825s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mael/ros2_ws/install/baxter_maintenance_msgs/share/colcon-core/packages/baxter_maintenance_msgs)
+[31.827s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mael/ros2_ws/src/perception_pcl/perception_pcl' with build type 'ament_cmake'
+[31.827s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mael/ros2_ws/src/perception_pcl/perception_pcl'
+[31.829s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[31.830s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[31.982s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'pythonpath_develop')
+[31.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/build/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath_develop.ps1'
+[31.985s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mael/ros2_ws/build/ros_tcp_endpoint' returned '0': PYTHONPATH=/home/mael/ros2_ws/build/ros_tcp_endpoint/prefix_override:/home/mael/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mael/ros2_ws/build/ros_tcp_endpoint/build --no-deps install_data
+[32.141s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/build/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath_develop.dsv'
+[32.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/build/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath_develop.sh'
+[32.150s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/ros_tcp_endpoint' for CMake module files
+[32.151s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/ros_tcp_endpoint' for CMake config files
+[32.152s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/ros_tcp_endpoint/lib'
+[32.152s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/ros_tcp_endpoint/bin'
+[32.152s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/ros_tcp_endpoint/lib/pkgconfig/ros_tcp_endpoint.pc'
+[32.153s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages'
+[32.153s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'pythonpath')
+[32.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.ps1'
+[32.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mael/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.dsv'
+[32.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mael/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.sh'
+[32.298s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/ros_tcp_endpoint/bin'
+[32.298s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_tcp_endpoint)
+[32.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.ps1'
+[32.483s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mael/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.dsv'
+[32.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.sh'
+[32.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.bash'
+[32.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.zsh'
+[32.563s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mael/ros2_ws/install/ros_tcp_endpoint/share/colcon-core/packages/ros_tcp_endpoint)
+[32.840s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_servo_baxter)
+[32.845s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/moveit_servo_baxter' for CMake module files
+[32.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mael/ros2_ws/build/baxter_moveit_ros2': CMAKE_PREFIX_PATH=/home/mael/ros2_ws/install/baxter_description:/home/mael/ros2_ws/install/rethink_ee_description:/home/mael/ros2_ws/install/zed_ros2:/home/mael/ros2_ws/install/zed_wrapper:/home/mael/ros2_ws/install/zed_components:/home/mael/ros2_ws/install/zed_interfaces:/home/mael/ros2_ws/install/baxter_moveit_ros2:/home/mael/ros2_ws/install/perception_pcl:/home/mael/ros2_ws/install/pcl_ros:/home/mael/ros2_ws/install/pcl_conversions:/home/mael/ros2_ws/install/baxter_maintenance_msgs:/home/mael/ros2_ws/install/baxter_core_msgs:/home/mael/ros2_ws/install/apriltag_ros_pose:/home/mael/ros2_ws/install/apriltag_ros2:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --build /home/mael/ros2_ws/build/baxter_moveit_ros2 -- -j8 -l8
+[32.846s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/moveit_servo_baxter' for CMake config files
+[32.847s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/moveit_servo_baxter/bin'
+[32.847s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/moveit_servo_baxter/lib/pkgconfig/moveit_servo_baxter.pc'
+[32.847s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/moveit_servo_baxter/lib/python3.10/site-packages'
+[32.848s] Level 1:colcon.colcon_core.environment:checking '/home/mael/ros2_ws/install/moveit_servo_baxter/bin'
+[32.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/moveit_servo_baxter/share/moveit_servo_baxter/package.ps1'
+[33.003s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mael/ros2_ws/install/moveit_servo_baxter/share/moveit_servo_baxter/package.dsv'
+[33.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/moveit_servo_baxter/share/moveit_servo_baxter/package.sh'
+[33.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/moveit_servo_baxter/share/moveit_servo_baxter/package.bash'
+[33.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/mael/ros2_ws/install/moveit_servo_baxter/share/moveit_servo_baxter/package.zsh'
+[33.091s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mael/ros2_ws/install/moveit_servo_baxter/share/colcon-core/packages/moveit_servo_baxter)
+[33.246s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[33.246s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[33.246s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[33.246s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[33.253s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[33.253s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[33.253s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[33.265s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[33.267s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mael/ros2_ws/install/local_setup.ps1'
+[33.443s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mael/ros2_ws/install/_local_setup_util_ps1.py'
+[33.605s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mael/ros2_ws/install/setup.ps1'
+[33.687s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mael/ros2_ws/install/local_setup.sh'
+[33.688s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mael/ros2_ws/install/_local_setup_util_sh.py'
+[33.689s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mael/ros2_ws/install/setup.sh'
+[33.866s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mael/ros2_ws/install/local_setup.bash'
+[33.867s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mael/ros2_ws/install/setup.bash'
+[34.023s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mael/ros2_ws/install/local_setup.zsh'
+[34.023s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mael/ros2_ws/install/setup.zsh'

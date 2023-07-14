@@ -1,0 +1,62 @@
+[0.039s] Invoking command in '/home/mael/ros2_ws/build/moveit_servo_baxter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --build /home/mael/ros2_ws/build/moveit_servo_baxter -- -j8 -l8
+[0.240s] [  5%] Built target moveit_servo_lib_parameters
+[0.273s] [ 16%] Built target servo_controller_input
+[0.282s] [ 27%] Built target fake_command_publisher
+[0.401s] [ 55%] Built target moveit_servo_lib
+[0.494s] [ 66%] Built target servo_node
+[0.512s] [ 77%] Built target pose_tracking
+[0.550s] [35m[1mConsolidate compiler generated dependencies of target servo_pose_tracking_demo[0m
+[0.583s] [ 88%] Built target servo_node_main
+[0.618s] [100%] Built target servo_pose_tracking_demo
+[0.637s] Invoked command in '/home/mael/ros2_ws/build/moveit_servo_baxter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --build /home/mael/ros2_ws/build/moveit_servo_baxter -- -j8 -l8
+[1.363s] Invoking command in '/home/mael/ros2_ws/build/moveit_servo_baxter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --install /home/mael/ros2_ws/build/moveit_servo_baxter
+[1.407s] -- Install configuration: "Release"
+[1.408s] -- Execute custom install script
+[1.408s] -- Up-to-date symlink: /home/mael/ros2_ws/install/moveit_servo_baxter/include/moveit_servo_lib_parameters/moveit_servo_lib_parameters.hpp
+[1.408s] -- Up-to-date symlink: /home/mael/ros2_ws/install/moveit_servo_baxter/lib/moveit_servo_baxter/servo_node_main
+[1.408s] -- Up-to-date symlink: /home/mael/ros2_ws/install/moveit_servo_baxter/lib/moveit_servo_baxter/servo_pose_tracking_demo
+[1.408s] -- Up-to-date symlink: /home/mael/ros2_ws/install/moveit_servo_baxter/lib/moveit_servo_baxter/fake_command_publisher
+[1.408s] -- Up-to-date symlink: /home/mael/ros2_ws/install/moveit_servo_baxter/include/moveit_servo_baxter/moveit_servo_baxter/collision_check.h
+[1.408s] -- Up-to-date symlink: /home/mael/ros2_ws/install/moveit_servo_baxter/include/moveit_servo_baxter/moveit_servo_baxter/make_shared_from_pool.h
+[1.408s] -- Up-to-date symlink: /home/mael/ros2_ws/install/moveit_servo_baxter/include/moveit_servo_baxter/moveit_servo_baxter/pose_tracking.h
+[1.408s] -- Up-to-date symlink: /home/mael/ros2_ws/install/moveit_servo_baxter/include/moveit_servo_baxter/moveit_servo_baxter/servo.h
+[1.408s] -- Up-to-date symlink: /home/mael/ros2_ws/install/moveit_servo_baxter/include/moveit_servo_baxter/moveit_servo_baxter/servo_calcs.h
+[1.408s] -- Up-to-date symlink: /home/mael/ros2_ws/install/moveit_servo_baxter/include/moveit_servo_baxter/moveit_servo_baxter/servo_node.h
+[1.409s] -- Up-to-date symlink: /home/mael/ros2_ws/install/moveit_servo_baxter/include/moveit_servo_baxter/moveit_servo_baxter/servo_server.h
+[1.409s] -- Up-to-date symlink: /home/mael/ros2_ws/install/moveit_servo_baxter/include/moveit_servo_baxter/moveit_servo_baxter/status_codes.h
+[1.409s] -- Up-to-date symlink: /home/mael/ros2_ws/install/moveit_servo_baxter/include/moveit_servo_baxter/moveit_servo_baxter/utilities.h
+[1.409s] -- Up-to-date symlink: /home/mael/ros2_ws/install/moveit_servo_baxter/share/moveit_servo_baxter/launch/pose_tracking_example.launch.py
+[1.409s] -- Up-to-date symlink: /home/mael/ros2_ws/install/moveit_servo_baxter/share/moveit_servo_baxter/launch/servo_example.launch.py
+[1.409s] -- Up-to-date symlink: /home/mael/ros2_ws/install/moveit_servo_baxter/share/moveit_servo_baxter/config/demo_rviz_config.rviz
+[1.409s] -- Up-to-date symlink: /home/mael/ros2_ws/install/moveit_servo_baxter/share/moveit_servo_baxter/config/demo_rviz_pose_tracking.rviz
+[1.409s] -- Up-to-date symlink: /home/mael/ros2_ws/install/moveit_servo_baxter/share/moveit_servo_baxter/config/panda_simulated_config.yaml
+[1.409s] -- Up-to-date symlink: /home/mael/ros2_ws/install/moveit_servo_baxter/share/moveit_servo_baxter/config/panda_simulated_config_pose_tracking.yaml
+[1.409s] -- Up-to-date symlink: /home/mael/ros2_ws/install/moveit_servo_baxter/share/moveit_servo_baxter/config/pose_tracking_settings.yaml
+[1.410s] -- Up-to-date symlink: /home/mael/ros2_ws/install/moveit_servo_baxter/share/moveit_servo_baxter/environment/library_path.sh
+[1.410s] -- Up-to-date symlink: /home/mael/ros2_ws/install/moveit_servo_baxter/share/moveit_servo_baxter/environment/library_path.dsv
+[1.410s] -- Up-to-date symlink: /home/mael/ros2_ws/install/moveit_servo_baxter/share/ament_index/resource_index/package_run_dependencies/moveit_servo_baxter
+[1.410s] -- Up-to-date symlink: /home/mael/ros2_ws/install/moveit_servo_baxter/share/ament_index/resource_index/parent_prefix_path/moveit_servo_baxter
+[1.410s] -- Up-to-date symlink: /home/mael/ros2_ws/install/moveit_servo_baxter/share/moveit_servo_baxter/environment/ament_prefix_path.sh
+[1.410s] -- Up-to-date symlink: /home/mael/ros2_ws/install/moveit_servo_baxter/share/moveit_servo_baxter/environment/ament_prefix_path.dsv
+[1.410s] -- Up-to-date symlink: /home/mael/ros2_ws/install/moveit_servo_baxter/share/moveit_servo_baxter/environment/path.sh
+[1.410s] -- Up-to-date symlink: /home/mael/ros2_ws/install/moveit_servo_baxter/share/moveit_servo_baxter/environment/path.dsv
+[1.410s] -- Up-to-date symlink: /home/mael/ros2_ws/install/moveit_servo_baxter/share/moveit_servo_baxter/local_setup.bash
+[1.410s] -- Up-to-date symlink: /home/mael/ros2_ws/install/moveit_servo_baxter/share/moveit_servo_baxter/local_setup.sh
+[1.410s] -- Up-to-date symlink: /home/mael/ros2_ws/install/moveit_servo_baxter/share/moveit_servo_baxter/local_setup.zsh
+[1.410s] -- Up-to-date symlink: /home/mael/ros2_ws/install/moveit_servo_baxter/share/moveit_servo_baxter/local_setup.dsv
+[1.411s] -- Symlinking: /home/mael/ros2_ws/install/moveit_servo_baxter/share/moveit_servo_baxter/package.dsv
+[1.411s] -- Up-to-date symlink: /home/mael/ros2_ws/install/moveit_servo_baxter/share/ament_index/resource_index/packages/moveit_servo_baxter
+[1.411s] -- Up-to-date symlink: /home/mael/ros2_ws/install/moveit_servo_baxter/share/ament_index/resource_index/rclcpp_components/moveit_servo_baxter
+[1.411s] -- Up-to-date symlink: /home/mael/ros2_ws/install/moveit_servo_baxter/share/moveit_servo_baxter/cmake/ament_cmake_export_targets-extras.cmake
+[1.411s] -- Up-to-date symlink: /home/mael/ros2_ws/install/moveit_servo_baxter/share/moveit_servo_baxter/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.411s] -- Up-to-date symlink: /home/mael/ros2_ws/install/moveit_servo_baxter/share/moveit_servo_baxter/cmake/moveit_servo_baxterConfig.cmake
+[1.411s] -- Up-to-date symlink: /home/mael/ros2_ws/install/moveit_servo_baxter/share/moveit_servo_baxter/cmake/moveit_servo_baxterConfig-version.cmake
+[1.411s] -- Up-to-date symlink: /home/mael/ros2_ws/install/moveit_servo_baxter/share/moveit_servo_baxter/package.xml
+[1.411s] -- Up-to-date: /home/mael/ros2_ws/install/moveit_servo_baxter/lib/libmoveit_servo_lib.so.
+[1.411s] -- Up-to-date: /home/mael/ros2_ws/install/moveit_servo_baxter/lib/libmoveit_servo_lib.so
+[1.411s] -- Up-to-date: /home/mael/ros2_ws/install/moveit_servo_baxter/lib/libpose_tracking.so
+[1.412s] -- Up-to-date: /home/mael/ros2_ws/install/moveit_servo_baxter/lib/libservo_node.so
+[1.412s] -- Up-to-date: /home/mael/ros2_ws/install/moveit_servo_baxter/lib/libservo_controller_input.so
+[1.412s] -- Up-to-date: /home/mael/ros2_ws/install/moveit_servo_baxter/share/moveit_servo_baxter/cmake/moveit_servoTargetsExport.cmake
+[1.412s] -- Up-to-date: /home/mael/ros2_ws/install/moveit_servo_baxter/share/moveit_servo_baxter/cmake/moveit_servoTargetsExport-release.cmake
+[1.562s] Invoked command in '/home/mael/ros2_ws/build/moveit_servo_baxter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mael/ros2_ws/install/ros_tcp_endpoint:/home/mael/ros2_ws/install/baxter_joint_controller:/home/mael/ros2_ws/install/baxter_6dof_vr:/opt/ros/humble /usr/bin/cmake --install /home/mael/ros2_ws/build/moveit_servo_baxter

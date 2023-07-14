@@ -1,0 +1,7 @@
+/home/mael/ros2_ws/install/moveit_servo_baxter/lib/libmoveit_servo_lib.so.
+/home/mael/ros2_ws/install/moveit_servo_baxter/lib/libmoveit_servo_lib.so
+/home/mael/ros2_ws/install/moveit_servo_baxter/lib/libpose_tracking.so
+/home/mael/ros2_ws/install/moveit_servo_baxter/lib/libservo_node.so
+/home/mael/ros2_ws/install/moveit_servo_baxter/lib/libservo_controller_input.so
+/home/mael/ros2_ws/install/moveit_servo_baxter/share/moveit_servo_baxter/cmake/moveit_servoTargetsExport.cmake
+/home/mael/ros2_ws/install/moveit_servo_baxter/share/moveit_servo_baxter/cmake/moveit_servoTargetsExport-release.cmake
