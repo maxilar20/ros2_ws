@@ -1,37 +1,42 @@
 {
-    "python.autoComplete.extraPaths": [
-        "/home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages",
-        "/home/mael/ros2_ws/build/ros_tcp_endpoint",
-        "/home/mael/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages",
-        "/home/mael/ros2_ws/install/baxter_maintenance_msgs/local/lib/python3.10/dist-packages",
-        "/home/mael/ros2_ws/build/baxter_joint_controller",
-        "/home/mael/ros2_ws/install/baxter_joint_controller/lib/python3.10/site-packages",
-        "/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages",
-        "/home/mael/ros2_ws/build/baxter_6dof_vr",
-        "/home/mael/ros2_ws/install/baxter_6dof_vr/lib/python3.10/site-packages",
-        "/home/mael/ros2_ws/install/apriltag_ros2/local/lib/python3.10/dist-packages",
-        "/opt/ros/humble/lib/python3.10/site-packages",
-        "/opt/ros/humble/local/lib/python3.10/dist-packages"
-    ],
-    "python.analysis.extraPaths": [
-        "/home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages",
-        "/home/mael/ros2_ws/build/ros_tcp_endpoint",
-        "/home/mael/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages",
-        "/home/mael/ros2_ws/install/baxter_maintenance_msgs/local/lib/python3.10/dist-packages",
-        "/home/mael/ros2_ws/build/baxter_joint_controller",
-        "/home/mael/ros2_ws/install/baxter_joint_controller/lib/python3.10/site-packages",
-        "/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages",
-        "/home/mael/ros2_ws/build/baxter_6dof_vr",
-        "/home/mael/ros2_ws/install/baxter_6dof_vr/lib/python3.10/site-packages",
-        "/home/mael/ros2_ws/install/apriltag_ros2/local/lib/python3.10/dist-packages",
-        "/opt/ros/humble/lib/python3.10/site-packages",
-        "/opt/ros/humble/local/lib/python3.10/dist-packages"
-    ],
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter"
-    },
-    "python.formatting.provider": "none",
-    "files.associations": {
-        "chrono": "cpp"
-    }
+  "python.autoComplete.extraPaths": [
+    "/home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages",
+    "/home/mael/ros2_ws/build/ros_tcp_endpoint",
+    "/home/mael/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages",
+    "/home/mael/ros2_ws/install/baxter_maintenance_msgs/local/lib/python3.10/dist-packages",
+    "/home/mael/ros2_ws/build/baxter_joint_controller",
+    "/home/mael/ros2_ws/install/baxter_joint_controller/lib/python3.10/site-packages",
+    "/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages",
+    "/home/mael/ros2_ws/build/baxter_6dof_vr",
+    "/home/mael/ros2_ws/install/baxter_6dof_vr/lib/python3.10/site-packages",
+    "/home/mael/ros2_ws/install/apriltag_ros2/local/lib/python3.10/dist-packages",
+    "/opt/ros/humble/lib/python3.10/site-packages",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages"
+  ],
+  "python.analysis.extraPaths": [
+    "/home/mael/ros2_ws/install/zed_interfaces/local/lib/python3.10/dist-packages",
+    "/home/mael/ros2_ws/build/ros_tcp_endpoint",
+    "/home/mael/ros2_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages",
+    "/home/mael/ros2_ws/install/baxter_maintenance_msgs/local/lib/python3.10/dist-packages",
+    "/home/mael/ros2_ws/build/baxter_joint_controller",
+    "/home/mael/ros2_ws/install/baxter_joint_controller/lib/python3.10/site-packages",
+    "/home/mael/ros2_ws/install/baxter_core_msgs/local/lib/python3.10/dist-packages",
+    "/home/mael/ros2_ws/build/baxter_6dof_vr",
+    "/home/mael/ros2_ws/install/baxter_6dof_vr/lib/python3.10/site-packages",
+    "/home/mael/ros2_ws/install/apriltag_ros2/local/lib/python3.10/dist-packages",
+    "/opt/ros/humble/lib/python3.10/site-packages",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages"
+  ],
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "python.formatting.provider": "none",
+  "files.associations": {
+    "chrono": "cpp",
+    "core": "cpp",
+    "numericaldiff": "cpp",
+    "atomic": "cpp",
+    "condition_variable": "cpp"
+  },
+  "ros.distro": "humble"
 }
